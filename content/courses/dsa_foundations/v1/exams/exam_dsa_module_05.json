@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_05",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_05_linked_structures",
-  "version": "v1",
   "title": "Module 05 Exam – Linked Structures",
   "description": "Assessment covering singly linked list, doubly linked list, and circular linked list.",
   "type": "module_exam",

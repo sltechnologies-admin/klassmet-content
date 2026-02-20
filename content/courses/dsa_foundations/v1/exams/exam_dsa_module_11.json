@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_11",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_11_greedy",
-  "version": "v1",
   "title": "Module 11 Exam – Greedy Algorithms",
   "description": "Assessment covering greedy basics, fractional knapsack, and greedy applications.",
   "type": "module_exam",

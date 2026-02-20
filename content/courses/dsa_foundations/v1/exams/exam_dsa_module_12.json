@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_12",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_12_dynamic_programming",
-  "version": "v1",
   "title": "Module 12 Exam – Dynamic Programming",
   "description": "Assessment covering DP basics, 0/1 knapsack, LCS, LIS, and advanced DP problems.",
   "type": "module_exam",

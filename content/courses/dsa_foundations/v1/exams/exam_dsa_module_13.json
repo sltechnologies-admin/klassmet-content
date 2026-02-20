@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_13",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_13_bit_manipulation",
-  "version": "v1",
   "title": "Module 13 Exam – Bit Manipulation",
   "description": "Assessment covering bit basics, bit tricks, bit masks, bit applications, and XOR problems.",
   "type": "module_exam",

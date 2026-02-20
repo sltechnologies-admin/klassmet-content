@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_04",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_04_recursion_backtracking",
-  "version": "v1",
   "title": "Module 04 Exam – Recursion & Backtracking",
   "description": "Assessment covering recursion fundamentals, recursion trees, and backtracking.",
   "type": "module_exam",

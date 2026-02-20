@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_10",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_10_graphs",
-  "version": "v1",
   "title": "Module 10 Exam – Graphs",
   "description": "Assessment covering graph representations, BFS, DFS, Dijkstra's shortest path, Kruskal's MST, Prim's MST, and topological sort.",
   "type": "module_exam",

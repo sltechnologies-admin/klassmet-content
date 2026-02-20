@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_06",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_06_stack_queue",
-  "version": "v1",
   "title": "Module 06 Exam – Stack & Queue",
   "description": "Assessment covering stack basics, linked list stack, stack applications, queue basics, circular queue, deque, priority queue, and monotonic stack.",
   "type": "module_exam",

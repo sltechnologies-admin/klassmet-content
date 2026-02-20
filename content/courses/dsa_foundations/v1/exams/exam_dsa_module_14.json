@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_14",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_14_advanced_ds",
-  "version": "v1",
   "title": "Module 14 Exam – Advanced Data Structures",
   "description": "Assessment covering Trie (prefix tree) and Disjoint Set Union (Union-Find).",
   "type": "module_exam",

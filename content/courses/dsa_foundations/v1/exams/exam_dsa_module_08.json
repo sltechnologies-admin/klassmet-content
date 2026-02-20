@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_08",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_08_trees",
-  "version": "v1",
   "title": "Module 08 Exam – Trees",
   "description": "Assessment covering binary tree, tree traversal, BST, AVL tree, and segment tree.",
   "type": "module_exam",

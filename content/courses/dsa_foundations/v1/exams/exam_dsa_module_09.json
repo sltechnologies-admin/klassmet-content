@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_09",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_09_heap",
-  "version": "v1",
   "title": "Module 09 Exam – Heap",
   "description": "Assessment covering heap basics, heap sort, and heap applications.",
   "type": "module_exam",

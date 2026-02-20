@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_01",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_01_programming_analysis",
-  "version": "v1",
   "title": "Module 01 Exam – Programming & Analysis",
   "description": "Assessment covering programming basics, algorithms, time complexity, space complexity, and asymptotic notations.",
   "type": "module_exam",

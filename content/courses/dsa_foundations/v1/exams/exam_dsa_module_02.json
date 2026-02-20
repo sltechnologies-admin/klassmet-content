@@ -2,7 +2,6 @@
   "id": "exam_dsa_module_02",
   "courseId": "course_dsa_foundations",
   "moduleId": "module_02_arrays_strings",
-  "version": "v1",
   "title": "Module 02 Exam – Arrays & Strings",
   "description": "Assessment covering arrays, 2D arrays, strings, prefix sum, sliding window, and two pointer techniques.",
   "type": "module_exam",
