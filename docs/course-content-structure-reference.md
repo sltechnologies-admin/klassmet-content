@@ -77,7 +77,6 @@ content/
 ```json
 {
   "id": "course_<id>",
-  "version": "v1",
   "title": "",
   "description": "",
   "level": "beginner_to_intermediate",
@@ -91,7 +90,6 @@ content/
 ```json
 {
   "courseId": "course_<id>",
-  "version": "v1",
   "entryModule": "module_01_...",
   "dynamicQuizzesEnabled": true,
   "passingScore": 70
@@ -196,7 +194,6 @@ content/
   "id": "exam_<course_id>_module_XX",
   "courseId": "course_<id>",
   "moduleId": "module_XX_<name>",
-  "version": "v1",
   "title": "Module XX Exam – <Title>",
   "description": "",
   "type": "module_exam",
