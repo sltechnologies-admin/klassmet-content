@@ -1,0 +1,18 @@
+{
+  "id": "topic_065_bit_tricks",
+  "moduleId": "module_13_bit_manipulation",
+  "title": "Bit Tricks – Power of 2 and Counting Bits",
+  "slug": "bit-tricks",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["bits", "power-of-2", "hamming-weight", "brian-kernighan"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Detect power-of-2 in O(1) with bit trick.",
+    "Count set bits using Brian Kernighan's algorithm.",
+    "Find lowest set bit."
+  ],
+  "prerequisites": ["topic_064_bit_basics"],
+  "status": "active",
+  "version": 1
+}

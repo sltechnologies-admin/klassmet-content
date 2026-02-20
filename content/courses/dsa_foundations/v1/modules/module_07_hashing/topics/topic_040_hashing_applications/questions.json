@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_046_two_sum_complexity",
+    "topicId": "topic_040_hashing_applications",
+    "type": "MCQ",
+    "question": "Two Sum using hash map has time complexity",
+    "options": [
+      { "id": "a", "text": "O(n^2)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(1)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "One pass through the array with O(1) map look-ups gives overall O(n) time complexity.",
+    "difficulty": "intermediate",
+    "tags": ["hashing", "two-sum"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

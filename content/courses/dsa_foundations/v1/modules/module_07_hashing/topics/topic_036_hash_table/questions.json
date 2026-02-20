@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_043_hashing_avg",
+    "topicId": "topic_036_hash_table",
+    "type": "MCQ",
+    "question": "Average time complexity of search in a hash table",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A hash table provides O(1) average search time by computing the index directly via the hash function.",
+    "difficulty": "beginner",
+    "tags": ["hashing", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_044_hashing_collision",
+    "topicId": "topic_036_hash_table",
+    "type": "MCQ",
+    "question": "When two keys hash to the same index it is called",
+    "options": [
+      { "id": "a", "text": "Overflow", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Collision", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Underflow", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Deadlock", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A collision occurs when the hash function maps two different keys to the same array index.",
+    "difficulty": "beginner",
+    "tags": ["hashing", "collision"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "topic_023_recursion_tree",
+  "moduleId": "module_04_recursion_backtracking",
+  "title": "Recursion Tree",
+  "slug": "recursion-tree",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["recursion", "recursion-tree", "fibonacci"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain what a recursion tree represents.",
+    "Draw the recursion tree for Fibonacci.",
+    "Identify overlapping subproblems from a recursion tree."
+  ],
+  "prerequisites": ["topic_022_recursion"],
+  "status": "active",
+  "version": 1
+}

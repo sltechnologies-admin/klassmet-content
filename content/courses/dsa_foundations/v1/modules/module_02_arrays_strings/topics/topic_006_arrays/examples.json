@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_array_1d_traversal",
+    "title": "1D Array – Traversal",
+    "description": "Java example demonstrating array declaration, initialization, and traversal.",
+    "language": "java",
+    "code": "class ArrayExample {\n    public static void main(String[] args) {\n        int[] arr = {10, 20, 30, 40};\n        for (int i = 0; i < arr.length; i++) {\n            System.out.println(arr[i]);\n        }\n    }\n}",
+    "explanation": "Elements are accessed using index. Time Complexity: O(n). Space Complexity: O(n).",
+    "order": 1
+  }
+]

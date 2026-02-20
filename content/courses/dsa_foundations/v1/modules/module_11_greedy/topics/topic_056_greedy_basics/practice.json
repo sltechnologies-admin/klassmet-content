@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_greedy_tbd",
+    "topicId": "topic_056_greedy_basics",
+    "title": "TBD – Coin change minimum coins (greedy)",
+    "description": "TBD – For standard denominations, use greedy to find the minimum number of coins for a given amount.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["greedy", "coin-change"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ex_two_sum",
+    "title": "Hashing – Two Sum O(n)",
+    "description": "Find two indices whose values sum to target using a HashMap complement lookup.",
+    "language": "java",
+    "code": "import java.util.HashMap;\nclass TwoSum {\n    static int[] twoSum(int[] nums, int target) {\n        HashMap<Integer, Integer> map = new HashMap<>();\n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement))\n                return new int[]{map.get(complement), i};\n            map.put(nums[i], i);\n        }\n        return new int[]{};\n    }\n}",
+    "explanation": "Store each number with its index. For each new number check if complement already seen. Time: O(n).",
+    "order": 1
+  },
+  {
+    "id": "ex_anagram_check",
+    "title": "Hashing – Anagram Check O(n)",
+    "description": "Check if two strings are anagrams using a character frequency map.",
+    "language": "java",
+    "code": "import java.util.HashMap;\nclass AnagramCheck {\n    static boolean isAnagram(String a, String b) {\n        if (a.length() != b.length()) return false;\n        HashMap<Character, Integer> freq = new HashMap<>();\n        for (char c : a.toCharArray()) freq.merge(c, 1, Integer::sum);\n        for (char c : b.toCharArray()) {\n            freq.merge(c, -1, Integer::sum);\n            if (freq.get(c) < 0) return false;\n        }\n        return true;\n    }\n}",
+    "explanation": "Count chars in first string, decrement for second. Any negative count means strings differ. O(n) time.",
+    "order": 2
+  }
+]

@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_020_counting_sort",
+  "problems": [
+    {
+      "id": "pp_stable_counting_sort",
+      "title": "Stable Counting Sort",
+      "difficulty": "intermediate",
+      "description": "Implement stable counting sort preserving original order of equal elements.",
+      "hints": ["Build cumulative sum array from count array", "Fill output array from right to left for stability"],
+      "solution": {"approach": "Cumulative count then backward fill", "complexity": {"time": "O(n+k)", "space": "O(n+k)"}}
+    }
+  ]
+}

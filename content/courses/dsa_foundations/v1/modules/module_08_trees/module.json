@@ -1,0 +1,14 @@
+{
+  "id": "module_08_trees",
+  "courseId": "course_dsa_foundations",
+  "title": "Trees",
+  "description": "Tree terminology, binary tree, tree traversals (DFS and BFS), BST, and balanced trees.",
+  "order": 8,
+  "topics": [
+    "topic_041_tree_terminology",
+    "topic_042_binary_tree",
+    "topic_043_tree_traversals",
+    "topic_044_binary_search_tree",
+    "topic_045_balanced_trees"
+  ]
+}

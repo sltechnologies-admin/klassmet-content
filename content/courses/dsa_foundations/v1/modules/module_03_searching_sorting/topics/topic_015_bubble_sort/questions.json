@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_22_bubble_sort_type",
+    "topicId": "topic_015_bubble_sort",
+    "type": "MCQ",
+    "question": "Bubble sort is classified as which type of sorting algorithm?",
+    "options": [
+      {"id": "a", "text": "Non-comparison based", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "Divide and conquer", "isCorrect": false, "order": 2},
+      {"id": "c", "text": "Comparison-based", "isCorrect": true, "order": 3},
+      {"id": "d", "text": "Greedy-based", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "c",
+    "explanation": "Bubble sort compares adjacent elements to determine their order, making it a comparison-based sorting algorithm.",
+    "difficulty": "beginner",
+    "tags": ["bubble-sort", "classification"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_23_bubble_sort_worst_case",
+    "topicId": "topic_015_bubble_sort",
+    "type": "MCQ",
+    "question": "What is the worst-case time complexity of bubble sort?",
+    "options": [
+      {"id": "a", "text": "O(n)", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "O(n log n)", "isCorrect": false, "order": 2},
+      {"id": "c", "text": "O(n²)", "isCorrect": true, "order": 3},
+      {"id": "d", "text": "O(log n)", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "c",
+    "explanation": "In the worst case (reverse sorted array), bubble sort makes n*(n-1)/2 comparisons and swaps, giving O(n²) time complexity.",
+    "difficulty": "beginner",
+    "tags": ["bubble-sort", "complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

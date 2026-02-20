@@ -1,0 +1,18 @@
+{
+  "id": "topic_068_xor_problems",
+  "moduleId": "module_13_bit_manipulation",
+  "title": "XOR-based Problems",
+  "slug": "xor-problems",
+  "order": 5,
+  "difficulty": "intermediate",
+  "tags": ["bits", "xor", "single-number", "two-different-numbers"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Find single number in duplicate array using XOR.",
+    "Find two non-repeating numbers using XOR and bit partitioning.",
+    "Apply XOR for efficient subset/parity problems."
+  ],
+  "prerequisites": ["topic_065_bit_tricks"],
+  "status": "active",
+  "version": 1
+}

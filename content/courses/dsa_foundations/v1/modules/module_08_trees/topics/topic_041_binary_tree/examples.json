@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_binary_tree",
+    "title": "Binary Tree – Node Creation",
+    "description": "Java binary tree node structure and basic tree construction.",
+    "language": "java",
+    "code": "class TreeNode {\n    int data; TreeNode left, right;\n    TreeNode(int d) { data = d; left = null; right = null; }\n}\nclass BinaryTree {\n    TreeNode root;\n    public static void main(String[] args) {\n        BinaryTree tree = new BinaryTree();\n        tree.root = new TreeNode(1);\n        tree.root.left = new TreeNode(2);\n        tree.root.right = new TreeNode(3);\n        tree.root.left.left = new TreeNode(4);\n    }\n}",
+    "explanation": "Each node has data, left and right child pointers. Height is the length of the longest path from root to a leaf.",
+    "order": 1
+  }
+]

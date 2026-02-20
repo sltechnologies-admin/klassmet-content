@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_heap_sort_tbd",
+    "topicId": "topic_047_heap_sort",
+    "title": "TBD – Sort array using heap sort and trace each step",
+    "description": "TBD – Trace the heapify and extraction steps for arr = [5, 3, 8, 1, 4].",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["heap-sort"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

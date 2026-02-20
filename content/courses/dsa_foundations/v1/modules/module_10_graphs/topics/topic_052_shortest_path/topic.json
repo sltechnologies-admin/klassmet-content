@@ -1,0 +1,18 @@
+{
+  "id": "topic_052_shortest_path",
+  "moduleId": "module_10_graphs",
+  "title": "Shortest Path – Dijkstra's Algorithm",
+  "slug": "shortest-path-dijkstra",
+  "order": 4,
+  "difficulty": "advanced",
+  "tags": ["graphs", "dijkstra", "shortest-path", "greedy"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Explain Dijkstra's algorithm and its greedy property.",
+    "Implement Dijkstra's using a priority queue in Java.",
+    "State Dijkstra's limitation with negative weights."
+  ],
+  "prerequisites": ["topic_050_bfs", "topic_034_priority_queue"],
+  "status": "active",
+  "version": 1
+}

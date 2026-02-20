@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_038_queue_fifo",
+    "topicId": "topic_031_queue_basics",
+    "type": "MCQ",
+    "question": "Queue follows",
+    "options": [
+      { "id": "a", "text": "LIFO", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "FIFO", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Random", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Priority", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A Queue follows FIFO — First In, First Out. The element inserted first is the first to be removed.",
+    "difficulty": "beginner",
+    "tags": ["queue", "FIFO"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_042_queue_bfs",
+    "topicId": "topic_031_queue_basics",
+    "type": "MCQ",
+    "question": "Queue is used in",
+    "options": [
+      { "id": "a", "text": "DFS", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "BFS", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Binary search", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Sorting", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "BFS (Breadth-First Search) uses a queue to process nodes level by level in FIFO order.",
+    "difficulty": "beginner",
+    "tags": ["queue", "BFS"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

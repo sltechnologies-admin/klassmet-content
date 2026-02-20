@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_single_number",
+    "title": "XOR – Single Non-Repeating Number",
+    "description": "Find unique element in array where every other element appears twice — O(n) time, O(1) space using XOR.",
+    "language": "java",
+    "code": "class SingleNumber {\n    static int singleNumber(int[] arr) {\n        int xor = 0;\n        for (int x : arr) xor ^= x;\n        return xor;\n    }\n    public static void main(String[] args) {\n        System.out.println(singleNumber(new int[]{2,3,5,3,2}));\n    }\n}",
+    "explanation": "XOR pairs cancel: a^a=0. All paired elements cancel, leaving only the unique value. O(n) time, O(1) space.",
+    "order": 1
+  }
+]

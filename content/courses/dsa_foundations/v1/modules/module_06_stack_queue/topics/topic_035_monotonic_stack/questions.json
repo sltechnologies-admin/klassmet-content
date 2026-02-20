@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_035_monotonic_tbd",
+    "topicId": "topic_035_monotonic_stack",
+    "type": "MCQ",
+    "question": "TBD – Next Greater Element using a monotonic stack has time complexity",
+    "options": [
+      { "id": "a", "text": "O(n^2)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Each element is pushed and popped at most once, giving O(n) total work.",
+    "difficulty": "advanced",
+    "tags": ["monotonic-stack", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

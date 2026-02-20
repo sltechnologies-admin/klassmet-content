@@ -1,0 +1,12 @@
+[
+  {
+    "id": "example_search_on_answer_sqrt",
+    "topicId": "topic_014_search_on_answer",
+    "title": "Integer Square Root via Binary Search on Answer",
+    "language": "java",
+    "code": "public class SearchOnAnswer {\n    public static int sqrt(int n) {\n        if (n < 2) return n;\n        int low = 1, high = n / 2;\n        while (low <= high) {\n            int mid = low + (high - low) / 2;\n            long sq = (long) mid * mid;\n            if (sq == n) return mid;\n            else if (sq < n) low = mid + 1;\n            else high = mid - 1;\n        }\n        return high;\n    }\n    public static void main(String[] args) {\n        System.out.println(sqrt(25)); // 5\n        System.out.println(sqrt(10)); // 3\n    }\n}",
+    "explanation": "Binary searches over possible answers (1 to n/2) to find the floor of sqrt(n).",
+    "output": "5\n3",
+    "tags": ["search-on-answer", "java", "intermediate"]
+  }
+]

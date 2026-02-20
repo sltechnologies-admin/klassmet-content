@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_bit_tricks_tbd",
+    "topicId": "topic_065_bit_tricks",
+    "title": "TBD – Find the single non-duplicate using XOR",
+    "description": "TBD – In an array where every element appears twice except one, find the unique element using XOR.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 15,
+    "tags": ["bits", "xor", "single-number"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

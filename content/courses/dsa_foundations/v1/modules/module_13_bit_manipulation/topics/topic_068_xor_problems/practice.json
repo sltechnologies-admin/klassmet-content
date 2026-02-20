@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_xor_tbd",
+    "topicId": "topic_068_xor_problems",
+    "title": "TBD – Find two non-repeating numbers",
+    "description": "TBD – In an array where every element appears twice except two, find both unique elements using XOR.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["bits", "xor"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_dp_advanced_tbd",
+    "topicId": "topic_063_dp_advanced",
+    "title": "TBD – Edit distance between two strings",
+    "description": "TBD – Compute the minimum number of insert/delete/replace operations to transform one string into another.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 30,
+    "tags": ["dp", "edit-distance"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

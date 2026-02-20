@@ -1,0 +1,18 @@
+{
+  "id": "topic_045_segment_tree",
+  "moduleId": "module_08_trees",
+  "title": "Segment Tree",
+  "slug": "segment-tree",
+  "order": 5,
+  "difficulty": "advanced",
+  "tags": ["segment-tree", "range-queries", "tree"],
+  "estimatedMinutes": 30,
+  "learningOutcomes": [
+    "Explain what a segment tree stores and why.",
+    "Build a segment tree for range sum queries.",
+    "Perform point updates and range queries in O(log n)."
+  ],
+  "prerequisites": ["topic_041_binary_tree"],
+  "status": "active",
+  "version": 1
+}

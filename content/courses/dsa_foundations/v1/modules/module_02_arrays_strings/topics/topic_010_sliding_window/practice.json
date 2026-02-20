@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_sliding_window_tbd",
+    "topicId": "topic_010_sliding_window",
+    "title": "TBD – Find longest substring without repeating characters",
+    "description": "TBD – Use variable-size sliding window to find the longest substring with all unique characters.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["sliding-window", "strings"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

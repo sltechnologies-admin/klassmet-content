@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_stack_tbd",
+    "topicId": "topic_028_stack_basics",
+    "title": "TBD – Implement bracket balancing using a stack",
+    "description": "TBD – Ask learners to check if a string of brackets is balanced using a stack.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 20,
+    "tags": ["stack", "brackets"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

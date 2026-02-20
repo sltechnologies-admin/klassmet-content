@@ -1,0 +1,18 @@
+{
+  "id": "topic_015_bubble_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Bubble Sort",
+  "slug": "bubble-sort",
+  "order": 4,
+  "difficulty": "beginner",
+  "tags": ["sorting", "bubble-sort", "comparison-based"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Understand how bubble sort swaps adjacent elements to sort",
+    "Identify that bubble sort is comparison-based",
+    "Analyze the worst case as O(n²)"
+  ],
+  "prerequisites": [],
+  "status": "active",
+  "version": 1
+}

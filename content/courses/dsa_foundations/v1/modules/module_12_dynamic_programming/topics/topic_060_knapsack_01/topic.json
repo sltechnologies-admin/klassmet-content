@@ -1,0 +1,18 @@
+{
+  "id": "topic_060_knapsack_01",
+  "moduleId": "module_12_dynamic_programming",
+  "title": "0/1 Knapsack",
+  "slug": "knapsack-01",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["dp", "knapsack", "0/1-knapsack"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Formulate 0/1 knapsack as a DP table problem.",
+    "Implement 0/1 knapsack in Java.",
+    "Trace the DP table to reconstruct the solution."
+  ],
+  "prerequisites": ["topic_059_dp_basics"],
+  "status": "active",
+  "version": 1
+}

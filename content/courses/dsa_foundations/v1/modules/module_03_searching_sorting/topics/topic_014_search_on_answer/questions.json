@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_tbd_search_on_answer",
+    "topicId": "topic_014_search_on_answer",
+    "type": "MCQ",
+    "question": "Search on Answer applies binary search on which space?",
+    "options": [
+      {"id": "a", "text": "The input data array", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "A hash map of elements", "isCorrect": false, "order": 2},
+      {"id": "c", "text": "The range of possible answers", "isCorrect": true, "order": 3},
+      {"id": "d", "text": "A sorted linked list", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "c",
+    "explanation": "Search on Answer binary searches over the answer space (range of possible values) rather than the input data directly.",
+    "difficulty": "intermediate",
+    "tags": ["search-on-answer", "binary-search"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_topo_sort",
+    "title": "Topological Sort – Kahn's BFS Algorithm",
+    "description": "Java topological sort using in-degree array and BFS queue (Kahn's algorithm).",
+    "language": "java",
+    "code": "import java.util.*;\nclass TopologicalSort {\n    static List<Integer> topoSort(int V, List<List<Integer>> adj) {\n        int[] inDeg = new int[V];\n        for (int u=0;u<V;u++) for (int v:adj.get(u)) inDeg[v]++;\n        Queue<Integer> q = new LinkedList<>();\n        for (int i=0;i<V;i++) if (inDeg[i]==0) q.add(i);\n        List<Integer> result = new ArrayList<>();\n        while (!q.isEmpty()) {\n            int u = q.poll(); result.add(u);\n            for (int v:adj.get(u)) if (--inDeg[v]==0) q.add(v);\n        }\n        return result;\n    }\n}",
+    "explanation": "Process vertices with no incoming edges first. Remove their edges and add newly 0-indegree vertices. O(V+E).",
+    "order": 1
+  }
+]

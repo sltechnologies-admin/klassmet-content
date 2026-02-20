@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_068_xor_single_tbd",
+    "topicId": "topic_068_xor_problems",
+    "type": "MCQ",
+    "question": "TBD – To find the single non-repeating element in O(n) time and O(1) space",
+    "options": [
+      { "id": "a", "text": "Use HashMap to count frequencies", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Sort and scan", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "XOR all elements", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Use a stack", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "XOR all elements: every duplicate pair cancels (a^a=0), leaving only the unique element.",
+    "difficulty": "intermediate",
+    "tags": ["bits", "xor", "single-number"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

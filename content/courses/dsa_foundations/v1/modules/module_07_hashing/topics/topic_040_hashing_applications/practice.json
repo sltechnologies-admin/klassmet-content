@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_hashing_apps_tbd",
+    "topicId": "topic_040_hashing_applications",
+    "title": "TBD – First non-repeating character using HashMap",
+    "description": "TBD – Find the first character that appears exactly once in a string.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["hashing", "frequency"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

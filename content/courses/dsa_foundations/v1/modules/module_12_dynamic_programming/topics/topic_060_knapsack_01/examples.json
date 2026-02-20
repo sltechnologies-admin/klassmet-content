@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_knapsack_01",
+    "title": "0/1 Knapsack – 2D DP Table",
+    "description": "Java 0/1 knapsack with 2D DP table. For each item decide: include or skip.",
+    "language": "java",
+    "code": "class Knapsack01 {\n    static int knapsack(int[] wt, int[] val, int W) {\n        int n=wt.length; int[][] dp=new int[n+1][W+1];\n        for (int i=1;i<=n;i++) {\n            for (int w=0;w<=W;w++) {\n                dp[i][w]=dp[i-1][w];\n                if (wt[i-1]<=w) dp[i][w]=Math.max(dp[i][w],dp[i-1][w-wt[i-1]]+val[i-1]);\n            }\n        }\n        return dp[n][W];\n    }\n    public static void main(String[] args) {\n        System.out.println(knapsack(new int[]{1,2,3},new int[]{6,10,12},5));\n    }\n}",
+    "explanation": "dp[i][w] = max value with first i items and capacity w. Each cell is O(1). Total O(n*W).",
+    "order": 1
+  }
+]

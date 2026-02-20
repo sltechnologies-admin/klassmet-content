@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_055_topo_sort_tbd",
+    "topicId": "topic_055_topological_sort",
+    "type": "MCQ",
+    "question": "TBD – Topological sort is applicable to",
+    "options": [
+      { "id": "a", "text": "Undirected graphs", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Directed Acyclic Graphs only", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Graphs with negative weights", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Complete graphs", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Topological sort requires a DAG. A cycle means there's no linear ordering that satisfies all dependencies.",
+    "difficulty": "advanced",
+    "tags": ["topological-sort", "dag"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

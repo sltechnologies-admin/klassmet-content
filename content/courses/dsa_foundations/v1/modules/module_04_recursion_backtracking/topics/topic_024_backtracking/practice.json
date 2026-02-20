@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_backtracking_tbd",
+    "topicId": "topic_024_backtracking",
+    "title": "TBD – Solve N-Queens for n=4",
+    "description": "TBD – Ask learners to implement a backtracking solution for the 4-Queens problem.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 30,
+    "tags": ["backtracking", "n-queens"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

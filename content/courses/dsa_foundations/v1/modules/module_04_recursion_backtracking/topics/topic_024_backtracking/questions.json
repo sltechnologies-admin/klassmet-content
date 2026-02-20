@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_024_backtracking_tbd",
+    "topicId": "topic_024_backtracking",
+    "type": "MCQ",
+    "question": "TBD – Backtracking is best described as",
+    "options": [
+      { "id": "a", "text": "Sorting all elements", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Try all options, undo if wrong", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Greedy local choice", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Bottom-up DP", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Backtracking explores all possibilities and undoes choices that lead to dead ends.",
+    "difficulty": "intermediate",
+    "tags": ["backtracking"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

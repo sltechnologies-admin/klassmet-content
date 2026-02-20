@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_recursion_tree_tbd",
+    "topicId": "topic_023_recursion_tree",
+    "title": "TBD – Draw and analyse recursion tree for fib(5)",
+    "description": "TBD – Ask learners to draw the full recursion tree for fib(5) and count total calls.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["recursion-tree", "fibonacci"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

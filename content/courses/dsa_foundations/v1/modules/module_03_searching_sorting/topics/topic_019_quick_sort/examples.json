@@ -1,0 +1,15 @@
+﻿{
+  "topicId": "topic_019_quick_sort",
+  "examples": [
+    {
+      "id": "ex_quick_sort",
+      "title": "Quick Sort with Lomuto Partition",
+      "language": "java",
+      "description": "Partition around pivot, recurse on sub-arrays. In-place.",
+      "code": "class QuickSort {\n    static int partition(int[] arr,int low,int high) {\n        int pivot=arr[high],i=low-1;\n        for(int j=low;j<high;j++) if(arr[j]<pivot){i++;int t=arr[i];arr[i]=arr[j];arr[j]=t;}\n        int t=arr[i+1];arr[i+1]=arr[high];arr[high]=t;\n        return i+1;\n    }\n    static void quickSort(int[] arr,int low,int high) {\n        if(low<high){int pi=partition(arr,low,high);quickSort(arr,low,pi-1);quickSort(arr,pi+1,high);}\n    }\n}",
+      "output": "1 5 7 8 9 10",
+      "complexity": {"time": "O(n log n) avg, O(n^2) worst", "space": "O(log n) avg"},
+      "explanation": "Pivot placed at correct position each call. Recurse on left and right sub-arrays."
+    }
+  ]
+}

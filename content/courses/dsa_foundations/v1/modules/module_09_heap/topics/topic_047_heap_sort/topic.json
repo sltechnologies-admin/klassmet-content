@@ -1,0 +1,18 @@
+{
+  "id": "topic_047_heap_sort",
+  "moduleId": "module_09_heap",
+  "title": "Heap Sort",
+  "slug": "heap-sort",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["heap", "heap-sort", "sorting"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Describe the two phases of heap sort.",
+    "Implement heap sort in Java.",
+    "Compare heap sort with merge sort and quick sort."
+  ],
+  "prerequisites": ["topic_046_heap_basics"],
+  "status": "active",
+  "version": 1
+}

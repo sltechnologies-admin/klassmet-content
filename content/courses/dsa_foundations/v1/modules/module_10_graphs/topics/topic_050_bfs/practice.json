@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_bfs_tbd",
+    "topicId": "topic_050_bfs",
+    "title": "TBD – Shortest path in unweighted graph",
+    "description": "TBD – Use BFS to find the shortest path length from source to destination.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["bfs", "shortest-path"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

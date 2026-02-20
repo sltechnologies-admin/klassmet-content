@@ -1,0 +1,18 @@
+{
+  "id": "topic_064_bit_basics",
+  "moduleId": "module_13_bit_manipulation",
+  "title": "Bit Manipulation – Basics",
+  "slug": "bit-basics",
+  "order": 1,
+  "difficulty": "intermediate",
+  "tags": ["bits", "bitwise-operators", "binary"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Apply AND, OR, XOR, NOT, shift operators.",
+    "Check if a number is odd/even using bitwise AND.",
+    "Explain two's complement representation."
+  ],
+  "prerequisites": ["topic_001_programming_basics"],
+  "status": "active",
+  "version": 1
+}

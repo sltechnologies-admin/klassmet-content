@@ -1,0 +1,18 @@
+{
+  "id": "topic_005_asymptotic_notations",
+  "moduleId": "module_01_programming_analysis",
+  "title": "Asymptotic Notations",
+  "slug": "asymptotic-notations",
+  "order": 5,
+  "difficulty": "beginner",
+  "tags": ["big-o", "omega", "theta", "asymptotic", "analysis"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Explain the three asymptotic notations: Big-O, Omega, Theta.",
+    "Identify which notation represents best case, worst case, and average case.",
+    "Apply Big-O notation to simple algorithms."
+  ],
+  "prerequisites": ["topic_003_time_complexity", "topic_004_space_complexity"],
+  "status": "active",
+  "version": 1
+}

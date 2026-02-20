@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_deque_tbd",
+    "topicId": "topic_033_deque",
+    "title": "TBD – Sliding window maximum using deque",
+    "description": "TBD – implement sliding window maximum in O(n) using a monotonic deque.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["deque", "sliding-window"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

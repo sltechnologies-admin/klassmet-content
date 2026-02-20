@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_029_stack_ll_tbd",
+    "topicId": "topic_029_stack_linkedlist",
+    "type": "MCQ",
+    "question": "TBD – In a linked-list-based stack, the top of the stack is the",
+    "options": [
+      { "id": "a", "text": "Tail node", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Head node", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Middle node", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Any node", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "In a linked-list stack, new nodes are inserted at the head, so the head represents the top of the stack.",
+    "difficulty": "beginner",
+    "tags": ["stack", "linked-list"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_space_complexity_constant",
+    "title": "Space Complexity – O(1) Example",
+    "description": "Java example showing a function that uses only one extra variable, demonstrating O(1) space complexity.",
+    "language": "java",
+    "code": "class SpaceComplexityExample {\n    static int square(int x) {\n        int result = x * x;\n        return result;\n    }\n    public static void main(String[] args) {\n        System.out.println(square(5));\n    }\n}",
+    "explanation": "Only one extra variable is used. Space Complexity: O(1).",
+    "order": 1
+  }
+]

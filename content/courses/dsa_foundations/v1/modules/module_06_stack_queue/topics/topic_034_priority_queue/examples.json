@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_priority_queue",
+    "title": "Priority Queue – Min-heap Java",
+    "description": "Java PriorityQueue dequeues smallest element first (min-heap).",
+    "language": "java",
+    "code": "import java.util.PriorityQueue;\nclass PriorityQueueExample {\n    public static void main(String[] args) {\n        PriorityQueue<Integer> pq = new PriorityQueue<>();\n        pq.add(30); pq.add(10); pq.add(20);\n        System.out.println(pq.poll());\n        System.out.println(pq.poll());\n    }\n}",
+    "explanation": "PriorityQueue is a min-heap. poll() returns the minimum element. add/poll are O(log n).",
+    "order": 1
+  }
+]

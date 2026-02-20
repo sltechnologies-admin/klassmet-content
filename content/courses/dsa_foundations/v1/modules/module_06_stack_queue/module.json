@@ -1,0 +1,17 @@
+{
+  "id": "module_06_stack_queue",
+  "courseId": "course_dsa_foundations",
+  "title": "Stack & Queue",
+  "description": "Stack, queue, circular queue, deque, monotonic stack, monotonic queue, and priority queue.",
+  "order": 6,
+  "topics": [
+    "topic_028_stack",
+    "topic_029_stack_applications",
+    "topic_030_monotonic_stack",
+    "topic_031_queue",
+    "topic_032_circular_queue",
+    "topic_033_deque",
+    "topic_034_monotonic_queue",
+    "topic_035_priority_queue"
+  ]
+}

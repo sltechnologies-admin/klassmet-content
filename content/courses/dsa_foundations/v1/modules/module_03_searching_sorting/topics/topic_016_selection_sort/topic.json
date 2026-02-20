@@ -1,0 +1,18 @@
+{
+  "topicId": "topic_016_selection_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Selection Sort",
+  "slug": "selection-sort",
+  "order": 5,
+  "estimatedMinutes": 20,
+  "difficulty": "beginner",
+  "tags": ["selection sort", "sorting", "comparison", "arrays"],
+  "prerequisites": ["topic_015_bubble_sort"],
+  "learningObjectives": [
+    "Understand the selection sort algorithm",
+    "Select and place minimum element iteratively",
+    "Analyze O(n²) time complexity",
+    "Implement selection sort in Java"
+  ],
+  "status": "active"
+}

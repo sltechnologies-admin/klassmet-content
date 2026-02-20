@@ -1,0 +1,59 @@
+[
+  {
+    "id": "q_009_arrays_memory",
+    "topicId": "topic_006_arrays",
+    "type": "MCQ",
+    "question": "Arrays are stored in",
+    "options": [
+      { "id": "a", "text": "Random memory", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Linked memory", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Contiguous memory", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Cache only", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Arrays store elements in consecutive (contiguous) memory locations.",
+    "difficulty": "beginner",
+    "tags": ["arrays", "memory"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_010_array_index_access",
+    "topicId": "topic_006_arrays",
+    "type": "MCQ",
+    "question": "Accessing array element by index is",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n²)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Direct index access in an array is O(1) because memory addresses are computed directly.",
+    "difficulty": "beginner",
+    "tags": ["arrays", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_011_array_same_type",
+    "topicId": "topic_006_arrays",
+    "type": "MCQ",
+    "question": "Which structure stores same data type elements?",
+    "options": [
+      { "id": "a", "text": "Stack", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Array", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Tree", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Graph", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "An array stores elements of the same data type in contiguous memory.",
+    "difficulty": "beginner",
+    "tags": ["arrays", "data-structures"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

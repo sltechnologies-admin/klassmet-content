@@ -1,0 +1,18 @@
+{
+  "id": "topic_009_prefix_sum",
+  "moduleId": "module_02_arrays_strings",
+  "title": "Prefix Sum",
+  "slug": "prefix-sum",
+  "order": 4,
+  "difficulty": "beginner",
+  "tags": ["prefix-sum", "arrays", "range-queries"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define prefix sum and explain its purpose.",
+    "Build a prefix sum array in O(n).",
+    "Answer range sum queries in O(1) using prefix sum."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

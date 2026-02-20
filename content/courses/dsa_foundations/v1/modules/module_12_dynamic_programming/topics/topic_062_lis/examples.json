@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_lis",
+    "title": "LIS – O(n log n) Binary Search",
+    "description": "Java LIS using patience sorting with binary search for O(n log n) time.",
+    "language": "java",
+    "code": "import java.util.*;\nclass LIS {\n    static int lis(int[] arr) {\n        List<Integer> tails = new ArrayList<>();\n        for (int x : arr) {\n            int pos = Collections.binarySearch(tails, x);\n            if (pos < 0) pos = -(pos + 1);\n            if (pos == tails.size()) tails.add(x);\n            else tails.set(pos, x);\n        }\n        return tails.size();\n    }\n    public static void main(String[] args) {\n        System.out.println(lis(new int[]{10,9,2,5,3,7,101,18}));\n    }\n}",
+    "explanation": "tails list stores smallest tail of IS of each length. Binary search finds correct insertion point. Length of tails = LIS length.",
+    "order": 1
+  }
+]

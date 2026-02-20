@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_space_complexity_tbd",
+    "topicId": "topic_004_space_complexity",
+    "title": "TBD – Identify space complexity of given code snippets",
+    "description": "TBD – Ask learners to identify whether a given code uses O(1) or O(n) space.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["space-complexity", "memory"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

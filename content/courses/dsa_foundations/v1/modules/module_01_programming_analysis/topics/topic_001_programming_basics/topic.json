@@ -1,0 +1,17 @@
+{
+  "id": "topic_001_programming_basics",
+  "moduleId": "module_01_programming_analysis",
+  "title": "Programming Basics",
+  "slug": "programming-basics",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["programming", "basics"],
+  "estimatedMinutes": 15,
+  "learningOutcomes": [
+    "Define programming in simple terms.",
+    "Relate programming to real-world step-by-step instructions."
+  ],
+  "prerequisites": [],
+  "status": "active",
+  "version": 1
+}

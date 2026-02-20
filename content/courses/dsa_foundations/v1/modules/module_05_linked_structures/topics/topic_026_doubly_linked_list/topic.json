@@ -1,0 +1,18 @@
+{
+  "id": "topic_026_doubly_linked_list",
+  "moduleId": "module_05_linked_structures",
+  "title": "Doubly Linked List",
+  "slug": "doubly-linked-list",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["linked-list", "doubly-linked-list"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain how a doubly linked list differs from a singly linked list.",
+    "Implement insertion and backward traversal in Java.",
+    "Compare time and space complexity of doubly vs singly linked lists."
+  ],
+  "prerequisites": ["topic_025_singly_linked_list"],
+  "status": "active",
+  "version": 1
+}

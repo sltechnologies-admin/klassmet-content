@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_019_quick_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Quick Sort",
+  "slug": "quick-sort",
+  "order": 8,
+  "estimatedMinutes": 30,
+  "difficulty": "intermediate",
+  "tags": ["quick sort","pivot","partition","in-place","divide conquer"],
+  "prerequisites": ["topic_018_merge_sort"],
+  "learningObjectives": ["Understand Lomuto partition","Implement quicksort","Analyze average and worst case","Use random pivot"],
+  "status": "active"
+}

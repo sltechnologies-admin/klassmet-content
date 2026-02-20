@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_034_pq_tbd",
+    "topicId": "topic_034_priority_queue",
+    "type": "MCQ",
+    "question": "TBD – Java's default PriorityQueue is a",
+    "options": [
+      { "id": "a", "text": "Max-heap", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Min-heap", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Sorted array", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Linked list", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Java's PriorityQueue is backed by a min-heap — the element with the lowest value is at the head.",
+    "difficulty": "intermediate",
+    "tags": ["priority-queue", "heap"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

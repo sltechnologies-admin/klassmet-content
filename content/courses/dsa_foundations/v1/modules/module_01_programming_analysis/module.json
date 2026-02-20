@@ -1,0 +1,14 @@
+{
+  "id": "module_01_programming_analysis",
+  "courseId": "course_dsa_foundations",
+  "title": "Programming & Analysis",
+  "description": "Programming basics, algorithms, time and space complexity, and asymptotic notations.",
+  "order": 1,
+  "topics": [
+    "topic_001_programming_basics",
+    "topic_002_algorithms_problem_solving",
+    "topic_003_time_complexity",
+    "topic_004_space_complexity",
+    "topic_005_asymptotic_notations"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "exam_dsa_module_14",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_14_advanced_ds",
+  "version": "v1",
+  "title": "Module 14 Exam – Advanced Data Structures",
+  "description": "Assessment covering Trie (prefix tree) and Disjoint Set Union (Union-Find).",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_065_trie_search", "topicId": "topic_069_trie", "order": 1, "points": 1 },
+    { "questionId": "q_066_dsu_find", "topicId": "topic_070_disjoint_set_union", "order": 2, "points": 1 }
+  ],
+  "totalPoints": 2,
+  "status": "active",
+  "version": 1
+}

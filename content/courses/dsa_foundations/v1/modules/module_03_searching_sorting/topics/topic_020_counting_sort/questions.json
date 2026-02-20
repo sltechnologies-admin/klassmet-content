@@ -1,0 +1,14 @@
+﻿{
+  "topicId": "topic_020_counting_sort",
+  "questions": [
+    {
+      "id": "q_027_counting_sort",
+      "type": "mcq",
+      "difficulty": "intermediate",
+      "question": "Counting sort works best when",
+      "options": ["Values are large", "Values are small range", "Data is sorted", "Data is random"],
+      "correctAnswer": 1,
+      "explanation": "Counting sort is efficient when value range k is small - O(n+k) time and space is practical."
+    }
+  ]
+}

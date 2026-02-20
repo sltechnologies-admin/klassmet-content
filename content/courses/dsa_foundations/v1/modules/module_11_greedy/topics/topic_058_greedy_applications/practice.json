@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_greedy_app_tbd",
+    "topicId": "topic_058_greedy_applications",
+    "title": "TBD – Maximum profit job scheduling",
+    "description": "TBD – Given jobs with deadlines and profits, find the maximum profit subset that can be scheduled within deadlines.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["greedy", "job-scheduling"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

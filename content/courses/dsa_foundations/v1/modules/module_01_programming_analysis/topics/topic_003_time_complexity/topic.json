@@ -1,0 +1,18 @@
+{
+  "id": "topic_003_time_complexity",
+  "moduleId": "module_01_programming_analysis",
+  "title": "Time Complexity",
+  "slug": "time-complexity",
+  "order": 3,
+  "difficulty": "beginner",
+  "tags": ["time-complexity", "big-o", "analysis"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define time complexity and explain what it measures.",
+    "Identify the time complexity of basic loop structures.",
+    "Distinguish between best case and worst case."
+  ],
+  "prerequisites": ["topic_002_algorithms_problem_solving"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "topic_050_bfs",
+  "moduleId": "module_10_graphs",
+  "title": "BFS – Breadth-First Search",
+  "slug": "bfs",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["graphs", "bfs", "traversal"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Implement BFS using a queue.",
+    "Trace BFS on a graph with visited array.",
+    "Apply BFS for shortest path in unweighted graph."
+  ],
+  "prerequisites": ["topic_049_graph_representations", "topic_031_queue_basics"],
+  "status": "active",
+  "version": 1
+}

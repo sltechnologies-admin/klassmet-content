@@ -1,0 +1,25 @@
+{
+  "id": "manifest_dsa_foundations_v1",
+  "versionId": "content_version_dsa_v1",
+  "courseId": "course_dsa_foundations",
+  "entryModuleId": "module_01_programming_analysis",
+  "defaultLocale": "en-IN",
+  "features": {
+    "dynamicQuizzesEnabled": true,
+    "moduleExamsEnabled": true,
+    "assignmentsEnabled": false
+  },
+  "quizDefaults": {
+    "totalQuestions": 10,
+    "difficultyMix": {
+      "beginner": 60,
+      "intermediate": 30,
+      "advanced": 10
+    },
+    "topicCoverage": {
+      "minimumCoveragePercent": 70,
+      "maxQuestionsPerTopic": 3,
+      "ensureAllTopics": false
+    }
+  }
+}

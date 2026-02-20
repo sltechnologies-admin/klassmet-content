@@ -1,0 +1,18 @@
+{
+  "id": "topic_061_lcs",
+  "moduleId": "module_12_dynamic_programming",
+  "title": "Longest Common Subsequence (LCS)",
+  "slug": "lcs",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["dp", "lcs", "string-dp"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Formulate LCS as a 2D DP problem.",
+    "Implement LCS in Java.",
+    "Reconstruct the actual LCS from the DP table."
+  ],
+  "prerequisites": ["topic_059_dp_basics"],
+  "status": "active",
+  "version": 1
+}

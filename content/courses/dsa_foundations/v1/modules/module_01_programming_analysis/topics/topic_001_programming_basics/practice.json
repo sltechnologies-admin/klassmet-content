@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_programming_basics_tbd",
+    "topicId": "topic_001_programming_basics",
+    "title": "TBD – Write your first Java program",
+    "description": "TBD – Ask learners to write a Java program that prints their name.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "tags": ["programming", "java"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

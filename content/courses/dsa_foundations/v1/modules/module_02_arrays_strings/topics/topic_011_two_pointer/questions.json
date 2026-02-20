@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_014_two_pointer_reduces",
+    "topicId": "topic_011_two_pointer",
+    "type": "MCQ",
+    "question": "Two-pointer technique reduces",
+    "options": [
+      { "id": "a", "text": "Space complexity", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Time complexity", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Memory access", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Recursion", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Two pointers reduce time complexity — typically from O(n²) brute force to O(n).",
+    "difficulty": "intermediate",
+    "tags": ["two-pointer", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

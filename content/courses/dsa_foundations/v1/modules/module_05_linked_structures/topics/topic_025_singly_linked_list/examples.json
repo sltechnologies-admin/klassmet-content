@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_singly_linked_list",
+    "title": "Singly Linked List – Insert and Display",
+    "description": "Java implementation of singly linked list with insert and display operations.",
+    "language": "java",
+    "code": "class Node {\n    int data; Node next;\n    Node(int d) { data = d; next = null; }\n}\nclass SinglyLinkedList {\n    Node head;\n    void insert(int data) {\n        Node n = new Node(data);\n        if (head == null) { head = n; return; }\n        Node t = head;\n        while (t.next != null) t = t.next;\n        t.next = n;\n    }\n    void display() {\n        Node t = head;\n        while (t != null) { System.out.print(t.data + \" \"); t = t.next; }\n    }\n    public static void main(String[] args) {\n        SinglyLinkedList ll = new SinglyLinkedList();\n        ll.insert(1); ll.insert(2); ll.insert(3);\n        ll.display();\n    }\n}",
+    "explanation": "Each node stores data and a next pointer. Traversal visits each node until null. Time: O(n), Space: O(n).",
+    "order": 1
+  }
+]

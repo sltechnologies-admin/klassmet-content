@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_037_stack_lifo",
+    "topicId": "topic_028_stack_basics",
+    "type": "MCQ",
+    "question": "Stack follows",
+    "options": [
+      { "id": "a", "text": "FIFO", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "LIFO", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Random access", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Priority order", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A Stack follows LIFO — Last In, First Out. The last element pushed is the first to be popped.",
+    "difficulty": "beginner",
+    "tags": ["stack", "LIFO"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_039_stack_push_complexity",
+    "topicId": "topic_028_stack_basics",
+    "type": "MCQ",
+    "question": "Time complexity of push operation in a Stack",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Push simply increments the top pointer and places the element — constant time O(1).",
+    "difficulty": "beginner",
+    "tags": ["stack", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_040_stack_overflow",
+    "topicId": "topic_028_stack_basics",
+    "type": "MCQ",
+    "question": "Stack overflow occurs when",
+    "options": [
+      { "id": "a", "text": "Stack is empty", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Stack is full and push is called", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Pop from empty stack", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Peek on non-empty stack", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Stack overflow happens when you try to push onto a stack that is already at maximum capacity.",
+    "difficulty": "beginner",
+    "tags": ["stack", "overflow"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_041_stack_application",
+    "topicId": "topic_028_stack_basics",
+    "type": "MCQ",
+    "question": "Stack is used in",
+    "options": [
+      { "id": "a", "text": "Round robin scheduling", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Undo operation", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Breadth-first search", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Disk scheduling", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Undo operations use a stack to push each action and pop the last action when undo is invoked.",
+    "difficulty": "beginner",
+    "tags": ["stack", "applications"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

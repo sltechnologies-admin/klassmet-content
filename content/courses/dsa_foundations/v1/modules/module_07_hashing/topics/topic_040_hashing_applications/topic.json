@@ -1,0 +1,18 @@
+{
+  "id": "topic_040_hashing_applications",
+  "moduleId": "module_07_hashing",
+  "title": "Hashing Applications",
+  "slug": "hashing-applications",
+  "order": 5,
+  "difficulty": "intermediate",
+  "tags": ["hashing", "applications", "two-sum", "anagram"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Solve Two Sum in O(n) using a HashMap.",
+    "Check if two strings are anagrams using a frequency map.",
+    "Apply hashing to find first non-repeating character."
+  ],
+  "prerequisites": ["topic_036_hash_table", "topic_038_hashset"],
+  "status": "active",
+  "version": 1
+}

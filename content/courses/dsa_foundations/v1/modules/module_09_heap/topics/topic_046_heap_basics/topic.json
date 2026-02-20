@@ -1,0 +1,18 @@
+{
+  "id": "topic_046_heap_basics",
+  "moduleId": "module_09_heap",
+  "title": "Heap – Basics",
+  "slug": "heap-basics",
+  "order": 1,
+  "difficulty": "intermediate",
+  "tags": ["heap", "min-heap", "max-heap"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define a heap and the heap property.",
+    "Distinguish between min-heap and max-heap.",
+    "Implement a max-heap using an array."
+  ],
+  "prerequisites": ["topic_041_binary_tree"],
+  "status": "active",
+  "version": 1
+}

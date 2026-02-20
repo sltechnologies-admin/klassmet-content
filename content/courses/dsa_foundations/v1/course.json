@@ -1,0 +1,10 @@
+{
+  "id": "course_dsa_foundations",
+  "slug": "dsa-foundations",
+  "title": "DSA Foundations – From Basics to Advanced",
+  "description": "Complete DSA course covering programming basics, arrays, searching, sorting, recursion, graphs, dynamic programming, and advanced data structures.",
+  "level": "beginner_to_intermediate",
+  "estimatedHours": 40,
+  "status": "active",
+  "version": 1
+}

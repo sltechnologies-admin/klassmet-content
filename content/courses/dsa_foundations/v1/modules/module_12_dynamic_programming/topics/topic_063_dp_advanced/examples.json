@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_coin_change",
+    "title": "DP – Coin Change Minimum Coins",
+    "description": "Java bottom-up DP for minimum coin count to make a given amount.",
+    "language": "java",
+    "code": "import java.util.*;\nclass CoinChange {\n    static int minCoins(int[] coins, int amount) {\n        int[] dp = new int[amount+1];\n        Arrays.fill(dp, amount+1);\n        dp[0]=0;\n        for (int i=1;i<=amount;i++)\n            for (int c:coins) if (c<=i) dp[i]=Math.min(dp[i],dp[i-c]+1);\n        return dp[amount]>amount ? -1 : dp[amount];\n    }\n    public static void main(String[] args) {\n        System.out.println(minCoins(new int[]{1,5,6,9},11));\n    }\n}",
+    "explanation": "dp[i] = min coins for amount i. Try each coin for each amount. Time O(amount * coins). Space O(amount).",
+    "order": 1
+  }
+]

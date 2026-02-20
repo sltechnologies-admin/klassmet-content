@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_02",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_02_arrays_strings",
+  "version": "v1",
+  "title": "Module 02 Exam – Arrays & Strings",
+  "description": "Assessment covering arrays, 2D arrays, strings, prefix sum, sliding window, and two pointer techniques.",
+  "type": "module_exam",
+  "durationMinutes": 25,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_006_array_access", "topicId": "topic_006_arrays", "order": 1, "points": 1 },
+    { "questionId": "q_007_string_immutable", "topicId": "topic_008_strings", "order": 2, "points": 1 },
+    { "questionId": "q_008_prefix_sum", "topicId": "topic_009_prefix_sum", "order": 3, "points": 1 },
+    { "questionId": "q_009_sliding_window", "topicId": "topic_010_sliding_window", "order": 4, "points": 1 },
+    { "questionId": "q_010_two_pointer", "topicId": "topic_011_two_pointer", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

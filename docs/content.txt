@@ -1,0 +1,2570 @@
+📚 DSA MODULES-V1 
+COMPLETE DSA TOPICS (FULL COURSE)
+Refer Course Syllabus document 
+DSA – 70 MCQs WITH ANSWERS & EXPLANATIONS
+ Programming & Complexity
+Q1. What is an algorithm?
+A. Programming language
+B. Set of instructions to solve a problem
+C. Hardware component
+D. Compiler
+ Answer: B
+ Explanation: An algorithm is a step-by-step procedure to solve a problem.
+Q2. Time complexity measures
+A. Memory used
+B. Execution speed
+C. Growth of execution time with input size
+D. CPU cycles only
+Answer: C
+It shows how runtime grows as input increases.
+Q3. Best case of an algorithm means
+A. Minimum input
+B. Optimal input
+C. Minimum time taken
+D. Maximum efficiency
+Answer: C
+Best case = minimum execution time.
+Q4. Which notation represents worst-case complexity?
+A. Θ
+B. Ω
+C. O
+D. ∞
+Answer: C  Big-O represents worst-case.
+Q5. Space complexity refers to
+A. Disk space
+B. RAM used by algorithm
+C. Time used
+D. Cache only
+ Answer: B
+Q6. Complexity of single loop from 1 to n
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+Answer: C
+Q7. Complexity of nested loop (n × n)
+A. O(n)
+B. O(n log n)
+C. O(n²)
+D. O(1)
+ Answer: C
+Q8. Recursive function uses
+A. Heap
+B. Queue
+C. Stack
+D. Array
+ Answer: C
+Arrays & Strings
+Q9. Arrays are stored in
+A. Random memory
+B. Linked memory
+C. Contiguous memory
+D. Cache only
+ Answer: C
+Q10. Accessing array element by index is
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n²)
+ Answer: C
+Q11. Which structure stores same data type elements?
+A. Stack
+B. Array
+C. Tree
+D. Graph
+Answer: B
+Q12. Prefix sum is used to
+A. Sort array
+B. Find subarray sums efficiently
+C. Reverse array
+D. Search element
+ Answer: B
+Q13. Sliding window technique is mainly used for
+A. Sorting
+B. Fixed-size subarray problems
+C. Recursion
+D. Graph traversal
+ Answer: B
+Q14. Two-pointer technique reduces
+A. Space complexity
+B. Time complexity
+C. Memory access
+D. Recursion
+Answer: B
+Q15. Strings are
+A. Integer arrays
+B. Character arrays
+C. Boolean arrays
+D. Float arrays
+ Answer: B
+Q16. Palindrome means
+A. Sorted string
+B. Same forward and backward
+C. Random string
+D. Encrypted string
+ Answer: B
+Q17. Anagram strings must have
+A. Same length & characters
+B. Same order
+C. Same prefix
+D. Same suffix
+ Answer: A
+Q18. ASCII represents
+A. Images
+B. Binary numbers
+C. Character encoding
+D. Colors
+Answer: C
+ Searching & Sorting
+Q19. Linear search time complexity
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+ Answer: C
+Q20. Binary search works only on
+A. Any array
+B. Sorted array
+C. Rotated array
+D. Matrix
+Answer: B
+Q21. Binary search complexity
+A. O(n)
+B. O(log n)
+C. O(n log n)
+D. O(n²)
+ Answer: B
+Q22. Bubble sort is
+A. Fastest sort
+B. Divide & conquer
+C. Comparison-based
+D. Non-comparison
+Answer: C
+Q23. Worst case of bubble sort
+A. O(n)
+B. O(n log n)
+C. O(n²)
+D. O(log n)
+ Answer: C
+
+Q24. Merge sort uses
+A. Greedy
+B. Backtracking
+C. Divide and conquer
+D. DP
+Answer: C
+Q25. Merge sort space complexity
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+ Answer: C
+Q26. Quick sort worst case
+A. O(n log n)
+B. O(n²)
+C. O(log n)
+D. O(n)
+ Answer: B
+Q27. Counting sort works best when
+A. Values are large
+B. Values are small range
+C. Data is sorted
+D. Data is random
+ Answer: B
+Q28. Sorting stability means
+A. Sorted output
+B. Same order of equal elements preserved
+C. Less space
+D. Faster execution
+Answer: B
+Recursion & Linked List
+Q29. Recursion must have
+A. Loop
+B. Base condition
+C. Global variable
+D. Pointer
+ Answer: B
+Q30. Recursion uses
+A. Heap
+B. Queue
+C. Stack
+D. Array
+Answer: C
+
+Q31. Linked list stores data in
+A. Contiguous memory
+B. Random memory
+C. Linked memory
+D. Cache
+Answer: C
+Q32. Advantage of linked list
+A. Fast indexing
+B. Dynamic size
+C. Less memory
+D. Cache-friendly
+Answer: B
+Q33. Disadvantage of linked list
+A. Dynamic memory
+B. Extra memory for pointer
+C. Easy insertion
+D. Easy deletion
+Answer: B
+Q34. Detect cycle uses
+A. Binary search
+B. Floyd’s algorithm
+C. DP
+D. Greedy
+Answer: B
+Q35. Reverse linked list complexity
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+Answer: C
+Q36. Circular linked list last node points to
+A. NULL
+B. Head
+C. Tail
+D. Middle
+ Answer: B
+Q37. Stack follows
+A. FIFO
+B. LIFO
+C. FILO
+D. Random
+ Answer: B
+Q38. Queue follows
+A. LIFO
+B. FIFO
+C. Random
+D. Stack order
+ Answer: B
+Stack, Queue, Hashing (39–50)
+Q39. Stack is used in
+A. Scheduling
+B. Function calls
+C. Networking
+D. Storage
+Answer: B
+Q40. Valid parentheses problem uses
+A. Queue
+B. Stack
+C. Tree
+D. Graph
+ Answer: B
+Q41. Monotonic stack maintains
+A. Random order
+B. Sorted order
+C. Increasing/decreasing order
+D. FIFO
+Answer: C
+Q42. Circular queue helps to
+A. Reduce time
+B. Use memory efficiently
+C. Sort data
+D. Search data
+Answer: B
+
+Q43. Hashing provides
+A. O(n) search
+B. O(log n) search
+C. O(1) average search
+D. O(n²) search
+ Answer: C
+Q44. Collision occurs when
+A. Hash table is empty
+B. Two keys map to same index
+C. Table is full
+D. Key is null
+ Answer: B
+Q45. HashMap stores
+A. Only keys
+B. Only values
+C. Key-value pairs
+D. Index-value pairs
+ Answer: C
+Q46. HashSet stores
+A. Duplicate values
+B. Ordered values
+C. Unique values
+D. Key-value pairs
+ Answer: C
+Q47. Trees are
+A. Linear structures
+B. Non-linear structures
+C. Static structures
+D. Random
+Answer: B
+Q48. Binary tree max children
+A. 1
+B. 2
+C. 3
+D. Any
+ Answer: B
+Q49. Inorder traversal order
+A. Root-Left-Right
+B. Left-Root-Right
+C. Left-Right-Root
+D. Root-Right-Left
+ Answer: B
+Q50. BST property
+A. Left < Root < Right
+B. Root < Left < Right
+C. Random
+D. Right < Left
+ Answer: A
+Heap, Graph, DP, Bit
+Q51. Heap is
+A. Sorted array
+B. Complete binary tree
+C. BST
+D. Graph
+ Answer: B
+Q52. Min heap property
+A. Parent ≥ children
+B. Parent ≤ children
+C. Random
+D. Balanced
+ Answer: B
+Q53. Heap insertion complexity
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+Answer: B
+Q54. Graph is best represented using
+A. Stack
+B. Queue
+C. Adjacency list
+D. Array
+ Answer: C
+Q55. BFS uses
+A. Stack
+B. Queue
+C. Recursion
+D. Heap
+Answer: B
+Q56. DFS uses
+A. Queue
+B. Stack
+C. Heap
+D. DP
+ Answer: B
+Q57. Dijkstra finds
+A. Longest path
+B. Shortest path
+C. Cycle
+D. MST
+ Answer: B
+Q58. DP works on
+A. Sorting
+B. Greedy choice
+C. Overlapping subproblems
+D. Hashing
+Answer: C
+Q59. Memoization is
+A. Bottom-up
+B. Top-down
+C. Greedy
+D. Recursive only
+ Answer: B
+Q60. Tabulation is
+A. Top-down
+B. Bottom-up
+C. Recursive
+D. Backtracking
+ Answer: B
+Q61. Greedy algorithm makes
+A. Global optimal choice
+B. Local optimal choice
+C. Random choice
+D. DP choice
+Answer: B
+Q62. XOR of same numbers
+A. 1
+B. -1
+C. 0
+D. Same number
+ Answer: C
+Q63. Bitwise AND of 1 & 0
+A. 1
+B. 0
+C. -1
+D. Undefined
+Answer: B
+Q64. Left shift (x << 1) means
+A. Divide by 2
+B. Multiply by 2
+C. Add 1
+D. Square
+ Answer: B
+Q65. Trie is used for
+A. Numbers
+B. Sorting
+C. Strings
+D. Graphs
+Answer: C
+Q66. Union-Find is used for
+A. Searching
+B. Sorting
+C. Connectivity
+D. DP
+ Answer: C
+Q67. Segment tree is used for
+A. Sorting
+B. Range queries
+C. Searching
+D. Hashing
+Answer: B
+Q68. Fenwick tree supports
+A. Range sum queries
+B. Sorting
+C. BFS
+D. DFS
+Answer: A
+Q69. Graph cycle detection uses
+A. Prefix sum
+B. DFS/BFS
+C. Sorting
+D. Heap
+ Answer: B
+Q70. DSA helps mainly in
+A. UI design
+B. Logical thinking
+C. Graphic design
+D. Hardware design
+ Answer: B
+
+
+
+ 
+📚 DSA FULL COURSE 
+MODULE 1: Programming & Analysis
+1. Programming Basics
+Definition: Writing instructions for a computer to solve problems.
+Real-time example: Writing steps for an ATM to withdraw cash.
+2. Algorithms & Problem Solving
+Definition: A step-by-step method to solve a problem.
+Real-time example: Recipe instructions for cooking food.
+3. Time Complexity
+Definition: Measures how execution time grows with input size.
+Real-time example: Searching a name in a phone book (linear vs binary).
+4. Space Complexity
+Definition: Memory used by an algorithm.
+Real-time example: Using extra notebooks while solving math problems.
+5. Asymptotic Notations
+Definition: Mathematical way to compare algorithm efficiency.
+Real-time example: Comparing fuel consumption of vehicles.
+
+
+MODULE 2: Arrays & Strings
+6. Arrays
+Definition: Collection of same-type elements stored contiguously.
+Real-time example: Seats in a cinema hall row.
+7. 2D Arrays
+Definition: Array of arrays (rows & columns).
+Real-time example: Excel spreadsheet.
+8. Strings
+Definition: Sequence of characters.
+Real-time example: Usernames, passwords, messages.
+9. Prefix Sum
+Definition: Precomputed cumulative sums for fast queries.
+Real-time example: Monthly expense running total.
+10. Sliding Window
+Definition: Technique to process subarrays efficiently.
+Real-time example: Calculating average temperature of last 7 days.
+11. Two Pointer Technique
+Definition: Using two indices to reduce complexity.
+Real-time example: Two people walking toward each other in a tunnel.
+
+MODULE 3: Searching & Sorting
+12. Linear Search
+Definition: Check each element one by one.
+Real-time example: Finding a book shelf by shelf.
+13. Binary Search
+Definition: Divide sorted data into halves.
+Real-time example: Searching a word in a dictionary.
+14. Search on Answer
+Definition: Binary search on possible answers.
+Real-time example: Finding minimum speed to reach destination on time.
+15. Bubble Sort
+Definition: Swap adjacent elements repeatedly.
+Real-time example: Sorting bubbles rising in water.
+16. Selection Sort
+Definition: Select minimum and place it first.
+Real-time example: Selecting best student rank-wise.
+17. Insertion Sort
+Definition: Insert element in its correct position.
+Real-time example: Arranging playing cards in hand.
+18. Merge Sort
+Definition: Divide and merge sorted parts.
+Real-time example: Merging sorted exam results from classes.
+19. Quick Sort
+Definition: Partition around a pivot.
+Real-time example: Seating people shorter on one side, taller on another.
+20. Counting Sort
+Definition: Sort using frequency counts.
+Real-time example: Counting votes.
+21. Radix Sort
+Definition: Sort digit by digit.
+Real-time example: Sorting postal codes.
+
+MODULE 4: Recursion & Backtracking
+22. Recursion
+Definition: Function calling itself.
+Real-time example: Russian dolls inside dolls.
+23. Recursion Tree
+Definition: Visualization of recursive calls.
+Real-time example: Family tree expansion.
+24. Backtracking
+Definition: Try all options, undo if wrong.
+Real-time example: Solving a maze.
+
+ MODULE 5: Linked Structures
+25. Singly Linked List
+Definition: Nodes connected in one direction.
+Real-time example: Treasure hunt clues.
+26. Doubly Linked List
+Definition: Nodes connected both ways.
+Real-time example: Browser back & forward navigation.
+27. Circular Linked List
+Definition: Last node points to first.
+Real-time example: Round-robin scheduling.
+
+MODULE 6: Stack & Queue
+28. Stack
+Definition: LIFO structure.
+Real-time example: Stack of plates.
+29. Stack Applications
+Definition: Uses of stack operations.
+Real-time example: Undo/Redo in editors.
+30. Monotonic Stack
+Definition: Stack maintaining order.
+Real-time example: Stock price analysis.
+31. Queue
+Definition: FIFO structure.
+Real-time example: People standing in line.
+32. Circular Queue
+Definition: Queue that reuses space.
+Real-time example: CPU task scheduling.
+33. Deque
+Definition: Insert/delete from both ends.
+Real-time example: Sliding window problems.
+34. Monotonic Queue
+Definition: Queue maintaining min/max.
+Real-time example: Maximum temperature tracking.
+35. Priority Queue
+Definition: Elements processed by priority.
+Real-time example: Emergency room patients.
+
+MODULE 7: Hashing
+36. Hashing Concepts
+Definition: Mapping keys to values.
+Real-time example: Phone contacts lookup.
+37. Hash Tables
+Definition: Storage using hash function.
+Real-time example: Database indexing.
+38. Collision Handling
+Definition: Resolving same index conflict.
+Real-time example: Multiple cars at toll booth.
+39. HashMap
+Definition: Key-value storage.
+Real-time example: Username → user data.
+40. HashSet
+Definition: Stores unique elements.
+Real-time example: Unique email registrations.
+
+MODULE 8: Trees
+41. Tree Terminology
+Definition: Parent-child hierarchy.
+Real-time example: Organization structure.
+42. Binary Tree
+Definition: Max two children.
+Real-time example: Decision tree.
+43. Tree Traversals
+Definition: Visiting nodes in order.
+Real-time example: File system traversal.
+44. Binary Search Tree
+Definition: Ordered binary tree.
+Real-time example: Efficient search databases.
+45. Balanced Trees
+Definition: Height-controlled trees.
+Real-time example: Optimized file systems.
+MODULE 9: Heap
+46. Heap
+Definition: Priority-based tree.
+Real-time example: Task scheduling.
+47. Heapify
+Definition: Maintain heap property.
+Real-time example: Reorganizing priority list.
+48. Heap Sort
+Definition: Sorting using heap.
+Real-time example: Ranking leaderboard.
+
+MODULE 10: Graphs
+49. Graph Representation
+Definition: Ways to store graphs.
+Real-time example: City road maps.
+50. BFS
+Definition: Level-wise traversal.
+Real-time example: Shortest path in metro.
+51. DFS
+Definition: Depth-wise traversal.
+Real-time example: Exploring maze paths.
+52. Cycle Detection
+Definition: Detect loops.
+Real-time example: Deadlock detection.
+53. Topological Sort
+Definition: Dependency ordering.
+Real-time example: Course prerequisites.
+54. Shortest Path Algorithms
+Definition: Minimum distance calculation.
+Real-time example: Google Maps.
+55. Minimum Spanning Tree
+Definition: Minimum cost connection.
+Real-time example: Network cabling.
+
+MODULE 11: Greedy Algorithms
+56. Greedy Strategy
+Definition: Best local choice.
+Real-time example: Giving change.
+57. Activity Selection
+Definition: Max non-overlapping tasks.
+Real-time example: Meeting scheduling.
+58. Scheduling Problems
+Definition: Optimal time allocation.
+Real-time example: CPU scheduling.
+
+MODULE 12: Dynamic Programming
+59. DP Basics
+Definition: Optimized recursion.
+Real-time example: Expense planning.
+60. Memoization
+Definition: Cache recursive results.
+Real-time example: Remembering solved math steps.
+61. Tabulation
+Definition: Bottom-up DP.
+Real-time example: Building from foundation.
+62. 1D DP
+Definition: DP using one array.
+Real-time example: Stair climbing.
+63. 2D DP
+Definition: DP using table.
+Real-time example: Chessboard paths.
+
+MODULE 13: Bit Manipulation
+64. Binary Numbers
+Definition: Base-2 numbers.
+Real-time example: Digital electronics.
+65. Bitwise AND
+Definition: Common bits.
+Real-time example: Permission checking.
+66. Bitwise OR
+Definition: Combine bits.
+Real-time example: Feature enabling.
+67. Bitwise XOR
+Definition: Difference detection.
+Real-time example: Error checking.
+68. Bit Masking
+Definition: Use bits as flags.
+Real-time example: Game settings.
+
+MODULE 14: Advanced DS
+69. Trie
+Definition: Prefix-based tree.
+Real-time example: Autocomplete search.
+70. Disjoint Set
+Definition: Connected components tracking.
+Real-time example: Network connectivity.
+ 
+📚 DSA MODULES EXAM 
+MODULE - 1
+1. What is Programming?
+Answer:
+Programming is writing instructions for a computer to perform tasks.
+Java Example
+class ProgrammingExample {
+    public static void main(String[] args) {
+        System.out.println("Hello, Programming!");
+    }
+}
+Explanation:
+The program instructs the computer to print text.
+
+Q2. What is an Algorithm?
+Answer:
+An algorithm is a finite set of steps to solve a problem.
+Java Example – Sum of two numbers
+class AlgorithmExample {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        System.out.println(sum);
+    }}
+Explanation:
+Steps:
+1.	Take inputs
+2.	Add them
+3.	Print result.
+
+3. What is Time Complexity?
+Answer:
+Time complexity measures how execution time grows with input size.
+Java Example – Single loop
+class TimeComplexityExample {
+    public static void main(String[] args) {
+        int n = 5;
+        for (int i = 0; i < n; i++) {
+            System.out.println(i);
+        }
+    }
+}
+Explanation:
+Loop runs n times.
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+
+4. What is Space Complexity?
+Answer:
+Space complexity measures extra memory used by an algorithm.
+Java Example
+class SpaceComplexityExample {
+    static int square(int x) {
+        int result = x * x;
+        return result;
+    }
+public static void main(String[] args) {
+        System.out.println(square(5));
+    }
+}
+Explanation:
+Only one extra variable is used.
+Space Complexity: O(1)
+
+
+5. What are Asymptotic Notations?
+Answer:
+They describe algorithm growth rates.
+●	Big-O (O) → Worst case
+●	Big-Ω (Ω) → Best case
+●	Big-Θ (Θ) → Average case
+Java Example – Linear Search
+class AsymptoticExample {
+    static int linearSearch(int[] arr, int key) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key)
+                return i;
+        }
+        return -1;
+    }
+ public static void main(String[] args) {
+        int[] arr = {4, 2, 7, 1};
+        System.out.println(linearSearch(arr, 7));
+   }
+}
+Explanation:
+Best case → O(1)
+Worst case → O(n)
+
+MODULE - 2
+
+6. What is an Array?
+Answer:
+An array is a collection of elements of the same data type stored in contiguous memory locations.
+Java Code – 1D Array
+class ArrayExample {
+    public static void main(String[] args) {
+        int[] arr = {10, 20, 30, 40};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+}
+Explanation:
+Elements are accessed using index.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+7. What is a 2D Array?
+Answer:
+A 2D array stores data in rows and columns (matrix form).
+Java Code – 2D Array
+class TwoDArrayExample {
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+      for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+Explanation:
+Used to represent tables, grids, matrices.
+Time Complexity: O(rows × cols)
+Space Complexity: O(rows × cols)
+
+8. What is a String in Java?
+Answer:
+A String is a sequence of characters and is immutable in Java.
+Java Code – String Example
+class StringExample {
+    public static void main(String[] args) {
+        String s = "DSA";
+        System.out.println(s.length());
+        System.out.println(s.charAt(1));
+    }
+}
+Explanation:
+Once created, a String cannot be modified.
+Time Complexity: O(n) for traversal
+Space Complexity: O(n)
+
+9. What is Prefix Sum?
+Answer:
+Prefix sum is used to precompute cumulative sums for fast range queries.
+Java Code – Prefix Sum
+class PrefixSumExample {
+    public static void main(String[] args) {
+        int[] arr = {2, 4, 6, 8};
+        int[] prefix = new int[arr.length];
+        prefix[0] = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            prefix[i] = prefix[i - 1] + arr[i];
+        }
+
+        // Sum from index 1 to 3
+        int l = 1, r = 3;
+        int sum = prefix[r] - prefix[l - 1];
+        System.out.println(sum);
+    }
+}
+Explanation:
+Range sum queries become O(1).
+Time Complexity:
+●	Build: O(n)
+●	Query: O(1)
+Space Complexity: O(n)
+
+10. What is Sliding Window Technique?
+Answer:
+Sliding window processes a fixed-size subarray efficiently.
+Java Code – Max Sum Subarray (Size k)
+class SlidingWindowExample {
+    public static void main(String[] args) {
+        int[] arr = {2, 1, 5, 1, 3, 2};
+        int k = 3;
+        int windowSum = 0;
+        for (int i = 0; i < k; i++) {
+            windowSum += arr[i];
+        }
+        int maxSum = windowSum;
+        for (int i = k; i < arr.length; i++) {
+            windowSum += arr[i] - arr[i - k];
+            maxSum = Math.max(maxSum, windowSum);
+        }
+        System.out.println(maxSum);
+    }
+}
+Explanation:
+Avoids recomputing sums repeatedly.
+Time Complexity: O(n)
+Space Complexity: O(1)
+MODULE - 3
+11. What is Linear Search?
+Answer:
+Linear search checks each element one by one until the target is found.
+Java Code – Linear Search
+class LinearSearch {
+    static int search(int[] arr, int key) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key)
+                return i;
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int[] arr = {4, 2, 7, 1};
+        System.out.println(search(arr, 7));
+    }
+}
+Explanation:
+Works on both sorted and unsorted arrays.
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+12. What is Binary Search?
+Answer:
+Binary search repeatedly divides a sorted array into halves.
+Java Code – Binary Search
+class BinarySearch {
+    static int search(int[] arr, int key) {
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+            else if (arr[mid] < key)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int[] arr = {1, 3, 5, 7, 9};
+        System.out.println(search(arr, 5));
+    }
+}
+Time Complexity: O(log n)
+Space Complexity: O(1)
+
+13. What is Search on Answer?
+Answer:
+Binary search applied on the solution space, not directly on array values.
+Java Code – Square Root of Number
+class SearchOnAnswer {
+    static int sqrt(int n) {
+        int low = 1, high = n, ans = 0;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (mid * mid <= n) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return ans;
+    }
+    public static void main(String[] args) {
+        System.out.println(sqrt(20));
+    }
+}
+Explanation:
+Searches the correct answer range.
+Time Complexity: O(log n)
+Space Complexity: O(1)
+
+14. What is Merge Sort?
+Answer:
+A divide and conquer sorting algorithm.
+Java Code – Merge Sort
+class MergeSort {
+    static void mergeSort(int[] arr, int l, int r) {
+        if (l < r) {
+            int m = (l + r) / 2;
+            mergeSort(arr, l, m);
+            mergeSort(arr, m + 1, r);
+            merge(arr, l, m, r);
+        }
+    }
+    static void merge(int[] arr, int l, int m, int r) {
+        int n1 = m - l + 1;
+        int n2 = r - m;
+        int[] L = new int[n1];
+        int[] R = new int[n2];
+        for (int i = 0; i < n1; i++)
+            L[i] = arr[l + i];
+        for (int j = 0; j < n2; j++)
+            R[j] = arr[m + 1 + j];
+
+        int i = 0, j = 0, k = l;
+        while (i < n1 && j < n2) {
+            if (L[i] <= R[j])
+                arr[k++] = L[i++];
+            else
+                arr[k++] = R[j++];
+        }
+        while (i < n1)
+            arr[k++] = L[i++];
+        while (j < n2)
+            arr[k++] = R[j++];
+    }
+    public static void main(String[] args) {
+        int[] arr = {5, 3, 1, 4, 2};
+        mergeSort(arr, 0, arr.length - 1);
+
+        for (int x : arr)
+            System.out.print(x + " ");
+    }
+}
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+15. What is Quick Sort?
+Answer:
+A divide-and-conquer algorithm that partitions around a pivot.
+Java Code – Quick Sort
+class QuickSort {
+    static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int p = partition(arr, low, high);
+            quickSort(arr, low, p - 1);
+            quickSort(arr, p + 1, high);
+        }
+    }
+    static int partition(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+    public static void main(String[] args) {
+        int[] arr = {8, 4, 7, 3, 2};
+        quickSort(arr, 0, arr.length - 1);
+        for (int x : arr)
+            System.out.print(x + " ");
+    }
+}
+Time Complexity:
+●	Average: O(n log n)
+●	Worst: O(n²)
+Space Complexity: O(log n)
+MODULE - 4
+
+16. What is Recursion?
+Answer:
+Recursion is a technique where a function calls itself until a base condition is met.
+Java Code – Factorial
+class RecursionExample {
+    static int factorial(int n) {
+        if (n == 0) // base case
+            return 1;
+        return n * factorial(n - 1);
+    }
+    public static void main(String[] args) {
+        System.out.println(factorial(5));
+    }
+}
+Explanation:
+●	Base case stops recursion
+●	Recursive call reduces problem size
+Time Complexity: O(n)
+Space Complexity: O(n) (call stack)
+
+17. What is a Recursion Tree?
+Answer:
+A recursion tree shows how recursive calls expand and combine.
+Java Code – Fibonacci
+class RecursionTree {
+    static int fib(int n) {
+        if (n <= 1)
+            return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+    public static void main(String[] args) {
+        System.out.println(fib(5));
+    }
+}
+Explanation:
+Each call splits into two calls → tree structure.
+Time Complexity: O(2ⁿ)
+Space Complexity: O(n)
+
+18. How does Backtracking work?
+Answer:
+Backtracking tries all possibilities and undoes choices when they fail.
+Java Code – Print All Binary Strings
+class BacktrackingExample {
+    static void generate(int n, String s) {
+        if (n == 0) {
+            System.out.println(s);
+            return;
+        }
+        generate(n - 1, s + "0");
+        generate(n - 1, s + "1");
+    }
+    public static void main(String[] args) {
+        generate(3, "");
+    }
+}
+Explanation:
+Explores all possible combinations.
+Time Complexity: O(2ⁿ)
+Space Complexity: O(n)
+
+19. Backtracking Example – Permutations
+Answer:
+Find all permutations of a string.
+Java Code – String Permutations
+class Permutations {
+    static void permute(String s, String ans) {
+        if (s.length() == 0) {
+            System.out.println(ans);
+            return;
+        }
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            String left = s.substring(0, i);
+            String right = s.substring(i + 1);
+            permute(left + right, ans + ch);
+        }
+    }
+    public static void main(String[] args) {
+        permute("ABC", "");
+    }
+}
+Time Complexity: O(n!)
+Space Complexity: O(n)
+
+20. Backtracking Example – N-Queens (Concept)
+Answer:
+Place queens so that none attack each other.
+Java Code – N Queens (Simplified)
+class NQueens {
+    static boolean isSafe(char[][] board, int row, int col) {
+        for (int i = 0; i < row; i++)
+            if (board[i][col] == 'Q')
+                return false;
+        return true;
+    }
+    static void solve(char[][] board, int row) {
+        if (row == board.length) {
+            System.out.println("Solution found");
+            return;
+        }
+        for (int col = 0; col < board.length; col++) {
+            if (isSafe(board, row, col)) {
+                board[row][col] = 'Q';
+                solve(board, row + 1);
+                board[row][col] = '.';
+            }
+        }
+    }
+    public static void main(String[] args) {
+        int n = 4;
+        char[][] board = new char[n][n];
+        solve(board, 0);
+    }
+}
+Explanation:
+●	Try → check → backtrack
+Time Complexity: Exponential
+Space Complexity: O(n²)
+MODULE - 5
+21. What is a Singly Linked List?
+Answer:
+A singly linked list is a collection of nodes where each node stores:
+●	data
+●	reference to next node
+Java Code – Singly Linked List
+class SinglyLinkedList {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    static Node head;
+
+    static void insert(int data) {
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+    }
+
+    static void display() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
+
+    public static void main(String[] args) {
+        insert(10);
+        insert(20);
+        insert(30);
+        display();
+    }
+}
+
+Explanation:
+Nodes are not stored contiguously.
+Time Complexity:
+●	Insert: O(1)
+●	Traverse: O(n)
+Space Complexity: O(n)
+
+
+22. What is a Doubly Linked List?
+Answer:
+Each node contains:
+●	previous reference
+●	next reference
+Java Code – Doubly Linked List
+class DoublyLinkedList {
+    static class Node {
+        int data;
+        Node prev, next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+    static Node head;
+
+    static void insert(int data) {
+        Node node = new Node(data);
+        node.next = head;
+        if (head != null)
+            head.prev = node;
+        head = node;
+    }
+
+    static void display() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " <-> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
+    public static void main(String[] args) {
+        insert(1);
+        insert(2);
+        insert(3);
+        display();
+    }
+}
+Explanation:
+Traversal possible in both directions.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+23. What is a Circular Linked List?
+Answer:
+Last node points back to the first node instead of null.
+Java Code – Circular Linked List
+class CircularLinkedList {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+
+    static Node head = null, tail = null;
+
+    static void insert(int data) {
+        Node node = new Node(data);
+        if (head == null) {
+            head = tail = node;
+            tail.next = head;
+        } else {
+            tail.next = node;
+            tail = node;
+            tail.next = head;
+        }
+    }
+
+    static void display() {
+        Node temp = head;
+        if (head == null) return;
+
+        do {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        } while (temp != head);
+        System.out.println("(back to head)");
+    }
+
+    public static void main(String[] args) {
+        insert(10);
+        insert(20);
+        insert(30);
+        display();
+    }
+}
+Explanation:
+No null pointer.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+24. Reverse a Singly Linked List
+Java Code – Reverse Linked List
+class ReverseLinkedList {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
+
+    static Node reverse(Node head) {
+        Node prev = null, curr = head;
+
+        while (curr != null) {
+            Node next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+}
+Explanation:
+Reverses links one by one.
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+25. Detect Loop in Linked List
+Java Code – Floyd’s Cycle Detection
+class DetectLoop {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+        }
+    }
+
+    static boolean hasCycle(Node head) {
+        Node slow = head, fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+                return true;
+        }
+        return false;
+    }
+}
+Explanation:
+Uses slow and fast pointers.
+Time Complexity: O(n)
+Space Complexity: O(1)
+MODULE - 6
+26. What is a Stack?
+Answer:
+Stack follows LIFO (Last In First Out) principle.
+Java Code – Stack Using Array
+class StackArray {
+    int top = -1;
+    int[] stack = new int[5];
+    void push(int x) {
+        stack[++top] = x;
+    }
+    int pop() {
+        return stack[top--];
+    }
+    public static void main(String[] args) {
+        StackArray s = new StackArray();
+        s.push(10);
+        s.push(20);
+        System.out.println(s.pop());
+    }
+}
+Time Complexity:
+●	Push: O(1)
+●	Pop: O(1)
+Space Complexity: O(n)
+
+27. Stack Application – Reverse a String
+Java Code
+import java.util.Stack;
+class ReverseString {
+    public static void main(String[] args) {
+        String s = "DSA";
+        Stack<Character> stack = new Stack<>();
+        for (char c : s.toCharArray())
+            stack.push(c);
+        while (!stack.isEmpty())
+            System.out.print(stack.pop());
+    }
+}
+Explanation:
+Last character pushed comes out first.
+
+28. What is a Monotonic Stack?
+Answer:
+A stack that maintains increasing or decreasing order.
+Java Code – Next Greater Element
+import java.util.Stack;
+class MonotonicStack {
+    public static void main(String[] args) {
+        int[] arr = {2, 1, 5, 6, 2, 3};
+        Stack<Integer> st = new Stack<>();
+        for (int i = arr.length - 1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek() <= arr[i])
+                st.pop();
+            System.out.println(arr[i] + " -> " + (st.isEmpty() ? -1 : st.peek()));
+            st.push(arr[i]);
+        }
+    }
+}
+Use Case:
+Histogram, stock span, next greater/smaller problems
+Time Complexity: O(n)
+
+29. What is a Queue?
+Answer:
+Queue follows FIFO (First In First Out).
+Java Code – Queue Using Array
+class QueueArray {
+    int front = 0, rear = 0;
+    int[] q = new int[5];
+    void enqueue(int x) {
+        q[rear++] = x;
+    }
+    int dequeue() {
+        return q[front++];
+    }
+    public static void main(String[] args) {
+        QueueArray q = new QueueArray();
+        q.enqueue(1);
+        q.enqueue(2);
+        System.out.println(q.dequeue());
+    }
+}
+
+Time Complexity: O(1)
+
+30. What is a Circular Queue?
+Answer:
+Rear connects back to front to reuse space.
+Java Code – Circular Queue
+class CircularQueue {
+    int[] q = new int[5];
+    int front = 0, rear = 0, size = 0;
+    void enqueue(int x) {
+        q[rear] = x;
+        rear = (rear + 1) % q.length;
+        size++;
+    }
+    int dequeue() {
+        int x = q[front];
+        front = (front + 1) % q.length;
+        size--;
+        return x;
+    }
+}
+
+31. What is a Deque?
+Answer:
+Deque allows insertion and deletion from both ends.
+Java Code – Deque
+import java.util.Deque;
+import java.util.ArrayDeque;
+class DequeExample {
+    public static void main(String[] args) {
+        Deque<Integer> dq = new ArrayDeque<>();
+        dq.addFirst(10);
+        dq.addLast(20);
+        System.out.println(dq.removeFirst());
+    }
+}
+
+32. What is a Monotonic Queue?
+Answer:
+Used for sliding window maximum/minimum.
+Java Code – Sliding Window Maximum
+import java.util.Deque;
+import java.util.ArrayDeque;
+class MonotonicQueue {
+    public static void main(String[] args) {
+        int[] arr = {1, 3, -1, -3, 5};
+        int k = 3;
+        Deque<Integer> dq = new ArrayDeque<>();
+        for (int i = 0; i < arr.length; i++) {
+            if (!dq.isEmpty() && dq.peekFirst() <= i - k)
+                dq.pollFirst();
+            while (!dq.isEmpty() && arr[dq.peekLast()] < arr[i])
+                dq.pollLast();
+            dq.offerLast(i);
+            if (i >= k - 1)
+                System.out.println(arr[dq.peekFirst()]);
+        }
+    }
+}
+Time Complexity: O(n)
+
+33. What is a Priority Queue?
+Answer:
+Elements are removed based on priority, not insertion order.
+Java Code – Min Heap
+import java.util.PriorityQueue;
+class PriorityQueueExample {
+    public static void main(String[] args) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(5);
+        pq.add(1);
+        pq.add(3);
+        System.out.println(pq.poll());
+    }
+}
+Use Case:
+Dijkstra, scheduling, top-K problems
+
+MODULE - 7
+34. What is Hashing?
+Answer:
+Hashing converts a key into an index using a hash function, enabling fast access.
+Real-life example:
+Phone contacts → name → phone number lookup.
+
+35. What is a Hash Table?
+Answer:
+A hash table stores key–value pairs using a hash function to compute storage index.
+Java Code – Concept
+index = key % tableSize;
+
+Time Complexity (average):
+●	Insert: O(1)
+●	Search: O(1)
+●	Delete: O(1)
+Worst case: O(n)
+
+36. What is Collision in Hashing?
+Answer:
+Collision occurs when two keys map to the same index.
+Collision Handling Methods
+1.	Chaining
+2.	Open Addressing
+
+37. Collision Handling Using Chaining
+Java Code – Chaining Concept
+import java.util.LinkedList;
+class HashChaining {
+    public static void main(String[] args) {
+        LinkedList<Integer>[] table = new LinkedList[5];
+        for (int i = 0; i < 5; i++)
+            table[i] = new LinkedList<>();
+        int[] keys = {10, 15, 20};
+        for (int key : keys) {
+            int index = key % 5;
+            table[index].add(key);
+        }
+        System.out.println(table[0]); // collision bucket
+    }
+}
+Explanation:
+Each index holds a linked list.
+Space Complexity: O(n)
+
+38. What is HashMap in Java?
+Answer:
+HashMap stores key–value pairs with no order.
+Java Code – HashMap
+import java.util.HashMap;
+class HashMapExample {
+    public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Apple", 10);
+        map.put("Banana", 20);
+        System.out.println(map.get("Apple"));
+    }
+}
+Key Properties
+●	Allows one null key
+●	Average access: O(1)
+
+39. What is HashSet?
+Answer:
+HashSet stores unique elements only.
+Java Code – HashSet
+import java.util.HashSet;
+class HashSetExample {
+    public static void main(String[] args) {
+        HashSet<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add(20);
+        set.add(10); // duplicate
+        System.out.println(set);
+    }
+}
+Explanation:
+Duplicates are ignored automatically.
+
+40. Real Use Case of Hashing – Frequency Count
+Java Code – Frequency Count
+import java.util.HashMap;
+class FrequencyCount {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 2, 3, 1};
+        HashMap<Integer, Integer> freq = new HashMap<>();
+        for (int x : arr)
+            freq.put(x, freq.getOrDefault(x, 0) + 1);
+        System.out.println(freq);
+    }
+}
+Why hashing?
+Counting becomes O(n) instead of O(n²).
+MODULE - 8
+41. What is a Tree?
+Answer:
+A tree is a hierarchical data structure consisting of nodes connected by edges.
+Basic terms
+●	Root
+●	Parent / Child
+●	Leaf
+●	Height / Depth
+
+42. What is a Binary Tree?
+Answer:
+A tree where each node has at most 2 children.
+Java Code – Binary Tree Node
+class TreeNode {
+    int data;
+    TreeNode left, right;
+    TreeNode(int data) {
+        this.data = data;
+        left = right = null;
+    }
+}
+
+43. Tree Traversals (DFS)
+1️⃣ Inorder (Left → Root → Right)
+class InorderTraversal {
+    static void inorder(TreeNode root) {
+        if (root == null) return;
+        inorder(root.left);
+        System.out.print(root.data + " ");
+        inorder(root.right);
+    }
+}
+2️⃣ Preorder (Root → Left → Right)
+class PreorderTraversal {
+    static void preorder(TreeNode root) {
+        if (root == null) return;
+        System.out.print(root.data + " ");
+        preorder(root.left);
+        preorder(root.right);
+    }
+}
+
+3️⃣ Postorder (Left → Right → Root)
+class PostorderTraversal {
+    static void postorder(TreeNode root) {
+        if (root == null) return;
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
+    }
+}
+Time Complexity: O(n)
+Space Complexity: O(h) (height)
+
+44. Level Order Traversal (BFS)
+Java Code – Level Order
+import java.util.*;
+class LevelOrder {
+    static void levelOrder(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            TreeNode curr = q.poll();
+            System.out.print(curr.data + " ");
+            if (curr.left != null) q.add(curr.left);
+            if (curr.right != null) q.add(curr.right);
+        }
+    }
+}
+Use Case:
+Hierarchical processing, shortest path in tree.
+
+45. What is a Binary Search Tree (BST)?
+Answer:
+BST property:
+●	Left subtree < root
+●	Right subtree > root
+Java Code – Insert in BST
+class BST {
+    static TreeNode insert(TreeNode root, int key) {
+        if (root == null)
+            return new TreeNode(key);
+
+        if (key < root.data)
+            root.left = insert(root.left, key);
+        else
+            root.right = insert(root.right, key);
+        return root;
+    }
+}
+Time Complexity:
+●	Average: O(log n)
+●	Worst: O(n)
+
+46. Search in BST
+Java Code – Search
+class SearchBST {
+    static boolean search(TreeNode root, int key) {
+        if (root == null) return false;
+        if (root.data == key) return true;
+        return key < root.data
+                ? search(root.left, key)
+                : search(root.right, key);
+    }
+}
+
+47. What are Balanced Trees? (AVL Concept)
+Answer:
+A balanced tree keeps height difference ≤ 1 between left & right subtrees.
+Why needed?
+●	Prevents tree from becoming skewed
+●	Guarantees O(log n) operations
+AVL trees perform rotations to maintain balance.
+(No full AVL code yet — concept is enough at this stage.)
+
+MODULE -9
+48. What is a Heap?
+Answer:
+A heap is a complete binary tree with a heap property.
+Types of Heap
+●	Min Heap: Parent ≤ children
+●	Max Heap: Parent ≥ children
+
+49. Heap Representation (Array)
+Answer:
+Heap is stored using arrays.
+Index Rules
+●	Left child → 2*i + 1
+●	Right child → 2*i + 2
+●	Parent → (i - 1) / 2
+
+50. Heapify Operation
+Answer:
+Heapify fixes heap property from a given index.
+Java Code – Heapify (Max Heap)
+class HeapifyExample {
+    static void heapify(int[] arr, int n, int i) {
+        int largest = i;
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
+
+        if (left < n && arr[left] > arr[largest])
+            largest = left;
+
+        if (right < n && arr[right] > arr[largest])
+            largest = right;
+
+        if (largest != i) {
+            int temp = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = temp;
+
+            heapify(arr, n, largest);
+        }
+    }
+}
+Time Complexity: O(log n)
+
+51. Build Heap
+Java Code – Build Max Heap
+class BuildHeap {
+    static void buildHeap(int[] arr) {
+        int n = arr.length;
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            HeapifyExample.heapify(arr, n, i);
+        }
+    }
+}
+Time Complexity: O(n)
+
+52. Heap Sort
+Answer:
+Heap Sort uses heap property to sort elements.
+Java Code – Heap Sort
+class HeapSort {
+    static void heapSort(int[] arr) {
+        int n = arr.length;
+
+        // build heap
+        for (int i = n / 2 - 1; i >= 0; i--)
+            heapify(arr, n, i);
+
+        // extract elements
+        for (int i = n - 1; i > 0; i--) {
+            int temp = arr[0];
+            arr[0] = arr[i];
+            arr[i] = temp;
+
+            heapify(arr, i, 0);
+        }
+    }
+    static void heapify(int[] arr, int n, int i) {
+        int largest = i;
+        int l = 2 * i + 1;
+        int r = 2 * i + 2;
+
+        if (l < n && arr[l] > arr[largest])
+            largest = l;
+
+        if (r < n && arr[r] > arr[largest])
+            largest = r;
+
+        if (largest != i) {
+            int swap = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = swap;
+            heapify(arr, n, largest);
+        }
+    }
+}
+Time Complexity: O(n log n)
+Space Complexity: O(1)
+
+53. Real-World Use of Heap – Priority Queue
+Java Code – Min Heap Using PriorityQueue
+import java.util.PriorityQueue;
+
+class HeapUsage {
+    public static void main(String[] args) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(30);
+        pq.add(10);
+        pq.add(20);
+
+        System.out.println(pq.poll());
+    }
+}
+Use Cases
+●	Scheduling
+●	Top-K problems
+●	Graph algorithms
+
+MODULE -10
+54. What is a Graph?
+Answer:
+A graph is a collection of vertices (nodes) and edges connecting them.
+Types
+●	Directed / Undirected
+●	Weighted / Unweighted
+Real-world examples
+●	Google Maps (roads = edges, cities = nodes)
+●	Social networks
+
+55. Graph Representation (Adjacency List)
+Java Code – Adjacency List
+import java.util.*;
+
+class Graph {
+    int V;
+    ArrayList<ArrayList<Integer>> adj;
+
+    Graph(int V) {
+        this.V = V;
+        adj = new ArrayList<>();
+        for (int i = 0; i < V; i++)
+            adj.add(new ArrayList<>());
+    }
+
+    void addEdge(int u, int v) {
+        adj.get(u).add(v);
+        adj.get(v).add(u); // undirected
+    }
+}
+Time Complexity:
+●	Space: O(V + E)
+
+56. Breadth First Search (BFS)
+Answer:
+BFS explores level by level using a queue.
+Java Code – BFS
+import java.util.*;
+
+class BFS {
+    static void bfs(int V, ArrayList<ArrayList<Integer>> adj, int start) {
+        boolean[] visited = new boolean[V];
+        Queue<Integer> q = new LinkedList<>();
+
+        visited[start] = true;
+        q.add(start);
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+            System.out.print(node + " ");
+
+            for (int neigh : adj.get(node)) {
+                if (!visited[neigh]) {
+                    visited[neigh] = true;
+                    q.add(neigh);
+                }
+            }
+        }
+    }
+}
+Use Case
+●	Shortest path in unweighted graph
+Time Complexity: O(V + E)
+
+57. Depth First Search (DFS)
+Answer:
+DFS explores depth-wise using recursion or stack.
+Java Code – DFS
+class DFS {
+    static void dfs(int node, boolean[] visited, ArrayList<ArrayList<Integer>> adj) {
+        visited[node] = true;
+        System.out.print(node + " ");
+
+        for (int neigh : adj.get(node)) {
+            if (!visited[neigh])
+                dfs(neigh, visited, adj);
+        }
+    }
+}
+Use Case
+●	Connectivity
+●	Cycle detection
+Time Complexity: O(V + E)
+
+58. Cycle Detection (Undirected Graph)
+Java Code – Cycle Detection
+class CycleDetection {
+    static boolean hasCycle(int node, int parent, boolean[] visited,
+                            ArrayList<ArrayList<Integer>> adj) {
+        visited[node] = true;
+
+        for (int neigh : adj.get(node)) {
+            if (!visited[neigh]) {
+                if (hasCycle(neigh, node, visited, adj))
+                    return true;
+            } else if (neigh != parent)
+                return true;
+        }
+        return false;
+    }
+}
+
+
+59. Topological Sort (DAG)
+Answer:
+Linear ordering of vertices where u → v means u comes before v.
+Java Code – Kahn’s Algorithm
+import java.util.*;
+
+class TopoSort {
+    static void topoSort(int V, ArrayList<ArrayList<Integer>> adj) {
+        int[] indegree = new int[V];
+
+        for (int i = 0; i < V; i++)
+            for (int v : adj.get(i))
+                indegree[v]++;
+
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < V; i++)
+            if (indegree[i] == 0)
+                q.add(i);
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+            System.out.print(node + " ");
+
+            for (int neigh : adj.get(node)) {
+                if (--indegree[neigh] == 0)
+                    q.add(neigh);
+            }
+        }
+    }
+}
+Use Case
+●	Task scheduling
+●	Dependency resolution
+
+60. Shortest Path – Dijkstra (Concept)
+Answer:
+Finds shortest path from source in weighted graph (no negative weights).
+Java Code – Dijkstra (Simplified)
+import java.util.*;
+
+class Dijkstra {
+    static void dijkstra(int V, ArrayList<ArrayList<int[]>> adj, int src) {
+        int[] dist = new int[V];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[src] = 0;
+
+        PriorityQueue<int[]> pq =
+                new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
+        pq.add(new int[]{src, 0});
+
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int u = curr[0];
+
+            for (int[] edge : adj.get(u)) {
+                int v = edge[0], wt = edge[1];
+                if (dist[u] + wt < dist[v]) {
+                    dist[v] = dist[u] + wt;
+                    pq.add(new int[]{v, dist[v]});
+                }
+            }
+        }
+    }
+}
+
+
+61. Minimum Spanning Tree (MST)
+Answer:
+Connects all vertices with minimum total edge weight.
+Algorithms
+●	Prim’s
+●	Kruskal’s
+Use Case
+●	Network cabling
+●	Road construction
+
+MODULE -11
+62. What is a Greedy Algorithm?
+Answer:
+A greedy algorithm chooses the best option at the current step with the hope that it leads to an optimal global solution.
+Key idea:
+Take what looks best right now, don’t rethink past decisions.
+Real-world example:
+Giving change using the largest possible coin first.
+
+
+63. When Can We Use Greedy Algorithms?
+Answer:
+Greedy works when:
+●	Problem has optimal substructure
+●	Local optimum leads to global optimum
+When NOT to use:
+Problems where future choices depend heavily on earlier decisions (use DP instead).
+
+64. Activity Selection Problem
+Problem:
+Given start and end times of activities, select the maximum number of non-overlapping activities.
+Java Code – Activity Selection
+import java.util.*;
+
+class ActivitySelection {
+    static void selectActivities(int[] start, int[] end) {
+        int n = start.length;
+
+        // sort activities by end time
+        Integer[] idx = new Integer[n];
+        for (int i = 0; i < n; i++) idx[i] = i;
+
+        Arrays.sort(idx, (a, b) -> end[a] - end[b]);
+
+        int lastEnd = -1;
+        for (int i : idx) {
+            if (start[i] >= lastEnd) {
+                System.out.println("Activity: " + start[i] + " " + end[i]);
+                lastEnd = end[i];
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] start = {1, 3, 0, 5, 8, 5};
+        int[] end = {2, 4, 6, 7, 9, 9};
+        selectActivities(start, end);
+    }
+}
+Why greedy works here?
+Choosing the activity that finishes earliest leaves more room for others.
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+65. Scheduling Problem – Minimum Platforms
+Problem:
+Find minimum platforms required so that no train waits.
+Java Code – Minimum Platforms
+import java.util.Arrays;
+
+class MinPlatforms {
+    static int findPlatforms(int[] arr, int[] dep) {
+        Arrays.sort(arr);
+        Arrays.sort(dep);
+
+        int plat = 1, result = 1;
+        int i = 1, j = 0;
+
+        while (i < arr.length && j < dep.length) {
+            if (arr[i] <= dep[j]) {
+                plat++;
+                i++;
+            } else {
+                plat--;
+                j++;
+            }
+            result = Math.max(result, plat);
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {900, 940, 950, 1100, 1500, 1800};
+        int[] dep = {910, 1200, 1120, 1130, 1900, 2000};
+        System.out.println(findPlatforms(arr, dep));
+    }
+}
+
+Greedy choice:
+Always handle the next earliest event.
+
+66. Greedy Example – Fractional Knapsack
+Answer:
+Take items based on value/weight ratio.
+Java Code – Fractional Knapsack
+import java.util.*;
+
+class FractionalKnapsack {
+    static double getMaxValue(int[] wt, int[] val, int W) {
+        int n = wt.length;
+        Integer[] idx = new Integer[n];
+        for (int i = 0; i < n; i++) idx[i] = i;
+
+        Arrays.sort(idx, (a, b) ->
+                Double.compare((double)val[b]/wt[b], (double)val[a]/wt[a]));
+
+        double totalValue = 0.0;
+
+        for (int i : idx) {
+            if (W >= wt[i]) {
+                W -= wt[i];
+                totalValue += val[i];
+            } else {
+                totalValue += ((double) val[i] / wt[i]) * W;
+                break;
+            }
+        }
+        return totalValue;
+    }
+
+    public static void main(String[] args) {
+        int[] wt = {10, 20, 30};
+        int[] val = {60, 100, 120};
+        System.out.println(getMaxValue(wt, val, 50));
+    }
+}
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+MODULE -12
+67. What is Dynamic Programming?
+Answer:
+Dynamic Programming is an optimization technique that solves problems by storing results of overlapping subproblems.
+Key properties
+1.	Overlapping subproblems
+2.	Optimal substructure
+When to use DP?
+●	Recursive solution exists
+●	Repeated calculations happen
+68. Memoization (Top-Down DP)
+Answer:
+Store results of recursive calls to avoid recomputation.
+Java Code – Fibonacci (Memoization)
+import java.util.Arrays;
+
+class FibMemo {
+    static int fib(int n, int[] dp) {
+        if (n <= 1)
+            return n;
+
+        if (dp[n] != -1)
+            return dp[n];
+
+        dp[n] = fib(n - 1, dp) + fib(n - 2, dp);
+        return dp[n];
+    }
+
+    public static void main(String[] args) {
+        int n = 6;
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, -1);
+        System.out.println(fib(n, dp));
+    }
+}
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+69. Tabulation (Bottom-Up DP)
+Answer:
+Build solution from smallest subproblems to bigger ones.
+Java Code – Fibonacci (Tabulation)
+class FibTab {
+    static int fib(int n) {
+        if (n <= 1) return n;
+
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+        dp[1] = 1;
+
+        for (int i = 2; i <= n; i++)
+            dp[i] = dp[i - 1] + dp[i - 2];
+
+        return dp[n];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fib(6));
+    }
+}
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+70. 1D DP Example – Climbing Stairs
+Problem:
+You can climb 1 or 2 steps. How many ways to reach the top?
+Java Code
+class ClimbingStairs {
+    static int ways(int n) {
+        if (n <= 1) return 1;
+
+        int[] dp = new int[n + 1];
+        dp[0] = dp[1] = 1;
+
+        for (int i = 2; i <= n; i++)
+            dp[i] = dp[i - 1] + dp[i - 2];
+
+        return dp[n];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(ways(4));
+    }
+}
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+71. 2D DP Example – Grid Unique Paths
+Problem:
+Count ways to reach bottom-right from top-left.
+Java Code
+class UniquePaths {
+    static int paths(int m, int n) {
+        int[][] dp = new int[m][n];
+
+        for (int i = 0; i < m; i++) dp[i][0] = 1;
+        for (int j = 0; j < n; j++) dp[0][j] = 1;
+
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+            }
+        }
+        return dp[m - 1][n - 1];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(paths(3, 3));
+    }
+}
+Time Complexity: O(m × n)
+Space Complexity: O(m × n)
+
+72. DP Example – 0/1 Knapsack (Concept)
+Answer:
+Choose items entirely or not at all to maximize value.
+Java Code – 0/1 Knapsack
+class Knapsack {
+    static int knapsack(int W, int[] wt, int[] val, int n) {
+        int[][] dp = new int[n + 1][W + 1];
+
+        for (int i = 1; i <= n; i++) {
+            for (int w = 1; w <= W; w++) {
+                if (wt[i - 1] <= w)
+                    dp[i][w] = Math.max(val[i - 1] +
+                            dp[i - 1][w - wt[i - 1]],
+                            dp[i - 1][w]);
+                else
+                    dp[i][w] = dp[i - 1][w];
+            }
+        }
+        return dp[n][W];
+    }
+}
+Time Complexity: O(n × W)
+Space Complexity: O(n × W)
+
+MODULE -13
+73. What are Binary Numbers?
+Answer:
+Binary numbers use only 0 and 1.
+Example:
+●	Decimal 5 → Binary 101
+Why computers use binary?
+Electronic circuits have two stable states: ON / OFF.
+74. What is Bitwise AND, OR, XOR?
+AND (&)
+●	1 & 1 = 1, else 0
+OR (|)
+●	0 | 0 = 0, else 1
+XOR (^)
+●	Same bits → 0
+●	Different bits → 1
+Java Code
+class BitwiseOps {
+    public static void main(String[] args) {
+        int a = 5, b = 3;
+
+        System.out.println(a & b); // AND
+        System.out.println(a | b); // OR
+        System.out.println(a ^ b); // XOR
+    }
+}
+
+75. What is XOR Used For?
+Answer:
+XOR is used when:
+●	Finding unique element
+●	Swapping numbers
+●	Toggle bits
+Java Code – Find Unique Element
+class FindUnique {
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 2, 4, 4};
+        int xor = 0;
+
+        for (int x : arr)
+            xor ^= x;
+
+        System.out.println(xor);
+    }
+}
+Time Complexity: O(n)
+Space Complexity: O(1)
+76. What is Bit Masking?
+Answer:
+Bit masking is using bits to store or check information.
+Java Code – Check ith Bit
+class BitMask {
+    static boolean isSet(int n, int i) {
+        return (n & (1 << i)) != 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isSet(5, 0)); // true
+    }
+}
+77. What is Bit Shifting?
+Answer:
+Shifting moves bits left or right.
+Left Shift (<<)
+●	Multiply by 2
+Right Shift (>>)
+●	Divide by 2
+Java Code
+class BitShift {
+    public static void main(String[] args) {
+        int x = 4;
+        System.out.println(x << 1); // 8
+        System.out.println(x >> 1); // 2
+    }
+}
+
+78. Common Bit Tricks
+Check Even / Odd
+if ((n & 1) == 0)
+    System.out.println("Even");
+
+Count Set Bits
+class CountBits {
+    static int count(int n) {
+        int c = 0;
+        while (n > 0) {
+            c += (n & 1);
+            n >>= 1;
+        }
+        return c;
+    }
+}
+
+MODULE -14
+79. What is a Trie?
+Answer:
+A Trie is a prefix tree used to store strings efficiently.
+Real-world use
+●	Autocomplete
+●	Spell checker
+●	Dictionary search
+Java Code – Trie Insert & Search
+class Trie {
+    static class Node {
+        Node[] children = new Node[26];
+        boolean isEnd;
+    }
+    static Node root = new Node();
+    static void insert(String word) {
+        Node curr = root;
+        for (char c : word.toCharArray()) {
+            int idx = c - 'a';
+            if (curr.children[idx] == null)
+                curr.children[idx] = new Node();
+            curr = curr.children[idx];
+        }
+        curr.isEnd = true;
+    }
+    static boolean search(String word) {
+        Node curr = root;
+        for (char c : word.toCharArray()) {
+            int idx = c - 'a';
+            if (curr.children[idx] == null)
+                return false;
+            curr = curr.children[idx];
+        }
+        return curr.isEnd;
+    }
+    public static void main(String[] args) {
+        insert("cat");
+        insert("car");
+        System.out.println(search("cat"));
+    }
+}
+Time Complexity
+●	Insert/Search: O(length of word)
+80. What is Disjoint Set (Union–Find)?
+Answer:
+A data structure to track connected components.
+Used in
+●	Kruskal’s MST
+●	Network connectivity
+Java Code – Union Find
+class DisjointSet {
+    int[] parent, rank;
+
+    DisjointSet(int n) {
+        parent = new int[n];
+        rank = new int[n];
+        for (int i = 0; i < n; i++)
+            parent[i] = i;
+    }
+    int find(int x) {
+        if (parent[x] != x)
+            parent[x] = find(parent[x]);
+        return parent[x];
+    }
+    void union(int a, int b) {
+        int pa = find(a);
+        int pb = find(b);
+        if (pa != pb) {
+            if (rank[pa] < rank[pb])
+                parent[pa] = pb;
+            else if (rank[pb] < rank[pa])
+                parent[pb] = pa;
+            else {
+                parent[pb] = pa;
+                rank[pa]++;
+            }
+        }
+    }
+}
+
+Time Complexity: Almost O(1)
+81. What is a Segment Tree?
+Answer:
+Segment Tree supports range queries and updates efficiently.
+Use cases
+●	Range sum
+●	Range min/max
+Java Code – Segment Tree (Range Sum)
+class SegmentTree {
+    int[] tree;
+    int n;
+    SegmentTree(int[] arr) {
+        n = arr.length;
+        tree = new int[4 * n];
+        build(arr, 0, 0, n - 1);
+    }
+    void build(int[] arr, int node, int l, int r) {
+        if (l == r) {
+            tree[node] = arr[l];
+            return;
+        }
+        int mid = (l + r) / 2;
+        build(arr, 2 * node + 1, l, mid);
+        build(arr, 2 * node + 2, mid + 1, r);
+        tree[node] = tree[2 * node + 1] + tree[2 * node + 2];
+    }
+    int query(int node, int l, int r, int ql, int qr) {
+        if (ql > r || qr < l) return 0;
+        if (ql <= l && r <= qr) return tree[node];
+        int mid = (l + r) / 2;
+        return query(2 * node + 1, l, mid, ql, qr) +
+               query(2 * node + 2, mid + 1, r, ql, qr);
+    }
+}
+Time Complexity
+●	Query: O(log n)
+●	Update: O(log n)
+82. What is a Fenwick Tree (Binary Indexed Tree)?
+Answer:
+Fenwick Tree is a lighter alternative to Segment Tree for prefix sums.
+Java Code – Fenwick Tree
+class FenwickTree {
+    int[] bit;
+
+    FenwickTree(int n) {
+        bit = new int[n + 1];
+    }
+    void update(int i, int val) {
+        while (i < bit.length) {
+            bit[i] += val;
+            i += i & (-i);
+        }
+    }
+    int query(int i) {
+        int sum = 0;
+        while (i > 0) {
+            sum += bit[i];
+            i -= i & (-i);
+        }
+        return sum;
+    }
+}
+Time Complexity
+●	Update: O(log n)
+●	Query: O(log n)
+
+83. Segment Tree vs Fenwick Tree
+Feature	Segment Tree	Fenwick Tree
+Range Queries	Yes	Prefix only
+Memory	High	Low
+Implementation	Complex	Simple
+
+
+ 
+👉 REFERENCES 
+References
+
+📚BOOKS : 
+NARASIMHA KARUMANCHI
+
+🖇️WEBSITES :
+1. visualgo.net
+2.csvistool.com
+
+YT CHANNEL :
+
+1.pep coding
+2.Aditya verma - (dp playlist)
+3.Abdul bari - (algorithms,sorting,searching)
+4.Take u forward - (STRIVERDSA)
+
+ 

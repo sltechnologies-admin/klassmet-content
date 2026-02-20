@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_050_avl_balance",
+    "topicId": "topic_044_avl_tree",
+    "type": "MCQ",
+    "question": "TBD – AVL tree balance factor must be in range",
+    "options": [
+      { "id": "a", "text": "[-2, 2]", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "[0, 1]", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "[-1, 1]", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "[-3, 3]", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "AVL tree requires every node's balance factor (left height - right height) to be in [-1, 0, 1].",
+    "difficulty": "advanced",
+    "tags": ["AVL", "balance-factor"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

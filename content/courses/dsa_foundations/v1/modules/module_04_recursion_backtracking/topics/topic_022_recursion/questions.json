@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_029_recursion_base_condition",
+    "topicId": "topic_022_recursion",
+    "type": "MCQ",
+    "question": "Recursion must have",
+    "options": [
+      { "id": "a", "text": "Loop", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Base condition", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Global variable", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Pointer", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Every recursive function must have a base condition to stop the recursion and prevent infinite loops.",
+    "difficulty": "beginner",
+    "tags": ["recursion", "base-case"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_030_recursion_uses_stack",
+    "topicId": "topic_022_recursion",
+    "type": "MCQ",
+    "question": "Recursion uses",
+    "options": [
+      { "id": "a", "text": "Heap", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Queue", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Stack", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Array", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Recursive calls are placed on the call stack. Each call adds a new frame until the base case is reached.",
+    "difficulty": "beginner",
+    "tags": ["recursion", "stack"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "exam_dsa_module_04",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_04_recursion_backtracking",
+  "version": "v1",
+  "title": "Module 04 Exam – Recursion & Backtracking",
+  "description": "Assessment covering recursion fundamentals, recursion trees, and backtracking.",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_022_recursion_base", "topicId": "topic_022_recursion", "order": 1, "points": 1 },
+    { "questionId": "q_023_recursion_tree", "topicId": "topic_023_recursion_tree", "order": 2, "points": 1 },
+    { "questionId": "q_024_backtracking", "topicId": "topic_024_backtracking", "order": 3, "points": 1 }
+  ],
+  "totalPoints": 3,
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_circular_queue_tbd",
+    "topicId": "topic_032_circular_queue",
+    "title": "TBD – Implement and test circular queue of size 5",
+    "description": "TBD",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["circular-queue"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

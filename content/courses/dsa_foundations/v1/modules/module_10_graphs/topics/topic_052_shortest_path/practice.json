@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_dijkstra_tbd",
+    "topicId": "topic_052_shortest_path",
+    "title": "TBD – Dijkstra's shortest path from single source",
+    "description": "TBD – Implement Dijkstra's and print shortest distances from source to all vertices.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["dijkstra", "shortest-path"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

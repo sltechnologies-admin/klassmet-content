@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_08",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_08_trees",
+  "version": "v1",
+  "title": "Module 08 Exam – Trees",
+  "description": "Assessment covering binary tree, tree traversal, BST, AVL tree, and segment tree.",
+  "type": "module_exam",
+  "durationMinutes": 25,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_041_tree_height", "topicId": "topic_041_binary_tree", "order": 1, "points": 1 },
+    { "questionId": "q_042_inorder", "topicId": "topic_042_tree_traversal", "order": 2, "points": 1 },
+    { "questionId": "q_043_bst_search", "topicId": "topic_043_bst", "order": 3, "points": 1 },
+    { "questionId": "q_044_avl_rotation", "topicId": "topic_044_avl_tree", "order": 4, "points": 1 },
+    { "questionId": "q_045_segment_tree", "topicId": "topic_045_segment_tree", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

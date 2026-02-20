@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_heap_apps_tbd",
+    "topicId": "topic_048_heap_applications",
+    "title": "TBD – Running median with two heaps",
+    "description": "TBD – Maintain running median of a stream of numbers using a max-heap and min-heap.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["heap", "median"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

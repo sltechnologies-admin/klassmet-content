@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_057_fractional_tbd",
+    "topicId": "topic_057_fractional_knapsack",
+    "type": "MCQ",
+    "question": "TBD – Fractional knapsack is solved optimally by",
+    "options": [
+      { "id": "a", "text": "Dynamic Programming", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Greedy (sort by value/weight ratio)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Brute force", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "BFS", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Because items can be split, greedy selection by value/weight ratio yields the globally optimal solution.",
+    "difficulty": "intermediate",
+    "tags": ["greedy", "knapsack"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

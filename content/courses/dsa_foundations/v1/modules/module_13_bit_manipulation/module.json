@@ -1,0 +1,14 @@
+{
+  "id": "module_13_bit_manipulation",
+  "courseId": "course_dsa_foundations",
+  "title": "Bit Manipulation",
+  "description": "Binary numbers, bitwise AND/OR/XOR, bit masking, and bit shifting.",
+  "order": 13,
+  "topics": [
+    "topic_064_binary_numbers",
+    "topic_065_bitwise_and",
+    "topic_066_bitwise_or",
+    "topic_067_bitwise_xor",
+    "topic_068_bit_masking"
+  ]
+}

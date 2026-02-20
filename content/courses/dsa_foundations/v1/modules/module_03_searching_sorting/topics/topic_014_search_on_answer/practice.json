@@ -1,0 +1,13 @@
+[
+  {
+    "id": "practice_search_on_answer_1",
+    "topicId": "topic_014_search_on_answer",
+    "title": "Find Minimum Speed",
+    "description": "Given distances of trips and a time limit, find the minimum integer speed so that all trips can be completed within the time limit using binary search on the answer.",
+    "difficulty": "intermediate",
+    "type": "coding",
+    "starterCode": "public class Solution {\n    public int minSpeed(int[] dist, double hour) {\n        // Binary search on answer: speed range [1, max_dist]\n        // Your code here\n    }\n}",
+    "hints": ["Binary search low=1, high=max(dist)", "For a given speed, check if all trips finish within 'hour'"],
+    "status": "active"
+  }
+]

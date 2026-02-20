@@ -1,0 +1,12 @@
+{
+  "id": "module_09_heap",
+  "courseId": "course_dsa_foundations",
+  "title": "Heap",
+  "description": "Heap data structure, heapify operation, heap sort, and priority queue usage.",
+  "order": 9,
+  "topics": [
+    "topic_046_heap",
+    "topic_047_heapify",
+    "topic_048_heap_sort"
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_activity_selection",
+    "title": "Greedy – Activity Selection",
+    "description": "Select maximum non-overlapping activities by sorting on end time.",
+    "language": "java",
+    "code": "import java.util.*;\nclass ActivitySelection {\n    static int maxActivities(int[] start, int[] end) {\n        int n = start.length;\n        Integer[] idx = new Integer[n];\n        for (int i=0;i<n;i++) idx[i]=i;\n        Arrays.sort(idx, Comparator.comparingInt(i->end[i]));\n        int count=1, lastEnd=end[idx[0]];\n        for (int i=1;i<n;i++) {\n            if (start[idx[i]]>=lastEnd) { count++; lastEnd=end[idx[i]]; }\n        }\n        return count;\n    }\n}",
+    "explanation": "Sort by finish time (greedy choice). Always pick the activity ending earliest to leave maximum room.",
+    "order": 1
+  }
+]

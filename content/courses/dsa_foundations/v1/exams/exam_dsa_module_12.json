@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_12",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_12_dynamic_programming",
+  "version": "v1",
+  "title": "Module 12 Exam – Dynamic Programming",
+  "description": "Assessment covering DP basics, 0/1 knapsack, LCS, LIS, and advanced DP problems.",
+  "type": "module_exam",
+  "durationMinutes": 30,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_058_dp_conditions", "topicId": "topic_059_dp_basics", "order": 1, "points": 1 },
+    { "questionId": "q_059_fib_memo", "topicId": "topic_059_dp_basics", "order": 2, "points": 1 },
+    { "questionId": "q_060_knapsack_complexity", "topicId": "topic_060_knapsack_01", "order": 3, "points": 1 },
+    { "questionId": "q_060_lcs_result", "topicId": "topic_061_lcs", "order": 4, "points": 1 },
+    { "questionId": "q_063_coin_change", "topicId": "topic_063_dp_advanced", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

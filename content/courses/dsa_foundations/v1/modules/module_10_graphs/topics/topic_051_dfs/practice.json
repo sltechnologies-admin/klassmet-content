@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_dfs_tbd",
+    "topicId": "topic_051_dfs",
+    "title": "TBD – Detect cycle in undirected graph using DFS",
+    "description": "TBD – Use DFS with a parent parameter to detect if a cycle exists in an undirected graph.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["dfs", "cycle-detection"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

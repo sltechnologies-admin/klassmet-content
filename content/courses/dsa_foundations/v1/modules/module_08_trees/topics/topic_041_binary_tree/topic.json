@@ -1,0 +1,18 @@
+{
+  "id": "topic_041_binary_tree",
+  "moduleId": "module_08_trees",
+  "title": "Binary Tree",
+  "slug": "binary-tree",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["tree", "binary-tree", "nodes"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define a binary tree and its terminology (root, leaf, height).",
+    "Implement a binary tree node in Java.",
+    "Distinguish between full, complete, and perfect binary trees."
+  ],
+  "prerequisites": ["topic_025_singly_linked_list"],
+  "status": "active",
+  "version": 1
+}

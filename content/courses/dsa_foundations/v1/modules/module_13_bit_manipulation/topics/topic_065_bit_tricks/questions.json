@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_064_bit_power2_tbd",
+    "topicId": "topic_065_bit_tricks",
+    "type": "MCQ",
+    "question": "TBD – How to check if n is a power of 2 in O(1)?",
+    "options": [
+      { "id": "a", "text": "n % 2 == 0", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "n & (n-1) == 0", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "n ^ n == 0", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "n >> 1 == 0", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Powers of 2 have exactly one set bit. n & (n-1) clears the lowest set bit. If result is 0, only one bit was set.",
+    "difficulty": "intermediate",
+    "tags": ["bits", "power-of-2"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

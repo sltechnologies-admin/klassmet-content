@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_03",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_03_searching_sorting",
+  "version": "v1",
+  "title": "Module 03 Exam – Searching & Sorting",
+  "description": "Assessment covering linear search, binary search, bubble sort, selection sort, insertion sort, merge sort, quick sort, counting sort, radix sort, and shell sort.",
+  "type": "module_exam",
+  "durationMinutes": 30,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_011_binary_search", "topicId": "topic_013_binary_search", "order": 1, "points": 1 },
+    { "questionId": "q_012_merge_sort", "topicId": "topic_018_merge_sort", "order": 2, "points": 1 },
+    { "questionId": "q_013_quick_sort_pivot", "topicId": "topic_019_quick_sort", "order": 3, "points": 1 },
+    { "questionId": "q_014_bubble_sort", "topicId": "topic_015_bubble_sort", "order": 4, "points": 1 },
+    { "questionId": "q_015_counting_sort", "topicId": "topic_020_counting_sort", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

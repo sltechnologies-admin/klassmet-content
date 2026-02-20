@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_018_merge_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Merge Sort",
+  "slug": "merge-sort",
+  "order": 7,
+  "estimatedMinutes": 30,
+  "difficulty": "intermediate",
+  "tags": ["merge sort","divide conquer","stable","O(n log n)"],
+  "prerequisites": ["topic_017_insertion_sort"],
+  "learningObjectives": ["Understand divide and conquer","Implement merge step","Guarantee O(n log n)","Count inversions"],
+  "status": "active"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_sliding_window_max_sum",
+    "title": "Sliding Window – Maximum Sum Subarray",
+    "description": "Java example finding the maximum sum subarray of size k using the sliding window technique.",
+    "language": "java",
+    "code": "class SlidingWindowExample {\n    public static void main(String[] args) {\n        int[] arr = {2, 1, 5, 1, 3, 2};\n        int k = 3;\n        int windowSum = 0;\n        for (int i = 0; i < k; i++) {\n            windowSum += arr[i];\n        }\n        int maxSum = windowSum;\n        for (int i = k; i < arr.length; i++) {\n            windowSum += arr[i] - arr[i - k];\n            maxSum = Math.max(maxSum, windowSum);\n        }\n        System.out.println(maxSum);\n    }\n}",
+    "explanation": "Avoids recomputing sums repeatedly. Time Complexity: O(n). Space Complexity: O(1).",
+    "order": 1
+  }
+]

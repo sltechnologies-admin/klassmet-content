@@ -1,0 +1,18 @@
+{
+  "id": "topic_044_avl_tree",
+  "moduleId": "module_08_trees",
+  "title": "AVL Tree",
+  "slug": "avl-tree",
+  "order": 4,
+  "difficulty": "advanced",
+  "tags": ["AVL", "balanced-tree", "rotations"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define AVL tree balance factor.",
+    "Describe LL, LR, RL, RR rotations.",
+    "Explain why AVL insertion is O(log n)."
+  ],
+  "prerequisites": ["topic_043_bst"],
+  "status": "active",
+  "version": 1
+}

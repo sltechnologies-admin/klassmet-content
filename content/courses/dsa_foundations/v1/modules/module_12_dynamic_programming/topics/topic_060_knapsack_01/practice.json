@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_knapsack_tbd",
+    "topicId": "topic_060_knapsack_01",
+    "title": "TBD – 0/1 Knapsack and item trace-back",
+    "description": "TBD – Solve 0/1 knapsack and reconstruct which items were selected.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["dp", "knapsack"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

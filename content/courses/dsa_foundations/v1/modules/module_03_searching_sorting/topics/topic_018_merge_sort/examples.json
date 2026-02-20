@@ -1,0 +1,15 @@
+﻿{
+  "topicId": "topic_018_merge_sort",
+  "examples": [
+    {
+      "id": "ex_merge_sort",
+      "title": "Merge Sort Full Implementation",
+      "language": "java",
+      "description": "Recursive divide and conquer with merge step",
+      "code": "class MergeSort {\n    static void merge(int[] arr,int l,int m,int r) {\n        int n1=m-l+1,n2=r-m;\n        int[] L=new int[n1],R=new int[n2];\n        for(int i=0;i<n1;i++) L[i]=arr[l+i];\n        for(int j=0;j<n2;j++) R[j]=arr[m+1+j];\n        int i=0,j=0,k=l;\n        while(i<n1 && j<n2) arr[k++]=(L[i]<=R[j])?L[i++]:R[j++];\n        while(i<n1) arr[k++]=L[i++];\n        while(j<n2) arr[k++]=R[j++];\n    }\n    static void mergeSort(int[] arr,int l,int r) {\n        if(l<r){int m=(l+r)/2;mergeSort(arr,l,m);mergeSort(arr,m+1,r);merge(arr,l,m,r);}\n    }\n}",
+      "output": "3 9 10 27 38 43 82",
+      "complexity": {"time": "O(n log n)", "space": "O(n)"},
+      "explanation": "Splits recursively, merges in sorted order. Stable. No worst case."
+    }
+  ]
+}

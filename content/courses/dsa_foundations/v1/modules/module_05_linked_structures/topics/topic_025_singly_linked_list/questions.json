@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_031_singly_ll_head",
+    "topicId": "topic_025_singly_linked_list",
+    "type": "MCQ",
+    "question": "In a singly linked list, the head node is",
+    "options": [
+      { "id": "a", "text": "Last node", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "First node", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Middle node", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Node with max value", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The head is the entry point of a linked list — the first node from which traversal begins.",
+    "difficulty": "beginner",
+    "tags": ["linked-list", "head"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_032_singly_ll_null",
+    "topicId": "topic_025_singly_linked_list",
+    "type": "MCQ",
+    "question": "The last node of a singly linked list points to",
+    "options": [
+      { "id": "a", "text": "Head node", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Itself", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Null", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Previous node", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The tail node's next pointer is null, indicating the end of the list.",
+    "difficulty": "beginner",
+    "tags": ["linked-list", "tail"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

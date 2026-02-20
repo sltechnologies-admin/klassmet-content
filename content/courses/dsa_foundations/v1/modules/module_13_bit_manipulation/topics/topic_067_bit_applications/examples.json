@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bit_apps",
+    "title": "Bit Applications – XOR Swap and Reverse Bits",
+    "description": "Java: swap without temp using XOR, and reverse all 32 bits of an integer.",
+    "language": "java",
+    "code": "class BitApps {\n    static void swap(int[] arr, int i, int j) {\n        arr[i] ^= arr[j]; arr[j] ^= arr[i]; arr[i] ^= arr[j];\n    }\n    static int reverseBits(int n) {\n        int result = 0;\n        for (int i = 0; i < 32; i++) {\n            result = (result << 1) | (n & 1);\n            n >>= 1;\n        }\n        return result;\n    }\n    public static void main(String[] args) {\n        int[] arr = {3, 7}; swap(arr, 0, 1);\n        System.out.println(arr[0] + \" \" + arr[1]);\n    }\n}",
+    "explanation": "XOR swap: a^=b; b^=a; a^=b exchanges values without temp. Each step is O(1). Useful in low-memory contexts.",
+    "order": 1
+  }
+]

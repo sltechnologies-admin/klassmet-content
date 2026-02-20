@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_monotonic_tbd",
+    "topicId": "topic_035_monotonic_stack",
+    "title": "TBD – Largest Rectangle in Histogram",
+    "description": "TBD – Use a monotonic stack to find the largest rectangle in a histogram in O(n).",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 30,
+    "tags": ["monotonic-stack", "histogram"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

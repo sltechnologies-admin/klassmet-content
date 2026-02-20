@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_dp_fibonacci",
+    "title": "DP – Fibonacci with Tabulation",
+    "description": "Bottom-up DP for Fibonacci, improved from O(2^n) naïve to O(n) time and O(1) space.",
+    "language": "java",
+    "code": "class FibDP {\n    static long fib(int n) {\n        if (n <= 1) return n;\n        long prev2 = 0, prev1 = 1;\n        for (int i = 2; i <= n; i++) {\n            long curr = prev1 + prev2;\n            prev2 = prev1; prev1 = curr;\n        }\n        return prev1;\n    }\n    public static void main(String[] args) {\n        System.out.println(fib(10)); // 55\n    }\n}",
+    "explanation": "Rolling variable trick reduces space to O(1). Fill bottom-up avoids recursion overhead.",
+    "order": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bit_tricks",
+    "title": "Bit Manipulation – Common Tricks",
+    "description": "Java bitwise tricks: odd check, power of 2, set/clear/toggle/check bits.",
+    "language": "java",
+    "code": "class BitTricks {\n    static boolean isOdd(int n) { return (n & 1) == 1; }\n    static boolean isPowerOf2(int n) { return n > 0 && (n & (n - 1)) == 0; }\n    static int setBit(int n, int i) { return n | (1 << i); }\n    static int clearBit(int n, int i) { return n & ~(1 << i); }\n    static int toggleBit(int n, int i) { return n ^ (1 << i); }\n    static boolean checkBit(int n, int i) { return (n >> i & 1) == 1; }\n    public static void main(String[] args) {\n        System.out.println(isOdd(5));\n        System.out.println(isPowerOf2(8));\n        System.out.println(setBit(5, 1));\n    }\n}",
+    "explanation": "n & 1 checks last bit. n & (n-1) clears lowest set bit — if result is 0, n is power of 2.",
+    "order": 1
+  }
+]

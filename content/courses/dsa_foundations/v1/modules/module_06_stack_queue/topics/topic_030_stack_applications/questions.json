@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_030_stack_app_tbd",
+    "topicId": "topic_030_stack_applications",
+    "type": "MCQ",
+    "question": "TBD — Which traversal uses a stack internally?",
+    "options": [
+      { "id": "a", "text": "BFS", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Level-order", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "DFS", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Round-robin", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "DFS (Depth-First Search) explores as deep as possible using a stack to track which node to backtrack to.",
+    "difficulty": "intermediate",
+    "tags": ["stack", "DFS"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

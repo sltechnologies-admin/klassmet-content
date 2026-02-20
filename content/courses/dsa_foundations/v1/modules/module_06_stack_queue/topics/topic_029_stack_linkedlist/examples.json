@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_stack_linked_list",
+    "title": "Stack – Linked List Implementation",
+    "description": "Dynamic stack using a linked list with head as top.",
+    "language": "java",
+    "code": "class StackLinkedList {\n    Node top = null;\n    void push(int x) { Node n = new Node(x); n.next = top; top = n; }\n    int pop() { int val = top.data; top = top.next; return val; }\n    int peek() { return top.data; }\n    boolean isEmpty() { return top == null; }\n}",
+    "explanation": "Inserting at head gives O(1) push and pop. No fixed size limit — grows dynamically.",
+    "order": 1
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_algorithm_problem_solving_tbd",
+    "topicId": "topic_002_algorithms_problem_solving",
+    "title": "TBD – Write algorithm steps for a real-world task",
+    "description": "TBD – Ask learners to write step-by-step algorithm for making tea or finding a name in a list.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["algorithms", "problem-solving"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

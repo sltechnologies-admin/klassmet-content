@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bit_count",
+    "title": "Bit Tricks – Count Set Bits (Brian Kernighan)",
+    "description": "Count 1-bits efficiently using n &= (n-1) to clear lowest set bit each iteration.",
+    "language": "java",
+    "code": "class BitCount {\n    static int countBits(int n) {\n        int count = 0;\n        while (n != 0) { n &= (n - 1); count++; }\n        return count;\n    }\n    static int findMissing(int[] arr, int n) {\n        int xor = 0;\n        for (int i = 1; i <= n; i++) xor ^= i;\n        for (int x : arr) xor ^= x;\n        return xor;\n    }\n    public static void main(String[] args) {\n        System.out.println(countBits(13));\n        System.out.println(findMissing(new int[]{1,2,4,5,6},6));\n    }\n}",
+    "explanation": "n &= (n-1) clears lowest set bit. Repeat until 0. XOR trick: pairs cancel, leaving the unique/missing value.",
+    "order": 1
+  }
+]

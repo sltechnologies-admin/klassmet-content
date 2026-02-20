@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_19_linear_search_complexity",
+    "topicId": "topic_012_linear_search",
+    "type": "MCQ",
+    "question": "What is the time complexity of linear search in the worst case?",
+    "options": [
+      {"id": "a", "text": "O(1)", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "O(log n)", "isCorrect": false, "order": 2},
+      {"id": "c", "text": "O(n)", "isCorrect": true, "order": 3},
+      {"id": "d", "text": "O(n²)", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "c",
+    "explanation": "Linear search checks each element one by one, so in the worst case (element not present or at the end), it traverses all n elements giving O(n) time complexity.",
+    "difficulty": "beginner",
+    "tags": ["linear-search", "complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

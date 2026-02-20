@@ -1,0 +1,20 @@
+{
+  "id": "exam_dsa_module_05",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_05_linked_structures",
+  "version": "v1",
+  "title": "Module 05 Exam – Linked Structures",
+  "description": "Assessment covering singly linked list, doubly linked list, and circular linked list.",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_025_sll_insert", "topicId": "topic_025_singly_linked_list", "order": 1, "points": 1 },
+    { "questionId": "q_026_dll_advantage", "topicId": "topic_026_doubly_linked_list", "order": 2, "points": 1 },
+    { "questionId": "q_027_circular_ll", "topicId": "topic_027_circular_linked_list", "order": 3, "points": 1 }
+  ],
+  "totalPoints": 3,
+  "status": "active",
+  "version": 1
+}

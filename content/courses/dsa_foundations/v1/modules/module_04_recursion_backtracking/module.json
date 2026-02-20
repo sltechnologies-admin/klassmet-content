@@ -1,0 +1,12 @@
+{
+  "id": "module_04_recursion_backtracking",
+  "courseId": "course_dsa_foundations",
+  "title": "Recursion & Backtracking",
+  "description": "Recursion fundamentals, recursion tree visualisation, and backtracking strategies.",
+  "order": 4,
+  "topics": [
+    "topic_022_recursion",
+    "topic_023_recursion_tree",
+    "topic_024_backtracking"
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_049_bst_search",
+    "topicId": "topic_043_bst",
+    "type": "MCQ",
+    "question": "Average time complexity to search in a balanced BST",
+    "options": [
+      { "id": "a", "text": "O(1)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A balanced BST halves the search space at each node, giving O(log n) average search time.",
+    "difficulty": "intermediate",
+    "tags": ["BST", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

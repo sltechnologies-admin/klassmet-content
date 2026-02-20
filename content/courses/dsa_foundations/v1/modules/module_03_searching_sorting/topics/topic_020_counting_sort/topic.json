@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_020_counting_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Counting Sort",
+  "slug": "counting-sort",
+  "order": 9,
+  "estimatedMinutes": 20,
+  "difficulty": "intermediate",
+  "tags": ["counting sort","non-comparison","frequency","O(n+k)"],
+  "prerequisites": ["topic_019_quick_sort"],
+  "learningObjectives": ["Understand non-comparison sorting","Apply counting sort","Analyze O(n+k)","Know limitations"],
+  "status": "active"
+}

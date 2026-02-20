@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_001_programming_tbd",
+    "topicId": "topic_001_programming_basics",
+    "type": "MCQ",
+    "question": "TBD – What best describes programming?",
+    "options": [
+      { "id": "a", "text": "Designing hardware", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Writing instructions for a computer to solve problems", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Drawing circuit diagrams", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Managing databases only", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Programming is the act of writing step-by-step instructions for a computer to perform tasks.",
+    "difficulty": "beginner",
+    "tags": ["programming", "basics"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

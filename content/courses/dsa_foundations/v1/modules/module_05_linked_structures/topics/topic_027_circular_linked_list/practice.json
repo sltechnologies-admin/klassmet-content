@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_circular_ll_tbd",
+    "topicId": "topic_027_circular_linked_list",
+    "title": "TBD – Detect cycle in a linked list using Floyd's algorithm",
+    "description": "TBD – Ask learners to implement Floyd's two-pointer cycle detection and return the meeting node.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["cycle-detection", "floyd"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_060_lcs_tbd",
+    "topicId": "topic_061_lcs",
+    "type": "MCQ",
+    "question": "TBD – LCS of 'ABCD' and 'ACDF' is",
+    "options": [
+      { "id": "a", "text": "2", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "3", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "4", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "1", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "LCS is 'ACD' (length 3). A matches, C matches, D matches.",
+    "difficulty": "intermediate",
+    "tags": ["dp", "lcs"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_binary_tree_tbd",
+    "topicId": "topic_041_binary_tree",
+    "title": "TBD – Calculate height of a binary tree",
+    "description": "TBD – Write a recursive function to find the height of a binary tree.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["binary-tree", "recursion", "height"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

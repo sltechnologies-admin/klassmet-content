@@ -1,0 +1,13 @@
+[
+  {
+    "id": "practice_binary_search_1",
+    "topicId": "topic_013_binary_search",
+    "title": "Binary Search Implementation",
+    "description": "Given a sorted array and a target, implement binary search and return the index of the target, or -1 if not found.",
+    "difficulty": "beginner",
+    "type": "coding",
+    "starterCode": "public class Solution {\n    public int binarySearch(int[] arr, int target) {\n        // Your code here\n    }\n}",
+    "hints": ["Use low, high, and mid pointers", "mid = low + (high - low) / 2 to avoid overflow"],
+    "status": "active"
+  }
+]

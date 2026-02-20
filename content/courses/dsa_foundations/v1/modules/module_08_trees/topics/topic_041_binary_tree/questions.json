@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_047_binary_tree_root",
+    "topicId": "topic_041_binary_tree",
+    "type": "MCQ",
+    "question": "A binary tree node can have maximum how many children",
+    "options": [
+      { "id": "a", "text": "1", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "2", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "3", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Unlimited", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "By definition a binary tree node has at most 2 children — left and right.",
+    "difficulty": "beginner",
+    "tags": ["binary-tree"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

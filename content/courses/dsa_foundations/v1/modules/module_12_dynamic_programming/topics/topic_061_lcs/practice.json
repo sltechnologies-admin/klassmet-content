@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_lcs_tbd",
+    "topicId": "topic_061_lcs",
+    "title": "TBD – LCS length and actual sequence",
+    "description": "TBD – Compute LCS and reconstruct the actual subsequence by backtracking the DP table.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["dp", "lcs"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

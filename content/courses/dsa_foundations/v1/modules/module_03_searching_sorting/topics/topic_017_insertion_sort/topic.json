@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_017_insertion_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Insertion Sort",
+  "slug": "insertion-sort",
+  "order": 6,
+  "estimatedMinutes": 20,
+  "difficulty": "beginner",
+  "tags": ["insertion sort","sorting","comparison","cards"],
+  "prerequisites": ["topic_016_selection_sort"],
+  "learningObjectives": ["Understand insertion sort","Analyze best case O(n)","Implement in Java","Identify use cases"],
+  "status": "active"
+}

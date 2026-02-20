@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_013_sliding_window_usage",
+    "topicId": "topic_010_sliding_window",
+    "type": "MCQ",
+    "question": "Sliding window technique is mainly used for",
+    "options": [
+      { "id": "a", "text": "Sorting", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Fixed-size subarray problems", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Recursion", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Graph traversal", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Sliding window efficiently processes fixed-size subarrays by avoiding recomputation.",
+    "difficulty": "intermediate",
+    "tags": ["sliding-window", "arrays"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

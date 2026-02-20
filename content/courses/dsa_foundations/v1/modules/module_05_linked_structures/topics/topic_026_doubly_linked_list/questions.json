@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_033_doubly_ll_prev",
+    "topicId": "topic_026_doubly_linked_list",
+    "type": "MCQ",
+    "question": "TBD – A doubly linked list node contains",
+    "options": [
+      { "id": "a", "text": "Only next pointer", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Both prev and next pointers", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Only prev pointer", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "No pointers", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A doubly linked list node stores both a next pointer and a prev pointer for bidirectional traversal.",
+    "difficulty": "beginner",
+    "tags": ["doubly-linked-list"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

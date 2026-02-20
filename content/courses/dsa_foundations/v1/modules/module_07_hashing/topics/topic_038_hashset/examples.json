@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_hashset",
+    "title": "HashSet – Unique Elements",
+    "description": "Java HashSet stores unique elements and ignores duplicates.",
+    "language": "java",
+    "code": "import java.util.HashSet;\nclass HashSetExample {\n    public static void main(String[] args) {\n        HashSet<Integer> set = new HashSet<>();\n        set.add(1); set.add(2); set.add(2); set.add(3);\n        System.out.println(set.size());\n        System.out.println(set.contains(2));\n        set.remove(2);\n        System.out.println(set);\n    }\n}",
+    "explanation": "Duplicate add is silently ignored. All core operations O(1) average.",
+    "order": 1
+  }
+]

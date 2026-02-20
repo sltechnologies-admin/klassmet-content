@@ -1,0 +1,18 @@
+{
+  "id": "topic_067_bit_applications",
+  "moduleId": "module_13_bit_manipulation",
+  "title": "Bit Manipulation Applications",
+  "slug": "bit-applications",
+  "order": 4,
+  "difficulty": "intermediate",
+  "tags": ["bits", "applications", "swap", "multiplication"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Swap two numbers without a temp variable using XOR.",
+    "Multiply/divide by powers of 2 using shifts.",
+    "Reverse bits of an integer."
+  ],
+  "prerequisites": ["topic_065_bit_tricks"],
+  "status": "active",
+  "version": 1
+}

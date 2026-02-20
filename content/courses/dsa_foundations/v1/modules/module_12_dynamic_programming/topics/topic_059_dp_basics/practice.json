@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_dp_basics_tbd",
+    "topicId": "topic_059_dp_basics",
+    "title": "TBD – Climbing stairs DP",
+    "description": "TBD – Count ways to climb n stairs taking 1 or 2 steps at a time using DP.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["dp", "climbing-stairs"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

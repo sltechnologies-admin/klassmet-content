@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_045_collision_chaining",
+    "topicId": "topic_037_collision_resolution",
+    "type": "MCQ",
+    "question": "Separate chaining resolves collision by using",
+    "options": [
+      { "id": "a", "text": "Another hash function", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Linked list at each bucket", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Probing next slot", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Sorting the table", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Separate chaining places colliding keys in a linked list hanging off the same bucket index.",
+    "difficulty": "intermediate",
+    "tags": ["hashing", "chaining"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

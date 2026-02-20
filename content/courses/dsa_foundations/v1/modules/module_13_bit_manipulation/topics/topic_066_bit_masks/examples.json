@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_subset_enum",
+    "title": "Bit Mask – Enumerate All Subsets",
+    "description": "Java: use bitmask 0 to 2^n-1 to print all subsets of an array.",
+    "language": "java",
+    "code": "class SubsetEnum {\n    static void allSubsets(int[] arr) {\n        int n = arr.length;\n        for (int mask = 0; mask < (1 << n); mask++) {\n            System.out.print(\"{ \");\n            for (int i = 0; i < n; i++)\n                if ((mask >> i & 1) == 1) System.out.print(arr[i] + \" \");\n            System.out.println(\"}\");\n        }\n    }\n    public static void main(String[] args) { allSubsets(new int[]{1,2,3}); }\n}",
+    "explanation": "Each integer 0..(2^n-1) represents one subset. Bit i = 1 means arr[i] is included. 2^n subsets total.",
+    "order": 1
+  }
+]

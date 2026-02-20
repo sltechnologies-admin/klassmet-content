@@ -1,0 +1,16 @@
+{
+  "id": "module_10_graphs",
+  "courseId": "course_dsa_foundations",
+  "title": "Graphs",
+  "description": "Graph representation, BFS, DFS, cycle detection, topological sort, shortest path, and MST.",
+  "order": 10,
+  "topics": [
+    "topic_049_graph_representation",
+    "topic_050_bfs",
+    "topic_051_dfs",
+    "topic_052_cycle_detection",
+    "topic_053_topological_sort",
+    "topic_054_shortest_path",
+    "topic_055_minimum_spanning_tree"
+  ]
+}

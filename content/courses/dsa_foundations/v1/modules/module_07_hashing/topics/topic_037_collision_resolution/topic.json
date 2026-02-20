@@ -1,0 +1,18 @@
+{
+  "id": "topic_037_collision_resolution",
+  "moduleId": "module_07_hashing",
+  "title": "Collision Resolution",
+  "slug": "collision-resolution",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["hashing", "collision", "chaining", "open-addressing"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain chaining and open addressing.",
+    "Compare separate chaining vs linear probing.",
+    "Identify when collisions degrade hash table performance."
+  ],
+  "prerequisites": ["topic_036_hash_table"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_collision_tbd",
+    "topicId": "topic_037_collision_resolution",
+    "title": "TBD – Implement separate chaining hash table",
+    "description": "TBD – Build a hash table with chaining using an array of linked lists.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["hashing", "chaining"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

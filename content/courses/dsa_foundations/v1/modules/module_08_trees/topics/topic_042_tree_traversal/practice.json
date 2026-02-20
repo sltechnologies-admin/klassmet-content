@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_tree_traversal_tbd",
+    "topicId": "topic_042_tree_traversal",
+    "title": "TBD – Print level-order traversal level by level",
+    "description": "TBD – Print nodes of each level on a separate line using a queue.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["tree", "BFS", "level-order"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

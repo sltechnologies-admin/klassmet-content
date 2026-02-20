@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_fractional_knapsack_tbd",
+    "topicId": "topic_057_fractional_knapsack",
+    "title": "TBD – Compute maximum value for fractional knapsack",
+    "description": "TBD – Given items with weights and values, compute the maximum value for a knapsack of capacity W.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["greedy", "knapsack"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

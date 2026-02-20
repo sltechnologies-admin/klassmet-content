@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_051_segment_tree_query",
+    "topicId": "topic_045_segment_tree",
+    "type": "MCQ",
+    "question": "Segment tree range query time complexity",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Segment tree splits range queries at each level — O(log n) nodes are visited per query.",
+    "difficulty": "advanced",
+    "tags": ["segment-tree", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

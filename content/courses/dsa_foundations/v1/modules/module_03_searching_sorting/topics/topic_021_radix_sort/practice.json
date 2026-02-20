@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_021_radix_sort",
+  "problems": [
+    {
+      "id": "pp_radix_strings",
+      "title": "Sort Fixed-Length Strings with Radix Sort",
+      "difficulty": "intermediate",
+      "description": "Sort array of equal-length strings using LSD radix sort on each character position.",
+      "hints": ["Process from last character to first character", "Use counting sort on ASCII values at each position"],
+      "solution": {"approach": "LSD on each char index right to left, stable counting sort per pass", "complexity": {"time": "O(w*n) where w=string length", "space": "O(n)"}}
+    }
+  ]
+}

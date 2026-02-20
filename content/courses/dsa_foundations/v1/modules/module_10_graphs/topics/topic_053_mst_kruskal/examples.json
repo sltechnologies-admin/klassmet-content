@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_kruskal",
+    "title": "Kruskal's MST with Union-Find",
+    "description": "Java Kruskal's algorithm using path-compressed Union-Find.",
+    "language": "java",
+    "code": "import java.util.*;\nclass Kruskal {\n    static int[] parent, rank;\n    static int find(int x) { if (parent[x]!=x) parent[x]=find(parent[x]); return parent[x]; }\n    static void union(int a, int b) {\n        int ra=find(a), rb=find(b);\n        if (rank[ra]<rank[rb]) parent[ra]=rb;\n        else if (rank[ra]>rank[rb]) parent[rb]=ra;\n        else { parent[rb]=ra; rank[ra]++; }\n    }\n    static int kruskal(int V, int[][] edges) {\n        Arrays.sort(edges, Comparator.comparingInt(e->e[2]));\n        parent=new int[V]; rank=new int[V];\n        for (int i=0;i<V;i++) parent[i]=i;\n        int cost=0;\n        for (int[] e : edges) if (find(e[0])!=find(e[1])) { union(e[0],e[1]); cost+=e[2]; }\n        return cost;\n    }\n}",
+    "explanation": "Sort edges O(E log E), process V-1 valid edges with DSU find/union nearly O(1) each. Total O(E log E).",
+    "order": 1
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ex_circular_linked_list",
+    "title": "Circular Linked List – Insert and Display",
+    "description": "Java implementation where the tail points back to head.",
+    "language": "java",
+    "code": "class CircularLinkedList {\n    Node head;\n    void insert(int data) {\n        Node n = new Node(data);\n        if (head == null) { head = n; n.next = head; return; }\n        Node t = head;\n        while (t.next != head) t = t.next;\n        t.next = n; n.next = head;\n    }\n    void display() {\n        if (head == null) return;\n        Node t = head;\n        do { System.out.print(t.data + \" \"); t = t.next; } while (t != head);\n    }\n}",
+    "explanation": "Tail next points to head. do-while loop used to traverse because head is not null. Time: O(n).",
+    "order": 1
+  },
+  {
+    "id": "ex_floyds_cycle_detection",
+    "title": "Floyd's Cycle Detection",
+    "description": "Detect a cycle in a linked list using slow and fast pointers.",
+    "language": "java",
+    "code": "class CycleDetection {\n    static boolean hasCycle(Node head) {\n        Node slow = head, fast = head;\n        while (fast != null && fast.next != null) {\n            slow = slow.next;\n            fast = fast.next.next;\n            if (slow == fast) return true;\n        }\n        return false;\n    }\n}",
+    "explanation": "Slow moves 1 step, fast moves 2 steps. If they meet, cycle exists. Time: O(n), Space: O(1).",
+    "order": 2
+  }
+]

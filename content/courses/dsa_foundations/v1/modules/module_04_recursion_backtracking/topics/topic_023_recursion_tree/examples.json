@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_recursion_tree_fibonacci",
+    "title": "Recursion Tree – Fibonacci",
+    "description": "Java Fibonacci implementation demonstrating exponential recursion tree growth.",
+    "language": "java",
+    "code": "class RecursionTree {\n    static int fib(int n) {\n        if (n <= 1)\n            return n;\n        return fib(n - 1) + fib(n - 2);\n    }\n    public static void main(String[] args) {\n        System.out.println(fib(5));\n    }\n}",
+    "explanation": "Each call splits into two calls forming a tree structure. Time Complexity: O(2^n). Space Complexity: O(n).",
+    "order": 1
+  }
+]

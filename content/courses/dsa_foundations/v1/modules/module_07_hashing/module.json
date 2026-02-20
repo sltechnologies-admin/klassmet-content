@@ -1,0 +1,14 @@
+{
+  "id": "module_07_hashing",
+  "courseId": "course_dsa_foundations",
+  "title": "Hashing",
+  "description": "Hashing concepts, hash tables, collision handling, HashMap, and HashSet.",
+  "order": 7,
+  "topics": [
+    "topic_036_hashing_concepts",
+    "topic_037_hash_tables",
+    "topic_038_collision_handling",
+    "topic_039_hashmap",
+    "topic_040_hashset"
+  ]
+}

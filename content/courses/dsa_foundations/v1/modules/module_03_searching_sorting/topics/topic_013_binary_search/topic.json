@@ -1,0 +1,19 @@
+{
+  "id": "topic_013_binary_search",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Binary Search",
+  "slug": "binary-search",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["searching", "binary", "divide-and-conquer"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Understand that binary search works only on sorted arrays",
+    "Explain how binary search divides the search space in half each iteration",
+    "Analyze the time complexity as O(log n)",
+    "Implement binary search in Java"
+  ],
+  "prerequisites": ["topic_012_linear_search"],
+  "status": "active",
+  "version": 1
+}

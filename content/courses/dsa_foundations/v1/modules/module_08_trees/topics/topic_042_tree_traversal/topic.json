@@ -1,0 +1,18 @@
+{
+  "id": "topic_042_tree_traversal",
+  "moduleId": "module_08_trees",
+  "title": "Tree Traversal",
+  "slug": "tree-traversal",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["tree", "traversal", "inorder", "preorder", "postorder", "BFS"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Implement inorder, preorder, and postorder DFS traversals.",
+    "Implement level-order (BFS) traversal.",
+    "Identify the output order for each traversal on a given tree."
+  ],
+  "prerequisites": ["topic_041_binary_tree"],
+  "status": "active",
+  "version": 1
+}

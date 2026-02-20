@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_063_dp_advanced_tbd",
+    "topicId": "topic_063_dp_advanced",
+    "type": "MCQ",
+    "question": "TBD – Edit distance between 'CAT' and 'CUT' is",
+    "options": [
+      { "id": "a", "text": "0", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "1", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "2", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "3", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "CAT → CUT requires 1 substitution (A → U).",
+    "difficulty": "advanced",
+    "tags": ["dp", "edit-distance"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

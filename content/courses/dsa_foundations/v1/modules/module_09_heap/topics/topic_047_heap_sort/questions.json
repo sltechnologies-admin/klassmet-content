@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_047_heap_sort_tbd",
+    "topicId": "topic_047_heap_sort",
+    "type": "MCQ",
+    "question": "TBD – Heap sort space complexity",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Heap sort is in-place — uses O(1) extra space (ignoring O(log n) recursion stack for heapify).",
+    "difficulty": "intermediate",
+    "tags": ["heap-sort", "space-complexity"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_dijkstra",
+    "title": "Dijkstra's Algorithm – Shortest Path",
+    "description": "Java Dijkstra's using PriorityQueue with int[] pairs (distance, vertex).",
+    "language": "java",
+    "code": "import java.util.*;\nclass Dijkstra {\n    static int[] dijkstra(List<List<int[]>> adj, int src, int V) {\n        int[] dist = new int[V];\n        Arrays.fill(dist, Integer.MAX_VALUE);\n        dist[src] = 0;\n        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));\n        pq.add(new int[]{0, src});\n        while (!pq.isEmpty()) {\n            int[] cur = pq.poll();\n            int d = cur[0], u = cur[1];\n            if (d > dist[u]) continue;\n            for (int[] edge : adj.get(u)) {\n                int v = edge[0], w = edge[1];\n                if (dist[u] + w < dist[v]) {\n                    dist[v] = dist[u] + w;\n                    pq.add(new int[]{dist[v], v});\n                }\n            }\n        }\n        return dist;\n    }\n}",
+    "explanation": "Greedy selection of minimum distance vertex via min-heap. Relaxation updates neighbours. O((V+E) log V).",
+    "order": 1
+  }
+]

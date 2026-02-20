@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_062_lis_tbd",
+    "topicId": "topic_062_lis",
+    "type": "MCQ",
+    "question": "TBD – LIS of [3, 10, 2, 1, 20] is",
+    "options": [
+      { "id": "a", "text": "2", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "3", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "4", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "5", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Possible LIS: [3,10,20] or [2,20] or [1,20]. Longest is length 3.",
+    "difficulty": "intermediate",
+    "tags": ["dp", "lis"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

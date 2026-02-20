@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_018_merge_sort",
+  "problems": [
+    {
+      "id": "pp_count_inversions",
+      "title": "Count Inversions Using Merge Sort",
+      "difficulty": "intermediate",
+      "description": "Count pairs (i,j) where i < j but arr[i] > arr[j] using modified merge sort.",
+      "hints": ["Count inversions in merge step when right element selected", "Add (mid - i + 1) to count for each right selection"],
+      "solution": {"approach": "Modified merge: count += (mid - i) when R[j] < L[i]", "complexity": {"time": "O(n log n)", "space": "O(n)"}}
+    }
+  ]
+}

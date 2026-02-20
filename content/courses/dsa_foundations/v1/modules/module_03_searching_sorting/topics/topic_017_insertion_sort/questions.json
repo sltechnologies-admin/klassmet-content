@@ -1,0 +1,14 @@
+﻿{
+  "topicId": "topic_017_insertion_sort",
+  "questions": [
+    {
+      "id": "q_017_best_case",
+      "type": "mcq",
+      "difficulty": "beginner",
+      "question": "Insertion sort best case time complexity is",
+      "options": ["O(n^2)", "O(n log n)", "O(n)", "O(1)"],
+      "correctAnswer": 2,
+      "explanation": "When already sorted, inner while loop runs 0 times each iteration, giving O(n) total comparisons."
+    }
+  ]
+}

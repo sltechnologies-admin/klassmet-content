@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_stack_ll_tbd",
+    "topicId": "topic_029_stack_linkedlist",
+    "title": "TBD – Implement stack LL with min tracking",
+    "description": "TBD – Extend the linked list stack to also track and return the minimum element in O(1).",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["stack", "linked-list", "min-stack"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

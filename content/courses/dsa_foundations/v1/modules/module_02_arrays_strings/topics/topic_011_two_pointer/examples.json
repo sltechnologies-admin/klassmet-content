@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_two_pointer_pair_sum",
+    "title": "Two Pointer – Find Pair with Target Sum",
+    "description": "Java example using two pointers to find a pair in a sorted array that sums to a target.",
+    "language": "java",
+    "code": "class TwoPointer {\n    static boolean hasPair(int[] arr, int target) {\n        int left = 0, right = arr.length - 1;\n        while (left < right) {\n            int sum = arr[left] + arr[right];\n            if (sum == target) return true;\n            else if (sum < target) left++;\n            else right--;\n        }\n        return false;\n    }\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 4, 7, 11};\n        System.out.println(hasPair(arr, 9));\n    }\n}",
+    "explanation": "Two pointers move toward each other. Time Complexity: O(n). Space Complexity: O(1).",
+    "order": 1
+  }
+]

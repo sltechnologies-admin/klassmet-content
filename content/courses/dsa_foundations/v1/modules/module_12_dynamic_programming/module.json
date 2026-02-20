@@ -1,0 +1,14 @@
+{
+  "id": "module_12_dynamic_programming",
+  "courseId": "course_dsa_foundations",
+  "title": "Dynamic Programming",
+  "description": "DP fundamentals, memoization, tabulation, 1D DP, and 2D DP with classic problems.",
+  "order": 12,
+  "topics": [
+    "topic_059_dp_basics",
+    "topic_060_memoization",
+    "topic_061_tabulation",
+    "topic_062_1d_dp",
+    "topic_063_2d_dp"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "topic_004_space_complexity",
+  "moduleId": "module_01_programming_analysis",
+  "title": "Space Complexity",
+  "slug": "space-complexity",
+  "order": 4,
+  "difficulty": "beginner",
+  "tags": ["space-complexity", "memory", "analysis"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define space complexity and what it measures.",
+    "Identify auxiliary space vs total space.",
+    "Explain why recursive function calls use stack space."
+  ],
+  "prerequisites": ["topic_003_time_complexity"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_queue_tbd",
+    "topicId": "topic_031_queue_basics",
+    "title": "TBD – Implement a circular queue",
+    "description": "TBD – Ask learners to implement a circular queue to reuse array slots.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["queue", "circular-queue"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

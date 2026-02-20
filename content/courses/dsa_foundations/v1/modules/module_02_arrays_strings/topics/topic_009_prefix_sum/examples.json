@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_prefix_sum_range_query",
+    "title": "Prefix Sum – Range Query",
+    "description": "Java example building a prefix sum array and answering a range sum query in O(1).",
+    "language": "java",
+    "code": "class PrefixSumExample {\n    public static void main(String[] args) {\n        int[] arr = {2, 4, 6, 8};\n        int[] prefix = new int[arr.length];\n        prefix[0] = arr[0];\n        for (int i = 1; i < arr.length; i++) {\n            prefix[i] = prefix[i - 1] + arr[i];\n        }\n        int l = 1, r = 3;\n        int sum = prefix[r] - prefix[l - 1];\n        System.out.println(sum);\n    }\n}",
+    "explanation": "Build: O(n). Query: O(1). Space Complexity: O(n).",
+    "order": 1
+  }
+]

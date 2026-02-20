@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_pq_tbd",
+    "topicId": "topic_034_priority_queue",
+    "title": "TBD – Find top K smallest elements using priority queue",
+    "description": "TBD – Use a max-heap PriorityQueue of size K to find K smallest elements from an array.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["priority-queue", "top-k"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

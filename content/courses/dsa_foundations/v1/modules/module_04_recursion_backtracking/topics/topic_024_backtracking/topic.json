@@ -1,0 +1,18 @@
+{
+  "id": "topic_024_backtracking",
+  "moduleId": "module_04_recursion_backtracking",
+  "title": "Backtracking",
+  "slug": "backtracking",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["backtracking", "recursion", "combinatorics"],
+  "estimatedMinutes": 30,
+  "learningOutcomes": [
+    "Define backtracking and explain how it differs from plain recursion.",
+    "Implement a backtracking solution to generate binary strings.",
+    "Apply backtracking to permutations and N-Queens."
+  ],
+  "prerequisites": ["topic_022_recursion", "topic_023_recursion_tree"],
+  "status": "active",
+  "version": 1
+}

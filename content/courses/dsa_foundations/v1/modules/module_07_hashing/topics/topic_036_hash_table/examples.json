@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_hash_map",
+    "title": "Hash Table – Java HashMap",
+    "description": "Basic key-value operations using Java HashMap.",
+    "language": "java",
+    "code": "import java.util.HashMap;\nclass HashTableExample {\n    public static void main(String[] args) {\n        HashMap<String, Integer> map = new HashMap<>();\n        map.put(\"Alice\", 90);\n        map.put(\"Bob\", 85);\n        System.out.println(map.get(\"Alice\"));\n        System.out.println(map.containsKey(\"Bob\"));\n        map.remove(\"Bob\");\n    }\n}",
+    "explanation": "HashMap provides O(1) average for put, get, remove, and containsKey operations.",
+    "order": 1
+  }
+]

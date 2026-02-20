@@ -1,0 +1,59 @@
+[
+  {
+    "id": "q_034_circular_ll_tail",
+    "topicId": "topic_027_circular_linked_list",
+    "type": "MCQ",
+    "question": "In a circular linked list, the last node points to",
+    "options": [
+      { "id": "a", "text": "Null", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Itself", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Head node", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Second node", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "In a circular linked list the tail's next pointer refers back to the head, forming a circular chain.",
+    "difficulty": "beginner",
+    "tags": ["circular-linked-list"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_035_reverse_ll_complexity",
+    "topicId": "topic_027_circular_linked_list",
+    "type": "MCQ",
+    "question": "Time complexity to reverse a linked list is",
+    "options": [
+      { "id": "a", "text": "O(1)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Reversing a linked list requires visiting each node once, giving O(n) time and O(1) space.",
+    "difficulty": "beginner",
+    "tags": ["linked-list", "reverse"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_036_floyds_space",
+    "topicId": "topic_027_circular_linked_list",
+    "type": "MCQ",
+    "question": "Floyd's cycle detection algorithm uses space complexity of",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Floyd's algorithm uses only two pointers (slow and fast), giving O(1) extra space regardless of list length.",
+    "difficulty": "intermediate",
+    "tags": ["cycle-detection", "floyd"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

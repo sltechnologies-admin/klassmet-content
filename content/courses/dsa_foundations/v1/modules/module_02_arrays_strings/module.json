@@ -1,0 +1,15 @@
+{
+  "id": "module_02_arrays_strings",
+  "courseId": "course_dsa_foundations",
+  "title": "Arrays & Strings",
+  "description": "Arrays, 2D arrays, strings, prefix sum, sliding window, and two-pointer technique.",
+  "order": 2,
+  "topics": [
+    "topic_006_arrays",
+    "topic_007_2d_arrays",
+    "topic_008_strings",
+    "topic_009_prefix_sum",
+    "topic_010_sliding_window",
+    "topic_011_two_pointer"
+  ]
+}

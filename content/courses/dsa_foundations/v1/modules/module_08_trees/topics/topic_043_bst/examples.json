@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bst",
+    "title": "BST – Insert and Search",
+    "description": "Java BST with recursive insert and search operations.",
+    "language": "java",
+    "code": "class BST {\n    TreeNode root;\n    TreeNode insert(TreeNode root, int val) {\n        if (root == null) return new TreeNode(val);\n        if (val < root.data) root.left = insert(root.left, val);\n        else root.right = insert(root.right, val);\n        return root;\n    }\n    boolean search(TreeNode root, int val) {\n        if (root == null) return false;\n        if (root.data == val) return true;\n        if (val < root.data) return search(root.left, val);\n        return search(root.right, val);\n    }\n    public static void main(String[] args) {\n        BST tree = new BST();\n        tree.root = tree.insert(tree.root, 5);\n        tree.insert(tree.root, 3);\n        tree.insert(tree.root, 7);\n        System.out.println(tree.search(tree.root, 3));\n    }\n}",
+    "explanation": "BST property: left < node < right. Balanced BST gives O(log n) search. Skewed gives O(n).",
+    "order": 1
+  }
+]

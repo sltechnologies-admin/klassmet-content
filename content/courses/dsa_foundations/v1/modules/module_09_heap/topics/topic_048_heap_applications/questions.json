@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_048_heap_app_tbd",
+    "topicId": "topic_048_heap_applications",
+    "type": "MCQ",
+    "question": "TBD – To find k smallest elements, use a",
+    "options": [
+      { "id": "a", "text": "Min-heap of size n", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Max-heap of size k", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Min-heap of size k", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Sorted array", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A max-heap of size k keeps the k smallest seen so far. Any new element smaller than the max replaces it.",
+    "difficulty": "intermediate",
+    "tags": ["heap", "top-k"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_002_algorithm_definition_mcq",
+    "topicId": "topic_002_algorithms_problem_solving",
+    "type": "MCQ",
+    "question": "What is an algorithm?",
+    "options": [
+      { "id": "a", "text": "Programming language", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Set of instructions to solve a problem", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Hardware component", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Compiler", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "An algorithm is a step-by-step procedure to solve a problem.",
+    "difficulty": "beginner",
+    "tags": ["algorithms", "basics"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

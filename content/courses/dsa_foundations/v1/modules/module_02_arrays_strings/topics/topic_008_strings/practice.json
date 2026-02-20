@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_strings_tbd",
+    "topicId": "topic_008_strings",
+    "title": "TBD – Check if a string is a palindrome",
+    "description": "TBD – Ask learners to write a Java program to check whether a given string is a palindrome.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["strings", "palindrome"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

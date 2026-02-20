@@ -1,0 +1,18 @@
+{
+  "id": "topic_058_greedy_applications",
+  "moduleId": "module_11_greedy",
+  "title": "Greedy Applications",
+  "slug": "greedy-applications",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["greedy", "huffman", "job-scheduling"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Apply greedy to job sequencing with deadlines.",
+    "Explain Huffman encoding as a greedy tree-build.",
+    "Identify when greedy fails (0/1 knapsack)."
+  ],
+  "prerequisites": ["topic_057_fractional_knapsack"],
+  "status": "active",
+  "version": 1
+}

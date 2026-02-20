@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_06",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_06_stack_queue",
+  "version": "v1",
+  "title": "Module 06 Exam – Stack & Queue",
+  "description": "Assessment covering stack basics, linked list stack, stack applications, queue basics, circular queue, deque, priority queue, and monotonic stack.",
+  "type": "module_exam",
+  "durationMinutes": 30,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_028_stack_lifo", "topicId": "topic_028_stack_basics", "order": 1, "points": 1 },
+    { "questionId": "q_029_stack_app", "topicId": "topic_030_stack_applications", "order": 2, "points": 1 },
+    { "questionId": "q_030_queue_fifo", "topicId": "topic_031_queue_basics", "order": 3, "points": 1 },
+    { "questionId": "q_031_priority_queue", "topicId": "topic_034_priority_queue", "order": 4, "points": 1 },
+    { "questionId": "q_032_monotonic_stack", "topicId": "topic_035_monotonic_stack", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "topic_011_two_pointer",
+  "moduleId": "module_02_arrays_strings",
+  "title": "Two Pointer Technique",
+  "slug": "two-pointer",
+  "order": 6,
+  "difficulty": "intermediate",
+  "tags": ["two-pointer", "arrays", "optimization"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Describe the two-pointer technique.",
+    "Apply two pointers to reduce O(n²) to O(n).",
+    "Use two pointers to find pairs with a target sum in a sorted array."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

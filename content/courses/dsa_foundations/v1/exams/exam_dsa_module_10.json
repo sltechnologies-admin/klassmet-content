@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_10",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_10_graphs",
+  "version": "v1",
+  "title": "Module 10 Exam – Graphs",
+  "description": "Assessment covering graph representations, BFS, DFS, Dijkstra's shortest path, Kruskal's MST, Prim's MST, and topological sort.",
+  "type": "module_exam",
+  "durationMinutes": 30,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_054_adj_list_space", "topicId": "topic_049_graph_representations", "order": 1, "points": 1 },
+    { "questionId": "q_055_directed_edge", "topicId": "topic_049_graph_representations", "order": 2, "points": 1 },
+    { "questionId": "q_056_bfs_time", "topicId": "topic_050_bfs", "order": 3, "points": 1 },
+    { "questionId": "q_057_dfs_stack", "topicId": "topic_051_dfs", "order": 4, "points": 1 },
+    { "questionId": "q_069_dijkstra_pq", "topicId": "topic_052_shortest_path", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

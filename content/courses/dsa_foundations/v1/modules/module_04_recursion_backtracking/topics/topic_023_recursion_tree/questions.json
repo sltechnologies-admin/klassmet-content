@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_023_recursion_tree_tbd",
+    "topicId": "topic_023_recursion_tree",
+    "type": "MCQ",
+    "question": "TBD – The time complexity of naive Fibonacci recursion is",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(2^n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Each call in Fibonacci branches into 2 calls, creating an exponential recursion tree of O(2^n).",
+    "difficulty": "intermediate",
+    "tags": ["recursion-tree", "fibonacci", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

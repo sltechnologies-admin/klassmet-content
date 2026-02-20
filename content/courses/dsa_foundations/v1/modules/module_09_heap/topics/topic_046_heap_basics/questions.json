@@ -1,0 +1,59 @@
+[
+  {
+    "id": "q_051_heap_root",
+    "topicId": "topic_046_heap_basics",
+    "type": "MCQ",
+    "question": "In a min-heap, the root contains",
+    "options": [
+      { "id": "a", "text": "Maximum element", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Minimum element", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Median element", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Random element", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "In a min-heap the root is always the minimum element. Every parent is ≤ both its children.",
+    "difficulty": "intermediate",
+    "tags": ["heap", "min-heap"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_052_heap_insert",
+    "topicId": "topic_046_heap_basics",
+    "type": "MCQ",
+    "question": "Time complexity of inserting into a heap",
+    "options": [
+      { "id": "a", "text": "O(1)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "After inserting at the end, the element sifts up at most O(log n) levels to restore heap property.",
+    "difficulty": "intermediate",
+    "tags": ["heap", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_053_heap_top",
+    "topicId": "topic_046_heap_basics",
+    "type": "MCQ",
+    "question": "Getting top element from a heap is",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(1)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The top element (min or max) is always at index 0 — O(1) access.",
+    "difficulty": "intermediate",
+    "tags": ["heap", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "topic_010_sliding_window",
+  "moduleId": "module_02_arrays_strings",
+  "title": "Sliding Window",
+  "slug": "sliding-window",
+  "order": 5,
+  "difficulty": "intermediate",
+  "tags": ["sliding-window", "arrays", "subarray"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Describe the sliding window technique.",
+    "Apply a fixed-size sliding window to find the maximum subarray sum.",
+    "Identify problems suitable for the sliding window approach."
+  ],
+  "prerequisites": ["topic_006_arrays", "topic_009_prefix_sum"],
+  "status": "active",
+  "version": 1
+}

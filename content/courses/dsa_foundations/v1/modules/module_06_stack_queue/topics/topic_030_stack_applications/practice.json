@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_stack_applications_tbd",
+    "topicId": "topic_030_stack_applications",
+    "title": "TBD – Infix to postfix conversion",
+    "description": "TBD – Ask learners to convert an infix expression to postfix using a stack.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["stack", "infix", "postfix"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "topic_066_bit_masks",
+  "moduleId": "module_13_bit_manipulation",
+  "title": "Bit Masks and Subset Enumeration",
+  "slug": "bit-masks",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["bits", "bitmask", "subset-enumeration"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Enumerate all subsets of a set using bitmasks.",
+    "Use bitmask DP for subset problems.",
+    "Apply bitmask to represent state combinations."
+  ],
+  "prerequisites": ["topic_065_bit_tricks"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_queue_array",
+    "title": "Queue – Array Implementation",
+    "description": "Java queue using an array with enqueue and dequeue operations.",
+    "language": "java",
+    "code": "class QueueArray {\n    int[] arr; int front = 0, rear = -1, size = 0;\n    QueueArray(int capacity) { arr = new int[capacity]; }\n    void enqueue(int x) { arr[++rear] = x; size++; }\n    int dequeue() { size--; return arr[front++]; }\n    int peek() { return arr[front]; }\n    boolean isEmpty() { return size == 0; }\n    public static void main(String[] args) {\n        QueueArray q = new QueueArray(5);\n        q.enqueue(1); q.enqueue(2); q.enqueue(3);\n        System.out.println(q.dequeue());\n    }\n}",
+    "explanation": "front tracks dequeue position, rear tracks enqueue position. FIFO ordering. Time: O(1) per operation.",
+    "order": 1
+  }
+]

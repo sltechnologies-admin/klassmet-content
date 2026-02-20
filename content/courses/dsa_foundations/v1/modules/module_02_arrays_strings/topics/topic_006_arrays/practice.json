@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_arrays_tbd",
+    "topicId": "topic_006_arrays",
+    "title": "TBD – Find maximum element in an array",
+    "description": "TBD – Ask learners to write a Java program to find the maximum element in an integer array.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["arrays", "java"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

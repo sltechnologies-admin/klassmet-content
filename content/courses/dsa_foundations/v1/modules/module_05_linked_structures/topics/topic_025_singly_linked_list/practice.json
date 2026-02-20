@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_singly_ll_tbd",
+    "topicId": "topic_025_singly_linked_list",
+    "title": "TBD – Delete a node from the middle of a singly linked list",
+    "description": "TBD – Ask learners to implement a delete operation for a given value in a singly linked list.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["linked-list", "delete"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

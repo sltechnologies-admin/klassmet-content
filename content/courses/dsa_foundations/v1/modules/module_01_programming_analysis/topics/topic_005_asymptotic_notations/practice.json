@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_asymptotic_notations_tbd",
+    "topicId": "topic_005_asymptotic_notations",
+    "title": "TBD – Match algorithms to their Big-O notation",
+    "description": "TBD – Give learners a list of algorithms and ask them to match each with its Big-O notation.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 20,
+    "tags": ["big-o", "asymptotic"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

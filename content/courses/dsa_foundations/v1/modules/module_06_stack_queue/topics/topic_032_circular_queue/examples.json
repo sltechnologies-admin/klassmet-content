@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_circular_queue",
+    "title": "Circular Queue – Array-based",
+    "description": "Java circular queue that wraps using modulus arithmetic.",
+    "language": "java",
+    "code": "class CircularQueue {\n    int[] arr; int front = 0, rear = -1, size = 0, capacity;\n    CircularQueue(int cap) { capacity = cap; arr = new int[cap]; }\n    void enqueue(int x) {\n        if (size == capacity) { System.out.println(\"Full\"); return; }\n        rear = (rear + 1) % capacity;\n        arr[rear] = x; size++;\n    }\n    int dequeue() {\n        if (size == 0) throw new RuntimeException(\"Empty\");\n        int val = arr[front];\n        front = (front + 1) % capacity;\n        size--; return val;\n    }\n}",
+    "explanation": "Modulus wraps front and rear. All operations O(1). Space O(n).",
+    "order": 1
+  }
+]

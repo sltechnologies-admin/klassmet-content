@@ -1,0 +1,18 @@
+{
+  "id": "topic_069_trie",
+  "moduleId": "module_14_advanced_ds",
+  "title": "Trie (Prefix Tree)",
+  "slug": "trie",
+  "order": 1,
+  "difficulty": "advanced",
+  "tags": ["trie", "prefix-tree", "string"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Implement a trie with insert, search, startsWith.",
+    "Apply trie for autocomplete and dictionary lookup.",
+    "Analyse trie time complexity."
+  ],
+  "prerequisites": ["topic_025_singly_linked_list", "topic_008_strings"],
+  "status": "active",
+  "version": 1
+}

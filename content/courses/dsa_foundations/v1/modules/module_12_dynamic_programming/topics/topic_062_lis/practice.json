@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_lis_tbd",
+    "topicId": "topic_062_lis",
+    "title": "TBD – LIS length and reconstruction",
+    "description": "TBD – Find the LIS and print the actual increasing subsequence.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["dp", "lis"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

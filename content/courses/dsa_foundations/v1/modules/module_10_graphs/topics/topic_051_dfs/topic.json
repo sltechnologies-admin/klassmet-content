@@ -1,0 +1,18 @@
+{
+  "id": "topic_051_dfs",
+  "moduleId": "module_10_graphs",
+  "title": "DFS – Depth-First Search",
+  "slug": "dfs",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["graphs", "dfs", "traversal", "recursion"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Implement DFS recursively and iteratively.",
+    "Trace DFS on a graph with visited array.",
+    "Apply DFS for cycle detection and connected components."
+  ],
+  "prerequisites": ["topic_049_graph_representations", "topic_022_recursion"],
+  "status": "active",
+  "version": 1
+}

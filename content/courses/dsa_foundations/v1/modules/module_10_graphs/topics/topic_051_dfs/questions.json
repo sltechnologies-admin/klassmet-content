@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_057_dfs_data_structure",
+    "topicId": "topic_051_dfs",
+    "type": "MCQ",
+    "question": "DFS uses which data structure internally",
+    "options": [
+      { "id": "a", "text": "Queue", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Stack", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Heap", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Hash table", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "DFS uses a stack (either the call stack for recursion or an explicit stack for the iterative version).",
+    "difficulty": "intermediate",
+    "tags": ["dfs", "stack"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

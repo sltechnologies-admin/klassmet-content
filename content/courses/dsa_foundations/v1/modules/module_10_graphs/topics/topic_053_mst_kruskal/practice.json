@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_kruskal_tbd",
+    "topicId": "topic_053_mst_kruskal",
+    "title": "TBD – Find MST weight using Kruskal's",
+    "description": "TBD – Given a weighted undirected graph, find the total weight of the minimum spanning tree.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["kruskal", "mst"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

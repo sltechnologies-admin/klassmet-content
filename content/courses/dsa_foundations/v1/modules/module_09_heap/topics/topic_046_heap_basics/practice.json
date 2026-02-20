@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_heap_tbd",
+    "topicId": "topic_046_heap_basics",
+    "title": "TBD – Implement extract-min from a min-heap",
+    "description": "TBD – Remove the root of a min-heap and restore heap property using sift-down.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["heap", "extract-min"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

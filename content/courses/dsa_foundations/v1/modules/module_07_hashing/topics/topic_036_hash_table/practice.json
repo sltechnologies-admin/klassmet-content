@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_hash_table_tbd",
+    "topicId": "topic_036_hash_table",
+    "title": "TBD – Count frequency of each character",
+    "description": "TBD – Use a HashMap to count frequency of every character in a string.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["hashing", "frequency"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

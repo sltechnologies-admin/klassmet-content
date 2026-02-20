@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_dsu_tbd",
+    "topicId": "topic_070_disjoint_set_union",
+    "title": "TBD – Count connected components using DSU",
+    "description": "TBD – Given a graph as edge list, use DSU to count the number of connected components.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["dsu", "connected-components"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

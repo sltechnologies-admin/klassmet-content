@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_069_dijkstra",
+    "topicId": "topic_052_shortest_path",
+    "type": "MCQ",
+    "question": "Dijkstra's algorithm uses which data structure for efficient selection",
+    "options": [
+      { "id": "a", "text": "Stack", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Queue", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Priority Queue (Min-Heap)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Hash Map", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Dijkstra's algorithm uses a min-heap (priority queue) to always process the vertex with the current smallest tentative distance.",
+    "difficulty": "advanced",
+    "tags": ["dijkstra", "priority-queue"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

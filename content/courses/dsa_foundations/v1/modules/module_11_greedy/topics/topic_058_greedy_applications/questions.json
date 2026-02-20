@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_058_greedy_app_tbd",
+    "topicId": "topic_058_greedy_applications",
+    "type": "MCQ",
+    "question": "TBD – Huffman encoding uses greedy to produce",
+    "options": [
+      { "id": "a", "text": "Fixed-length codes", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Optimal variable-length prefix-free codes", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Sorted codes", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Run-length codes", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Huffman builds a binary trie where frequent characters get shorter codes, minimising total encoded length.",
+    "difficulty": "intermediate",
+    "tags": ["greedy", "huffman"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

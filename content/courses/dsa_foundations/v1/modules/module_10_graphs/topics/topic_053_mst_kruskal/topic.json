@@ -1,0 +1,18 @@
+{
+  "id": "topic_053_mst_kruskal",
+  "moduleId": "module_10_graphs",
+  "title": "Minimum Spanning Tree – Kruskal's Algorithm",
+  "slug": "mst-kruskal",
+  "order": 5,
+  "difficulty": "advanced",
+  "tags": ["graphs", "mst", "kruskal", "union-find"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define a minimum spanning tree (MST).",
+    "Implement Kruskal's algorithm using Union-Find.",
+    "Trace Kruskal's on a weighted undirected graph."
+  ],
+  "prerequisites": ["topic_049_graph_representations"],
+  "status": "active",
+  "version": 1
+}

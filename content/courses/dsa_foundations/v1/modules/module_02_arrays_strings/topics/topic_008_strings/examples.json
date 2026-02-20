@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_string_basic_operations",
+    "title": "String – Basic Operations",
+    "description": "Java example showing string length and character access.",
+    "language": "java",
+    "code": "class StringExample {\n    public static void main(String[] args) {\n        String s = \"DSA\";\n        System.out.println(s.length());\n        System.out.println(s.charAt(1));\n    }\n}",
+    "explanation": "Once created, a String cannot be modified. Time Complexity: O(n) for traversal. Space Complexity: O(n).",
+    "order": 1
+  }
+]

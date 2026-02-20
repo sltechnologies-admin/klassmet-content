@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_033_deque_tbd",
+    "topicId": "topic_033_deque",
+    "type": "MCQ",
+    "question": "TBD – A deque allows insertion and deletion from",
+    "options": [
+      { "id": "a", "text": "Only front", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Only rear", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Both front and rear", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Middle only", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A deque (double-ended queue) supports O(1) insert and delete at both the front and the rear.",
+    "difficulty": "intermediate",
+    "tags": ["deque"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_recursion_tbd",
+    "topicId": "topic_022_recursion",
+    "title": "TBD – Write recursive sum of digits",
+    "description": "TBD – Ask learners to write a recursive Java function to sum all digits of a number.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["recursion"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

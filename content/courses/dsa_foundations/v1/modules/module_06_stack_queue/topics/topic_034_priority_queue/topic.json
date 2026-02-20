@@ -1,0 +1,18 @@
+{
+  "id": "topic_034_priority_queue",
+  "moduleId": "module_06_stack_queue",
+  "title": "Priority Queue",
+  "slug": "priority-queue",
+  "order": 7,
+  "difficulty": "intermediate",
+  "tags": ["priority-queue", "heap", "queue"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain how a priority queue differs from a regular queue.",
+    "Use Java's PriorityQueue for min-heap behaviour.",
+    "Apply priority queue to Dijkstra's algorithm."
+  ],
+  "prerequisites": ["topic_031_queue_basics"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "topic_059_dp_basics",
+  "moduleId": "module_12_dynamic_programming",
+  "title": "Dynamic Programming – Basics",
+  "slug": "dp-basics",
+  "order": 1,
+  "difficulty": "intermediate",
+  "tags": ["dp", "memoization", "tabulation", "fibonacci"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Identify overlapping subproblems and optimal substructure.",
+    "Implement memoization (top-down) and tabulation (bottom-up).",
+    "Apply DP to Fibonacci as a canonical example."
+  ],
+  "prerequisites": ["topic_022_recursion"],
+  "status": "active",
+  "version": 1
+}

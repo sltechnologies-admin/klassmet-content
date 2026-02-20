@@ -1,0 +1,18 @@
+{
+  "id": "topic_055_topological_sort",
+  "moduleId": "module_10_graphs",
+  "title": "Topological Sort",
+  "slug": "topological-sort",
+  "order": 7,
+  "difficulty": "advanced",
+  "tags": ["graphs", "dag", "topological-sort", "kahn"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Explain topological sort for DAGs.",
+    "Implement topological sort using Kahn's BFS algorithm.",
+    "Apply topological sort for task dependency scheduling."
+  ],
+  "prerequisites": ["topic_051_dfs", "topic_050_bfs"],
+  "status": "active",
+  "version": 1
+}

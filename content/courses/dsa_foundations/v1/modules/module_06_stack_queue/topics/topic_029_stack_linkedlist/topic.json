@@ -1,0 +1,17 @@
+{
+  "id": "topic_029_stack_linkedlist",
+  "moduleId": "module_06_stack_queue",
+  "title": "Stack – Linked List Implementation",
+  "slug": "stack-linked-list",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["stack", "linked-list"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Implement a stack using a singly linked list.",
+    "Compare array-based and linked-list-based stack implementations."
+  ],
+  "prerequisites": ["topic_028_stack_basics", "topic_025_singly_linked_list"],
+  "status": "active",
+  "version": 1
+}

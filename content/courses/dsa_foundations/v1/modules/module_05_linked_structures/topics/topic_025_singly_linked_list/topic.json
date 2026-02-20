@@ -1,0 +1,18 @@
+{
+  "id": "topic_025_singly_linked_list",
+  "moduleId": "module_05_linked_structures",
+  "title": "Singly Linked List",
+  "slug": "singly-linked-list",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["linked-list", "singly-linked-list", "nodes", "pointers"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define a singly linked list and its node structure.",
+    "Perform insert and delete operations.",
+    "Traverse a singly linked list in Java."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

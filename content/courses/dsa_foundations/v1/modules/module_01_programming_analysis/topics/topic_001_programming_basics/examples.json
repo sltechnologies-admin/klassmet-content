@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_programming_hello_world",
+    "title": "Hello, Programming!",
+    "description": "A simple Java program that prints a message, demonstrating how a computer follows instructions.",
+    "language": "java",
+    "code": "class ProgrammingExample {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, Programming!\");\n    }\n}",
+    "explanation": "The program instructs the computer to print text. Every line is a precise instruction the computer follows in order.",
+    "order": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_2d_array_traversal",
+    "title": "2D Array – Matrix Traversal",
+    "description": "Java example showing a 2D array (matrix) declaration and traversal using nested loops.",
+    "language": "java",
+    "code": "class TwoDArrayExample {\n    public static void main(String[] args) {\n        int[][] matrix = {\n            {1, 2, 3},\n            {4, 5, 6}\n        };\n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = 0; j < matrix[0].length; j++) {\n                System.out.print(matrix[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}",
+    "explanation": "Used to represent tables, grids, matrices. Time Complexity: O(rows × cols). Space Complexity: O(rows × cols).",
+    "order": 1
+  }
+]

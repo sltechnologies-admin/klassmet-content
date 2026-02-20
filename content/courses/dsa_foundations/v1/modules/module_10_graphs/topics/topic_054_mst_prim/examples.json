@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_prim",
+    "title": "Prim's MST – Priority Queue Implementation",
+    "description": "Java Prim's MST using adjacency list and min-heap priority queue.",
+    "language": "java",
+    "code": "import java.util.*;\nclass Prim {\n    static int prim(int V, List<List<int[]>> adj) {\n        int[] key = new int[V]; boolean[] inMST = new boolean[V];\n        Arrays.fill(key, Integer.MAX_VALUE); key[0] = 0;\n        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a->a[0]));\n        pq.add(new int[]{0,0}); int cost = 0;\n        while (!pq.isEmpty()) {\n            int[] cur = pq.poll(); int u = cur[1];\n            if (inMST[u]) continue; inMST[u] = true; cost += cur[0];\n            for (int[] edge : adj.get(u)) {\n                int v=edge[0], w=edge[1];\n                if (!inMST[v] && w < key[v]) { key[v]=w; pq.add(new int[]{w,v}); }\n            }\n        }\n        return cost;\n    }\n}",
+    "explanation": "Greedy vertex expansion using min-heap. Each vertex added once, edge relaxed once. O((V+E) log V).",
+    "order": 1
+  }
+]

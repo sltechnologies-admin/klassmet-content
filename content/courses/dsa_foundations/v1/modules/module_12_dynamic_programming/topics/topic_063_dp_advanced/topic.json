@@ -1,0 +1,18 @@
+{
+  "id": "topic_063_dp_advanced",
+  "moduleId": "module_12_dynamic_programming",
+  "title": "DP – Advanced Problems",
+  "slug": "dp-advanced",
+  "order": 5,
+  "difficulty": "advanced",
+  "tags": ["dp", "matrix-chain", "edit-distance", "coin-change"],
+  "estimatedMinutes": 30,
+  "learningOutcomes": [
+    "Solve coin change (minimum coins) with DP.",
+    "Explain edit distance and its DP recurrence.",
+    "Apply matrix chain multiplication DP."
+  ],
+  "prerequisites": ["topic_061_lcs", "topic_062_lis"],
+  "status": "active",
+  "version": 1
+}

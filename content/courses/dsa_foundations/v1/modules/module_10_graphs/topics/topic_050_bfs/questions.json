@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_056_bfs_time",
+    "topicId": "topic_050_bfs",
+    "type": "MCQ",
+    "question": "Time complexity of BFS on a graph with V vertices and E edges",
+    "options": [
+      { "id": "a", "text": "O(V²)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(V+E)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(E log V)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(V*E)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "BFS visits each vertex once (O(V)) and processes each edge once (O(E)), total O(V+E).",
+    "difficulty": "intermediate",
+    "tags": ["bfs", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

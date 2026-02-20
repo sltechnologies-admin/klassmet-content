@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_017_insertion_sort",
+  "problems": [
+    {
+      "id": "pp_insertion_binary",
+      "title": "Insertion Sort with Binary Search",
+      "difficulty": "intermediate",
+      "description": "Use binary search to find insertion position. Count total element shifts.",
+      "hints": ["Binary search gives O(log n) comparisons per element", "Shifting is still O(n) per element"],
+      "solution": {"approach": "Binary search for position then System.arraycopy to shift", "complexity": {"time": "O(n^2)", "space": "O(1)"}}
+    }
+  ]
+}

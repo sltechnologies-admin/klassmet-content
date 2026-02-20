@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_012_prefix_sum_usage",
+    "topicId": "topic_009_prefix_sum",
+    "type": "MCQ",
+    "question": "Prefix sum is used to",
+    "options": [
+      { "id": "a", "text": "Sort array", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Find subarray sums efficiently", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Reverse array", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Search element", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Prefix sum precomputes cumulative sums to answer range sum queries in O(1).",
+    "difficulty": "beginner",
+    "tags": ["prefix-sum", "arrays"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

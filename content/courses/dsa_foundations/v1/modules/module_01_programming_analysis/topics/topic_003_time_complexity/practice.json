@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_time_complexity_tbd",
+    "topicId": "topic_003_time_complexity",
+    "title": "TBD – Identify time complexity of given code snippets",
+    "description": "TBD – Provide small code snippets and ask learners to identify their time complexity.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 20,
+    "tags": ["time-complexity"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

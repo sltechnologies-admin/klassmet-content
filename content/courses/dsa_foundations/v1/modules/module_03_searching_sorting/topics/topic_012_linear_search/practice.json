@@ -1,0 +1,13 @@
+[
+  {
+    "id": "practice_linear_search_1",
+    "topicId": "topic_012_linear_search",
+    "title": "Find target in array",
+    "description": "Given an unsorted array of integers, implement linear search to find the index of a target value.",
+    "difficulty": "beginner",
+    "type": "coding",
+    "starterCode": "public class Solution {\n    public int linearSearch(int[] arr, int target) {\n        // Your code here\n    }\n}",
+    "hints": ["Iterate from index 0 to arr.length - 1", "Compare each element with target"],
+    "status": "active"
+  }
+]

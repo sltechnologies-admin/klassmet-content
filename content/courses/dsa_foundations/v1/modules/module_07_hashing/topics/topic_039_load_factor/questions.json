@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_039_load_factor_tbd",
+    "topicId": "topic_039_load_factor",
+    "type": "MCQ",
+    "question": "TBD – Java HashMap default load factor is",
+    "options": [
+      { "id": "a", "text": "0.5", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "1.0", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "0.75", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "0.25", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Java's HashMap uses a default load factor of 0.75. Rehashing occurs when the number of entries exceeds capacity × 0.75.",
+    "difficulty": "intermediate",
+    "tags": ["hashing", "load-factor"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

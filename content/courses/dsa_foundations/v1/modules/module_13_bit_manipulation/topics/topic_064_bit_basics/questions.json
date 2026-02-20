@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_062_bit_xor",
+    "topicId": "topic_064_bit_basics",
+    "type": "MCQ",
+    "question": "XOR of a number with itself is",
+    "options": [
+      { "id": "a", "text": "1", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "The number itself", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "0", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "-1", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Any bit XOR itself = 0. So n ^ n = 0 for any n. XOR of a number with 0 returns n.",
+    "difficulty": "intermediate",
+    "tags": ["bits", "xor"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_063_bit_odd",
+    "topicId": "topic_064_bit_basics",
+    "type": "MCQ",
+    "question": "To check if n is odd using bit manipulation",
+    "options": [
+      { "id": "a", "text": "n & 2", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "n & 1", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "n | 1", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "n ^ 1", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "n & 1 checks the last bit (LSB). If 1, number is odd; if 0, number is even.",
+    "difficulty": "intermediate",
+    "tags": ["bits", "odd-even"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

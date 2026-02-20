@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_004_worst_case_notation",
+    "topicId": "topic_005_asymptotic_notations",
+    "type": "MCQ",
+    "question": "Which notation represents worst-case complexity?",
+    "options": [
+      { "id": "a", "text": "Θ", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Ω", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "∞", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Big-O represents worst-case (upper bound) complexity.",
+    "difficulty": "beginner",
+    "tags": ["big-o", "asymptotic", "worst-case"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

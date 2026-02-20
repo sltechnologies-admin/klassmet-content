@@ -1,0 +1,18 @@
+{
+  "id": "topic_002_algorithms_problem_solving",
+  "moduleId": "module_01_programming_analysis",
+  "title": "Algorithms & Problem Solving",
+  "slug": "algorithms-problem-solving",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["algorithms", "problem-solving", "basics"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define what an algorithm is.",
+    "Distinguish an algorithm from a programming language.",
+    "Write a simple algorithm using real-world steps."
+  ],
+  "prerequisites": ["topic_001_programming_basics"],
+  "status": "active",
+  "version": 1
+}

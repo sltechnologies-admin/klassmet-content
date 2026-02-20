@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_bst_tbd",
+    "topicId": "topic_043_bst",
+    "title": "TBD – Delete a node from BST",
+    "description": "TBD – Implement the delete operation for a BST, handling leaf, one-child, and two-child cases.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["BST", "delete"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

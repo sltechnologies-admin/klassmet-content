@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_065_trie_search",
+    "topicId": "topic_069_trie",
+    "type": "MCQ",
+    "question": "Time complexity of search in a trie for a word of length L",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(L)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(log n)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(L log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Trie search traverses one node per character of the word. L characters = L steps = O(L), independent of total words n.",
+    "difficulty": "advanced",
+    "tags": ["trie", "time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

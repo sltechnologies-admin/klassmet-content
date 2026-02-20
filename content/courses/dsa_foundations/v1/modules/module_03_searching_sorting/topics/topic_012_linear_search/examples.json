@@ -1,0 +1,12 @@
+[
+  {
+    "id": "example_linear_search_java",
+    "topicId": "topic_012_linear_search",
+    "title": "Linear Search in Java",
+    "language": "java",
+    "code": "public class LinearSearch {\n    public static int search(int[] arr, int target) {\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] == target) {\n                return i;\n            }\n        }\n        return -1;\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {4, 2, 7, 1, 9, 3};\n        int target = 7;\n        int result = search(arr, target);\n        System.out.println(result != -1 ? \"Found at index: \" + result : \"Not found\");\n    }\n}",
+    "explanation": "Iterates through each element comparing with target and returns the index when found.",
+    "output": "Found at index: 2",
+    "tags": ["linear-search", "java", "beginner"]
+  }
+]

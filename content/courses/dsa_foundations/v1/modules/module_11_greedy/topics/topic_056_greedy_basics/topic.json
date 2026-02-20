@@ -1,0 +1,18 @@
+{
+  "id": "topic_056_greedy_basics",
+  "moduleId": "module_11_greedy",
+  "title": "Greedy Algorithms – Basics",
+  "slug": "greedy-basics",
+  "order": 1,
+  "difficulty": "intermediate",
+  "tags": ["greedy", "activity-selection", "optimal-substructure"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain the greedy choice property.",
+    "Apply the activity selection problem.",
+    "Compare greedy with dynamic programming."
+  ],
+  "prerequisites": ["topic_003_time_complexity"],
+  "status": "active",
+  "version": 1
+}

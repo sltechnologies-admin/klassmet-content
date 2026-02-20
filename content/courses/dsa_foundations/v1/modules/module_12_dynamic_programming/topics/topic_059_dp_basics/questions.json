@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_058_dp_overlapping",
+    "topicId": "topic_059_dp_basics",
+    "type": "MCQ",
+    "question": "DP is applicable when a problem has",
+    "options": [
+      { "id": "a", "text": "Independent subproblems", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Overlapping subproblems and optimal substructure", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Only greedy choice property", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "No recursion", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "DP requires overlapping subproblems (to benefit from caching) and optimal substructure (global optimum from sub-optima).",
+    "difficulty": "intermediate",
+    "tags": ["dp"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_059_dp_fib",
+    "topicId": "topic_059_dp_basics",
+    "type": "MCQ",
+    "question": "Fibonacci with memoization has time complexity",
+    "options": [
+      { "id": "a", "text": "O(2^n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n²)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Memoization caches each of the n subproblems, reducing naïve O(2^n) to O(n).",
+    "difficulty": "intermediate",
+    "tags": ["dp", "fibonacci", "memoization"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

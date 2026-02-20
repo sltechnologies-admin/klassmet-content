@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_prefix_sum_tbd",
+    "topicId": "topic_009_prefix_sum",
+    "title": "TBD – Find number of subarrays with given sum",
+    "description": "TBD – Use prefix sum to find count of subarrays with a target sum.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["prefix-sum", "arrays"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_20_binary_search_requirement",
+    "topicId": "topic_013_binary_search",
+    "type": "MCQ",
+    "question": "Binary search can only be applied on which type of array?",
+    "options": [
+      {"id": "a", "text": "Unsorted array", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "Sorted array", "isCorrect": true, "order": 2},
+      {"id": "c", "text": "Array with unique elements", "isCorrect": false, "order": 3},
+      {"id": "d", "text": "Array of strings only", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "b",
+    "explanation": "Binary search relies on the sorted order to discard half the elements at each step. It cannot work correctly on an unsorted array.",
+    "difficulty": "beginner",
+    "tags": ["binary-search", "prerequisites"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_21_binary_search_complexity",
+    "topicId": "topic_013_binary_search",
+    "type": "MCQ",
+    "question": "What is the time complexity of binary search?",
+    "options": [
+      {"id": "a", "text": "O(n)", "isCorrect": false, "order": 1},
+      {"id": "b", "text": "O(log n)", "isCorrect": true, "order": 2},
+      {"id": "c", "text": "O(n log n)", "isCorrect": false, "order": 3},
+      {"id": "d", "text": "O(1)", "isCorrect": false, "order": 4}
+    ],
+    "correctAnswer": "b",
+    "explanation": "Binary search halves the search space each iteration, resulting in O(log n) time complexity.",
+    "difficulty": "beginner",
+    "tags": ["binary-search", "complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

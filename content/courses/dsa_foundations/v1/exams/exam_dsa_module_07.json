@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_07",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_07_hashing",
+  "version": "v1",
+  "title": "Module 07 Exam – Hashing",
+  "description": "Assessment covering hash tables, collision resolution, HashSet, load factor, and hashing applications.",
+  "type": "module_exam",
+  "durationMinutes": 25,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_036_hash_function", "topicId": "topic_036_hash_table", "order": 1, "points": 1 },
+    { "questionId": "q_037_collision_chaining", "topicId": "topic_037_collision_resolution", "order": 2, "points": 1 },
+    { "questionId": "q_038_load_factor", "topicId": "topic_039_load_factor", "order": 3, "points": 1 },
+    { "questionId": "q_039_hash_lookup", "topicId": "topic_036_hash_table", "order": 4, "points": 1 },
+    { "questionId": "q_040_hash_app", "topicId": "topic_040_hashing_applications", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

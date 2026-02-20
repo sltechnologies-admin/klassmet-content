@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_avl_tbd",
+    "topicId": "topic_044_avl_tree",
+    "title": "TBD – Identify rotation type for given insertion",
+    "description": "TBD – Given a tree and insertion value, identify LL/LR/RL/RR rotation required.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 20,
+    "tags": ["AVL", "rotations"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

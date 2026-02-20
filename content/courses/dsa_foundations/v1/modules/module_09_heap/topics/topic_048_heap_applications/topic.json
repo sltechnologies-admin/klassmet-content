@@ -1,0 +1,18 @@
+{
+  "id": "topic_048_heap_applications",
+  "moduleId": "module_09_heap",
+  "title": "Heap Applications",
+  "slug": "heap-applications",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["heap", "top-k", "median", "priority"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Solve Top-K elements problem using a heap.",
+    "Find running median using two heaps.",
+    "Apply heap to task scheduling problems."
+  ],
+  "prerequisites": ["topic_046_heap_basics", "topic_034_priority_queue"],
+  "status": "active",
+  "version": 1
+}

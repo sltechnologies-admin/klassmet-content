@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_021_radix_sort",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Radix Sort",
+  "slug": "radix-sort",
+  "order": 10,
+  "estimatedMinutes": 25,
+  "difficulty": "intermediate",
+  "tags": ["radix sort","digit sort","LSD","non-comparison","O(d*(n+k))"],
+  "prerequisites": ["topic_020_counting_sort"],
+  "learningObjectives": ["Understand LSD radix sort","Use counting sort subroutine","Analyze O(d*(n+k))","Handle multi-digit integers"],
+  "status": "active"
+}

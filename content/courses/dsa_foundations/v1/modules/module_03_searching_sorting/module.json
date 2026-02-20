@@ -1,0 +1,22 @@
+{
+  "id": "module_03_searching_sorting",
+  "courseId": "dsa_foundations",
+  "title": "Searching & Sorting",
+  "slug": "searching-sorting",
+  "order": 3,
+  "description": "Learn essential searching algorithms (linear, binary, search on answer) and sorting algorithms (bubble, selection, insertion, merge, quick, counting, radix) with complexity analysis.",
+  "topics": [
+    "topic_012_linear_search",
+    "topic_013_binary_search",
+    "topic_014_search_on_answer",
+    "topic_015_bubble_sort",
+    "topic_016_selection_sort",
+    "topic_017_insertion_sort",
+    "topic_018_merge_sort",
+    "topic_019_quick_sort",
+    "topic_020_counting_sort",
+    "topic_021_radix_sort"
+  ],
+  "status": "active",
+  "version": 1
+}

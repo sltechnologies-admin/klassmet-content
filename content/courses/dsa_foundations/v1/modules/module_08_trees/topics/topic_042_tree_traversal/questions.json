@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_048_inorder_traversal",
+    "topicId": "topic_042_tree_traversal",
+    "type": "MCQ",
+    "question": "Inorder traversal visits nodes in which order",
+    "options": [
+      { "id": "a", "text": "Root, Left, Right", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Left, Right, Root", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Left, Root, Right", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Right, Root, Left", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Inorder: Left subtree → Root → Right subtree. For a BST this produces sorted ascending order.",
+    "difficulty": "beginner",
+    "tags": ["tree", "inorder"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

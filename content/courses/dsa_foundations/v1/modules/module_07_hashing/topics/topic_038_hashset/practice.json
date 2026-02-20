@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_hashset_tbd",
+    "topicId": "topic_038_hashset",
+    "title": "TBD – Find duplicates in an array using HashSet",
+    "description": "TBD – Use a HashSet to identify all duplicate integers in an array.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["hashset", "duplicates"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

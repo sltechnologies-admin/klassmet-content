@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_segment_tree",
+    "title": "Segment Tree – Range Sum",
+    "description": "Java segment tree for range sum queries and point updates.",
+    "language": "java",
+    "code": "class SegmentTree {\n    int[] tree; int n;\n    SegmentTree(int[] arr) {\n        n = arr.length;\n        tree = new int[4 * n];\n        build(arr, 0, n - 1, 1);\n    }\n    void build(int[] arr, int l, int r, int node) {\n        if (l == r) { tree[node] = arr[l]; return; }\n        int mid = (l + r) / 2;\n        build(arr, l, mid, 2 * node);\n        build(arr, mid + 1, r, 2 * node + 1);\n        tree[node] = tree[2 * node] + tree[2 * node + 1];\n    }\n    int query(int l, int r, int ql, int qr, int node) {\n        if (qr < l || r < ql) return 0;\n        if (ql <= l && r <= qr) return tree[node];\n        int mid = (l + r) / 2;\n        return query(l, mid, ql, qr, 2 * node) + query(mid + 1, r, ql, qr, 2 * node + 1);\n    }\n}",
+    "explanation": "Build O(n). Range query O(log n). Store partial sums in nodes indexed by 2*node and 2*node+1.",
+    "order": 1
+  }
+]

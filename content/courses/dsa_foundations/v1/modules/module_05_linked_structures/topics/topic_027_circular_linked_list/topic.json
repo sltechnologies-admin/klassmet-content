@@ -1,0 +1,18 @@
+{
+  "id": "topic_027_circular_linked_list",
+  "moduleId": "module_05_linked_structures",
+  "title": "Circular Linked List & Operations",
+  "slug": "circular-linked-list",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["linked-list", "circular-linked-list", "reverse", "cycle-detection"],
+  "estimatedMinutes": 30,
+  "learningOutcomes": [
+    "Describe a circular linked list and its use cases.",
+    "Implement traversal that detects the circular boundary.",
+    "Apply Floyd's cycle detection algorithm."
+  ],
+  "prerequisites": ["topic_025_singly_linked_list", "topic_026_doubly_linked_list"],
+  "status": "active",
+  "version": 1
+}

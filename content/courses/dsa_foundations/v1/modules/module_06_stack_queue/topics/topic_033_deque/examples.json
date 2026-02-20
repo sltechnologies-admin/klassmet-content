@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_deque",
+    "title": "Deque – Java ArrayDeque",
+    "description": "Double-ended queue operations using Java's built-in ArrayDeque.",
+    "language": "java",
+    "code": "import java.util.ArrayDeque;\nclass DequeExample {\n    public static void main(String[] args) {\n        ArrayDeque<Integer> dq = new ArrayDeque<>();\n        dq.addFirst(1); dq.addLast(2); dq.addFirst(0);\n        System.out.println(dq);\n        System.out.println(dq.pollFirst());\n        System.out.println(dq.pollLast());\n    }\n}",
+    "explanation": "addFirst/addLast and pollFirst/pollLast all run in O(1) amortised time.",
+    "order": 1
+  }
+]

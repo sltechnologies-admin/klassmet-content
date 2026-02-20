@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_067_bit_app_tbd",
+    "topicId": "topic_067_bit_applications",
+    "type": "MCQ",
+    "question": "TBD – Left shift n by k bits is equivalent to",
+    "options": [
+      { "id": "a", "text": "n / 2^k", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "n * 2^k", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "n + k", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "n - k", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Left shift by k = multiply by 2^k. Right shift by k = divide by 2^k (integer division).",
+    "difficulty": "intermediate",
+    "tags": ["bits", "shift"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

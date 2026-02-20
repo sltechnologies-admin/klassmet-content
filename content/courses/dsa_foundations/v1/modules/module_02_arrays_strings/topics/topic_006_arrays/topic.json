@@ -1,0 +1,18 @@
+{
+  "id": "topic_006_arrays",
+  "moduleId": "module_02_arrays_strings",
+  "title": "Arrays",
+  "slug": "arrays",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["arrays", "data-structures", "contiguous-memory"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define an array and describe how it stores data.",
+    "Perform index-based access and understand its O(1) complexity.",
+    "Traverse an array using a loop."
+  ],
+  "prerequisites": ["topic_001_programming_basics"],
+  "status": "active",
+  "version": 1
+}

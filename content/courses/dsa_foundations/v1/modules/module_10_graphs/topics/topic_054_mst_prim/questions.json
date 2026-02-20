@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_054_prim_tbd",
+    "topicId": "topic_054_mst_prim",
+    "type": "MCQ",
+    "question": "TBD – Prim's algorithm is preferred over Kruskal's for",
+    "options": [
+      { "id": "a", "text": "Sparse graphs", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Dense graphs", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Unweighted graphs", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Directed graphs", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Prim's vertex-based expansion suits dense graphs. Kruskal's edge sorting is efficient for sparse graphs.",
+    "difficulty": "advanced",
+    "tags": ["prim", "mst"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

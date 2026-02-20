@@ -1,0 +1,11 @@
+{
+  "id": "module_14_advanced_ds",
+  "courseId": "course_dsa_foundations",
+  "title": "Advanced DS",
+  "description": "Trie (prefix tree) and Disjoint Set (Union-Find) data structures.",
+  "order": 14,
+  "topics": [
+    "topic_069_trie",
+    "topic_070_disjoint_set"
+  ]
+}

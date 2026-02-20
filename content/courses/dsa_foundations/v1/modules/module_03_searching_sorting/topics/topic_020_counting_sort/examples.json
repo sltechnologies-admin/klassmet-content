@@ -1,0 +1,15 @@
+﻿{
+  "topicId": "topic_020_counting_sort",
+  "examples": [
+    {
+      "id": "ex_counting_sort",
+      "title": "Counting Sort for Integers",
+      "language": "java",
+      "description": "Count frequencies and reconstruct sorted array. No comparisons.",
+      "code": "class CountingSort {\n    static void countingSort(int[] arr) {\n        int max=0; for(int x:arr) if(x>max) max=x;\n        int[] count=new int[max+1];\n        for(int x:arr) count[x]++;\n        int idx=0;\n        for(int i=0;i<=max;i++) while(count[i]-->0) arr[idx++]=i;\n    }\n}",
+      "output": "1 2 2 3 3 4 8",
+      "complexity": {"time": "O(n+k)", "space": "O(k)"},
+      "explanation": "No comparisons. Works only for non-negative integers with small range k."
+    }
+  ]
+}

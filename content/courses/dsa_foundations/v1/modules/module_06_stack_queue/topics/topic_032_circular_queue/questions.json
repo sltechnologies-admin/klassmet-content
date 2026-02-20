@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_032_circular_queue_tbd",
+    "topicId": "topic_032_circular_queue",
+    "type": "MCQ",
+    "question": "TBD – Circular queue uses __ to wrap around",
+    "options": [
+      { "id": "a", "text": "Addition", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Modulus", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Subtraction", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Division", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Modulus (%) arithmetic makes front and rear pointers wrap from end back to start of the array.",
+    "difficulty": "intermediate",
+    "tags": ["circular-queue"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

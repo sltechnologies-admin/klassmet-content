@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_trie_tbd",
+    "topicId": "topic_069_trie",
+    "title": "TBD – Build autocomplete from a word list using trie",
+    "description": "TBD – Insert a list of words into a trie and return all words matching a given prefix.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["trie", "autocomplete"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

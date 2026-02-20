@@ -1,0 +1,18 @@
+{
+  "id": "topic_012_linear_search",
+  "moduleId": "module_03_searching_sorting",
+  "title": "Linear Search",
+  "slug": "linear-search",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["searching", "linear", "brute-force"],
+  "estimatedMinutes": 15,
+  "learningOutcomes": [
+    "Understand how linear search checks each element one by one",
+    "Analyze the time complexity of linear search as O(n)",
+    "Implement linear search in Java"
+  ],
+  "prerequisites": [],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ex_backtracking_binary_strings",
+    "title": "Backtracking – Generate Binary Strings",
+    "description": "Print all binary strings of length n using backtracking.",
+    "language": "java",
+    "code": "class BacktrackingExample {\n    static void generate(int n, String s) {\n        if (n == 0) {\n            System.out.println(s);\n            return;\n        }\n        generate(n - 1, s + \"0\");\n        generate(n - 1, s + \"1\");\n    }\n    public static void main(String[] args) {\n        generate(3, \"\");\n    }\n}",
+    "explanation": "Explores all possible combinations. Time Complexity: O(2^n). Space Complexity: O(n).",
+    "order": 1
+  },
+  {
+    "id": "ex_backtracking_permutations",
+    "title": "Backtracking – String Permutations",
+    "description": "Find all permutations of a string using backtracking.",
+    "language": "java",
+    "code": "class Permutations {\n    static void permute(String s, String ans) {\n        if (s.length() == 0) {\n            System.out.println(ans);\n            return;\n        }\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            String left = s.substring(0, i);\n            String right = s.substring(i + 1);\n            permute(left + right, ans + ch);\n        }\n    }\n    public static void main(String[] args) {\n        permute(\"ABC\", \"\");\n    }\n}",
+    "explanation": "Try each character as the first character, recurse on the rest. Time Complexity: O(n!).",
+    "order": 2
+  }
+]

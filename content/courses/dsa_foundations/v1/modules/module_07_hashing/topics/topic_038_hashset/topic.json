@@ -1,0 +1,18 @@
+{
+  "id": "topic_038_hashset",
+  "moduleId": "module_07_hashing",
+  "title": "HashSet",
+  "slug": "hashset",
+  "order": 3,
+  "difficulty": "beginner",
+  "tags": ["hashset", "hashing", "unique"],
+  "estimatedMinutes": 15,
+  "learningOutcomes": [
+    "Explain the difference between HashMap and HashSet.",
+    "Use HashSet to find distinct elements.",
+    "Perform contains, add, and remove in O(1)."
+  ],
+  "prerequisites": ["topic_036_hash_table"],
+  "status": "active",
+  "version": 1
+}

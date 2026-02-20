@@ -1,0 +1,18 @@
+{
+  "id": "topic_007_2d_arrays",
+  "moduleId": "module_02_arrays_strings",
+  "title": "2D Arrays",
+  "slug": "2d-arrays",
+  "order": 2,
+  "difficulty": "beginner",
+  "tags": ["2d-arrays", "matrix", "arrays"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define a 2D array and explain how it is stored.",
+    "Traverse a 2D array using nested loops.",
+    "Apply 2D arrays to represent matrices and grids."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

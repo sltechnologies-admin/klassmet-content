@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_stack_array",
+    "title": "Stack – Array Implementation",
+    "description": "Java stack using an integer array with push, pop, and peek.",
+    "language": "java",
+    "code": "class StackArray {\n    int[] arr; int top = -1;\n    StackArray(int size) { arr = new int[size]; }\n    void push(int x) { arr[++top] = x; }\n    int pop() { return arr[top--]; }\n    int peek() { return arr[top]; }\n    boolean isEmpty() { return top == -1; }\n    public static void main(String[] args) {\n        StackArray s = new StackArray(5);\n        s.push(1); s.push(2); s.push(3);\n        System.out.println(s.pop());\n        System.out.println(s.peek());\n    }\n}",
+    "explanation": "top tracks the index of the last element. push increments top, pop decrements it. All operations O(1).",
+    "order": 1
+  }
+]

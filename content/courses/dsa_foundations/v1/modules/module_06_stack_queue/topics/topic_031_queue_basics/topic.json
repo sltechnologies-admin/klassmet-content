@@ -1,0 +1,18 @@
+{
+  "id": "topic_031_queue_basics",
+  "moduleId": "module_06_stack_queue",
+  "title": "Queue – Basics & Implementation",
+  "slug": "queue-basics",
+  "order": 4,
+  "difficulty": "beginner",
+  "tags": ["queue", "FIFO", "enqueue", "dequeue"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define a queue and FIFO ordering.",
+    "Implement enqueue and dequeue in Java.",
+    "List real-world uses of a queue."
+  ],
+  "prerequisites": ["topic_028_stack_basics"],
+  "status": "active",
+  "version": 1
+}

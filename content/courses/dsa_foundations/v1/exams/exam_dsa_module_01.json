@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_01",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_01_programming_analysis",
+  "version": "v1",
+  "title": "Module 01 Exam – Programming & Analysis",
+  "description": "Assessment covering programming basics, algorithms, time complexity, space complexity, and asymptotic notations.",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_001_algorithm_def", "topicId": "topic_001_programming_basics", "order": 1, "points": 1 },
+    { "questionId": "q_002_complexity_notation", "topicId": "topic_003_time_complexity", "order": 2, "points": 1 },
+    { "questionId": "q_003_big_o_nlogn", "topicId": "topic_003_time_complexity", "order": 3, "points": 1 },
+    { "questionId": "q_004_space_complexity", "topicId": "topic_004_space_complexity", "order": 4, "points": 1 },
+    { "questionId": "q_005_omega_notation", "topicId": "topic_005_asymptotic_notations", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

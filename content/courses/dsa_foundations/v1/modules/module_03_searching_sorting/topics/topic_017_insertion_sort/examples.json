@@ -1,0 +1,15 @@
+﻿{
+  "topicId": "topic_017_insertion_sort",
+  "examples": [
+    {
+      "id": "ex_insertion_sort",
+      "title": "Insertion Sort",
+      "language": "java",
+      "description": "Sort array by inserting each element into sorted portion",
+      "code": "class InsertionSort {\n    static void insertionSort(int[] arr) {\n        int n = arr.length;\n        for (int i = 1; i < n; i++) {\n            int key = arr[i]; int j = i - 1;\n            while (j >= 0 && arr[j] > key) { arr[j+1] = arr[j]; j--; }\n            arr[j+1] = key;\n        }\n    }\n    public static void main(String[] args) {\n        int[] arr = {12,11,13,5,6};\n        insertionSort(arr);\n        for (int x : arr) System.out.print(x + \" \");\n    }\n}",
+      "output": "5 6 11 12 13",
+      "complexity": {"time": "O(n^2) worst, O(n) best", "space": "O(1)"},
+      "explanation": "Shifts elements right to make room for key. Best case O(n) for sorted input."
+    }
+  ]
+}

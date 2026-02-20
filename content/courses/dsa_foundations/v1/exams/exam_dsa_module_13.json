@@ -1,0 +1,22 @@
+{
+  "id": "exam_dsa_module_13",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_13_bit_manipulation",
+  "version": "v1",
+  "title": "Module 13 Exam – Bit Manipulation",
+  "description": "Assessment covering bit basics, bit tricks, bit masks, bit applications, and XOR problems.",
+  "type": "module_exam",
+  "durationMinutes": 25,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_062_bit_xor", "topicId": "topic_064_bit_basics", "order": 1, "points": 1 },
+    { "questionId": "q_063_bit_odd", "topicId": "topic_064_bit_basics", "order": 2, "points": 1 },
+    { "questionId": "q_064_bit_power2_tbd", "topicId": "topic_065_bit_tricks", "order": 3, "points": 1 },
+    { "questionId": "q_066_bit_masks_tbd", "topicId": "topic_066_bit_masks", "order": 4, "points": 1 },
+    { "questionId": "q_068_xor_single_tbd", "topicId": "topic_068_xor_problems", "order": 5, "points": 1 }
+  ],
+  "totalPoints": 5,
+  "status": "active",
+  "version": 1
+}

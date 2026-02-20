@@ -1,0 +1,18 @@
+{
+  "id": "topic_036_hash_table",
+  "moduleId": "module_07_hashing",
+  "title": "Hash Table – Basics",
+  "slug": "hash-table-basics",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["hashing", "hash-table", "key-value"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain what a hash table is and how it maps keys to values.",
+    "Describe a basic hash function.",
+    "Use Java's HashMap for O(1) average operations."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

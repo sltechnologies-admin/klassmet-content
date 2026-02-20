@@ -1,0 +1,18 @@
+{
+  "id": "topic_033_deque",
+  "moduleId": "module_06_stack_queue",
+  "title": "Deque (Double-Ended Queue)",
+  "slug": "deque",
+  "order": 6,
+  "difficulty": "intermediate",
+  "tags": ["deque", "queue", "stack"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain what a deque is and how it differs from stack and queue.",
+    "Perform insertions and removals from both ends.",
+    "Identify real-world uses of a deque."
+  ],
+  "prerequisites": ["topic_031_queue_basics", "topic_028_stack_basics"],
+  "status": "active",
+  "version": 1
+}

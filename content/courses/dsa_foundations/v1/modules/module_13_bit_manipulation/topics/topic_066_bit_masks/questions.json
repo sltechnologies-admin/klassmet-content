@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_066_bit_masks_tbd",
+    "topicId": "topic_066_bit_masks",
+    "type": "MCQ",
+    "question": "TBD – Number of subsets of a set with n elements",
+    "options": [
+      { "id": "a", "text": "n!", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "2^n", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "n^2", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "n", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Each element is either included or not — 2 choices per element = 2^n total subsets (including empty set).",
+    "difficulty": "intermediate",
+    "tags": ["bits", "subset"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "topic_049_graph_representations",
+  "moduleId": "module_10_graphs",
+  "title": "Graph Representations",
+  "slug": "graph-representations",
+  "order": 1,
+  "difficulty": "intermediate",
+  "tags": ["graphs", "adjacency-list", "adjacency-matrix"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Represent a graph using an adjacency matrix.",
+    "Represent a graph using an adjacency list.",
+    "Compare space and time trade-offs of each representation."
+  ],
+  "prerequisites": ["topic_025_singly_linked_list", "topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

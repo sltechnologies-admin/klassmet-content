@@ -1,0 +1,13 @@
+[
+  {
+    "id": "practice_bubble_sort_1",
+    "topicId": "topic_015_bubble_sort",
+    "title": "Implement Bubble Sort",
+    "description": "Sort an array of integers in ascending order using bubble sort.",
+    "difficulty": "beginner",
+    "type": "coding",
+    "starterCode": "public class Solution {\n    public void bubbleSort(int[] arr) {\n        // Your code here\n    }\n}",
+    "hints": ["Use nested loops", "Swap arr[j] and arr[j+1] if arr[j] > arr[j+1]", "Optimize with a swapped flag"],
+    "status": "active"
+  }
+]

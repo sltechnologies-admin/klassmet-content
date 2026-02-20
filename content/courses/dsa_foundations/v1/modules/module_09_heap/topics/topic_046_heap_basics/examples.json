@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_max_heap",
+    "title": "Max Heap – Array-based Insert",
+    "description": "Java max-heap using array with sift-up on insert.",
+    "language": "java",
+    "code": "class MaxHeap {\n    int[] arr; int size = 0;\n    MaxHeap(int cap) { arr = new int[cap]; }\n    void insert(int val) {\n        arr[size] = val;\n        int i = size++;\n        while (i > 0 && arr[(i - 1) / 2] < arr[i]) {\n            int p = (i - 1) / 2;\n            int tmp = arr[i]; arr[i] = arr[p]; arr[p] = tmp;\n            i = p;\n        }\n    }\n    public static void main(String[] args) {\n        MaxHeap h = new MaxHeap(10);\n        h.insert(3); h.insert(1); h.insert(6); h.insert(5);\n        System.out.println(h.arr[0]);\n    }\n}",
+    "explanation": "Sift-up swaps new element with parent until heap property restored. Insert O(log n).",
+    "order": 1
+  }
+]

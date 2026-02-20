@@ -1,0 +1,20 @@
+{
+  "id": "exam_dsa_module_09",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_09_heap",
+  "version": "v1",
+  "title": "Module 09 Exam – Heap",
+  "description": "Assessment covering heap basics, heap sort, and heap applications.",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_051_heap_root_min", "topicId": "topic_046_heap_basics", "order": 1, "points": 1 },
+    { "questionId": "q_052_heap_insert", "topicId": "topic_046_heap_basics", "order": 2, "points": 1 },
+    { "questionId": "q_053_left_child", "topicId": "topic_046_heap_basics", "order": 3, "points": 1 }
+  ],
+  "totalPoints": 3,
+  "status": "active",
+  "version": 1
+}

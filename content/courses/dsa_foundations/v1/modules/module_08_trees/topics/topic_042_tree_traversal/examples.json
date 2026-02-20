@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_tree_traversals",
+    "title": "Tree Traversal – Inorder / Preorder / Postorder",
+    "description": "Recursive DFS traversals for a binary tree.",
+    "language": "java",
+    "code": "class TreeTraversal {\n    static void inorder(TreeNode root) {\n        if (root == null) return;\n        inorder(root.left);\n        System.out.print(root.data + \" \");\n        inorder(root.right);\n    }\n    static void preorder(TreeNode root) {\n        if (root == null) return;\n        System.out.print(root.data + \" \");\n        preorder(root.left);\n        preorder(root.right);\n    }\n    static void postorder(TreeNode root) {\n        if (root == null) return;\n        postorder(root.left);\n        postorder(root.right);\n        System.out.print(root.data + \" \");\n    }\n}",
+    "explanation": "Inorder gives sorted output for BST. All DFS traversals use O(n) time and O(h) stack space.",
+    "order": 1
+  }
+]

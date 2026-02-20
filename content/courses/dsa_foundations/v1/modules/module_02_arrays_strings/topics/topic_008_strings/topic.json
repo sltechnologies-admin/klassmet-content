@@ -1,0 +1,18 @@
+{
+  "id": "topic_008_strings",
+  "moduleId": "module_02_arrays_strings",
+  "title": "Strings",
+  "slug": "strings",
+  "order": 3,
+  "difficulty": "beginner",
+  "tags": ["strings", "characters", "immutable"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Define a string as a sequence of characters.",
+    "Explain immutability of strings in Java.",
+    "Use common string operations: length, charAt, palindrome check, anagram check."
+  ],
+  "prerequisites": ["topic_006_arrays"],
+  "status": "active",
+  "version": 1
+}

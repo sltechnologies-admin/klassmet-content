@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_fractional_knapsack",
+    "title": "Fractional Knapsack – Greedy by Value/Weight Ratio",
+    "description": "Java solution: sort by value/weight ratio descending, take greedily or fractionally.",
+    "language": "java",
+    "code": "import java.util.*;\nclass FractionalKnapsack {\n    static double knapsack(int[] weight, int[] value, int W) {\n        int n = weight.length;\n        Integer[] idx = new Integer[n];\n        for (int i=0;i<n;i++) idx[i]=i;\n        Arrays.sort(idx,(a,b)->Double.compare((double)value[b]/weight[b],(double)value[a]/weight[a]));\n        double total=0;\n        for (int i:idx) {\n            if (W>=weight[i]) { total+=value[i]; W-=weight[i]; }\n            else { total+=(double)value[i]*W/weight[i]; break; }\n        }\n        return total;\n    }\n}",
+    "explanation": "Greedy choice: always pick item with best value/weight ratio. Can take fraction when capacity partially remaining.",
+    "order": 1
+  }
+]

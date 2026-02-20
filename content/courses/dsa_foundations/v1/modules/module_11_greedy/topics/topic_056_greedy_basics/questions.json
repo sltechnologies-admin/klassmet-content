@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_061_greedy_choice",
+    "topicId": "topic_056_greedy_basics",
+    "type": "MCQ",
+    "question": "A greedy algorithm makes decisions based on",
+    "options": [
+      { "id": "a", "text": "All future possibilities", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "The locally optimal choice at each step", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Random selection", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Brute-force enumeration", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A greedy algorithm picks the best available option at each step without revisiting previous choices.",
+    "difficulty": "intermediate",
+    "tags": ["greedy"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

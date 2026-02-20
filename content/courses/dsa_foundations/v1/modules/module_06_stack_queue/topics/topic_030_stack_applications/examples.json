@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bracket_checker",
+    "title": "Stack Application – Bracket Balancing",
+    "description": "Use a stack to check if a bracket expression is balanced.",
+    "language": "java",
+    "code": "class BracketChecker {\n    static boolean isBalanced(String s) {\n        java.util.Stack<Character> st = new java.util.Stack<>();\n        for (char c : s.toCharArray()) {\n            if (c == '(' || c == '[' || c == '{') st.push(c);\n            else {\n                if (st.isEmpty()) return false;\n                char top = st.pop();\n                if (c == ')' && top != '(') return false;\n                if (c == ']' && top != '[') return false;\n                if (c == '}' && top != '{') return false;\n            }\n        }\n        return st.isEmpty();\n    }\n    public static void main(String[] args) {\n        System.out.println(isBalanced(\"({[]})\"));\n    }\n}",
+    "explanation": "Open brackets are pushed; on closing bracket, check if top matches. Time: O(n), Space: O(n).",
+    "order": 1
+  }
+]

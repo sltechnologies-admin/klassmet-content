@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_doubly_linked_list",
+    "title": "Doubly Linked List – Insert and Forward Display",
+    "description": "Java implementation of doubly linked list with prev and next pointers.",
+    "language": "java",
+    "code": "class DNode {\n    int data; DNode prev, next;\n    DNode(int d) { data = d; prev = null; next = null; }\n}\nclass DoublyLinkedList {\n    DNode head;\n    void insert(int data) {\n        DNode n = new DNode(data);\n        if (head == null) { head = n; return; }\n        DNode t = head;\n        while (t.next != null) t = t.next;\n        t.next = n; n.prev = t;\n    }\n    void displayForward() {\n        DNode t = head;\n        while (t != null) { System.out.print(t.data + \" \"); t = t.next; }\n    }\n    public static void main(String[] args) {\n        DoublyLinkedList dll = new DoublyLinkedList();\n        dll.insert(1); dll.insert(2); dll.insert(3);\n        dll.displayForward();\n    }\n}",
+    "explanation": "Each node has prev and next pointers enabling bidirectional traversal. Time: O(n), Space: O(n).",
+    "order": 1
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "topic_054_mst_prim",
+  "moduleId": "module_10_graphs",
+  "title": "Minimum Spanning Tree – Prim's Algorithm",
+  "slug": "mst-prim",
+  "order": 6,
+  "difficulty": "advanced",
+  "tags": ["graphs", "mst", "prim", "greedy"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Implement Prim's algorithm using a priority queue.",
+    "Compare Prim's with Kruskal's.",
+    "Apply Prim's to dense graphs."
+  ],
+  "prerequisites": ["topic_053_mst_kruskal"],
+  "status": "active",
+  "version": 1
+}

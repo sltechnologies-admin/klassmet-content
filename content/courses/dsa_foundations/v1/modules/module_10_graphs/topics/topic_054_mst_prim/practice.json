@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_prim_tbd",
+    "topicId": "topic_054_mst_prim",
+    "title": "TBD – Build MST using Prim's algorithm",
+    "description": "TBD – Implement Prim's and output all MST edges and total weight.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["prim", "mst"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

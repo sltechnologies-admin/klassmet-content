@@ -1,0 +1,18 @@
+{
+  "id": "topic_039_load_factor",
+  "moduleId": "module_07_hashing",
+  "title": "Load Factor & Rehashing",
+  "slug": "load-factor-rehashing",
+  "order": 4,
+  "difficulty": "intermediate",
+  "tags": ["hashing", "load-factor", "rehashing"],
+  "estimatedMinutes": 15,
+  "learningOutcomes": [
+    "Define load factor and explain why it matters.",
+    "Describe when and how rehashing occurs.",
+    "Relate load factor to hash table performance."
+  ],
+  "prerequisites": ["topic_037_collision_resolution"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_recursion_factorial",
+    "title": "Recursion – Factorial",
+    "description": "Java recursive function to compute factorial of n.",
+    "language": "java",
+    "code": "class RecursionExample {\n    static int factorial(int n) {\n        if (n == 0)\n            return 1;\n        return n * factorial(n - 1);\n    }\n    public static void main(String[] args) {\n        System.out.println(factorial(5));\n    }\n}",
+    "explanation": "Base case stops recursion. Each call reduces n by 1. Time: O(n), Space: O(n).",
+    "order": 1
+  }
+]

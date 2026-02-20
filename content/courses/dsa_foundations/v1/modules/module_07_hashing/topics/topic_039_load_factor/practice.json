@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_load_factor_tbd",
+    "topicId": "topic_039_load_factor",
+    "title": "TBD – Calculate load factor and predict rehash point",
+    "description": "TBD – Given a table of size 8 and load factor 0.75, at which insert count does rehashing occur?",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 10,
+    "tags": ["hashing", "load-factor", "rehashing"],
+    "type": "quiz",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

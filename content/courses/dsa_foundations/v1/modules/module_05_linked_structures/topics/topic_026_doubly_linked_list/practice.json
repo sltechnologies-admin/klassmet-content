@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_doubly_ll_tbd",
+    "topicId": "topic_026_doubly_linked_list",
+    "title": "TBD – Traverse doubly linked list in reverse",
+    "description": "TBD – Ask learners to implement backward traversal using the prev pointer.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["doubly-linked-list", "traversal"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

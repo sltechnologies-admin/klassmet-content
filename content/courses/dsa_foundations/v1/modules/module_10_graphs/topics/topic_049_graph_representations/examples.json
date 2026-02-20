@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_adj_list",
+    "title": "Graph – Adjacency List",
+    "description": "Build an undirected graph using an adjacency list.",
+    "language": "java",
+    "code": "import java.util.*;\nclass Graph {\n    int V;\n    List<List<Integer>> adj;\n    Graph(int v) {\n        V = v; adj = new ArrayList<>();\n        for (int i = 0; i < v; i++) adj.add(new ArrayList<>());\n    }\n    void addEdge(int u, int v) { adj.get(u).add(v); adj.get(v).add(u); }\n    public static void main(String[] args) {\n        Graph g = new Graph(4);\n        g.addEdge(0,1); g.addEdge(1,2); g.addEdge(2,3);\n        System.out.println(g.adj.get(0));\n    }\n}",
+    "explanation": "Adjacency list uses O(V+E) space. Best for sparse graphs.",
+    "order": 1
+  }
+]

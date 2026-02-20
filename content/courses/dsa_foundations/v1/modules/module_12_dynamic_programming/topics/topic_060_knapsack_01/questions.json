@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_060_dp_knapsack_tbd",
+    "topicId": "topic_060_knapsack_01",
+    "type": "MCQ",
+    "question": "TBD – 0/1 Knapsack time complexity",
+    "options": [
+      { "id": "a", "text": "O(n log n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n * W)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(2^n)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(n^2)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "DP fills n items × W+1 capacity cells. Each cell is O(1). Total O(n*W) — pseudo-polynomial.",
+    "difficulty": "intermediate",
+    "tags": ["dp", "knapsack"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

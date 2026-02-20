@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_066_dsu_find",
+    "topicId": "topic_070_disjoint_set_union",
+    "type": "MCQ",
+    "question": "DSU path compression ensures find() runs in",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "nearly O(1) amortised", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n log n)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "With path compression and union by rank, DSU operations run in O(α(n)) amortised time — effectively constant for practical inputs.",
+    "difficulty": "advanced",
+    "tags": ["dsu", "union-find"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

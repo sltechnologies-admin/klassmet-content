@@ -1,0 +1,18 @@
+{
+  "id": "topic_035_monotonic_stack",
+  "moduleId": "module_06_stack_queue",
+  "title": "Monotonic Stack",
+  "slug": "monotonic-stack",
+  "order": 8,
+  "difficulty": "advanced",
+  "tags": ["stack", "monotonic", "next-greater-element"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define a monotonic stack and when to apply it.",
+    "Implement next-greater-element using a monotonic stack.",
+    "Analyse time complexity of monotonic stack solutions."
+  ],
+  "prerequisites": ["topic_028_stack_basics"],
+  "status": "active",
+  "version": 1
+}

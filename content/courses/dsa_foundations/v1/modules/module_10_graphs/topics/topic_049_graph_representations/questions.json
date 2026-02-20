@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_054_graph_adj_list",
+    "topicId": "topic_049_graph_representations",
+    "type": "MCQ",
+    "question": "Space complexity of an adjacency list for a graph with V vertices and E edges",
+    "options": [
+      { "id": "a", "text": "O(V²)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(V+E)", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "O(E²)", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "O(V*E)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "An adjacency list stores V list headers and E total entries (each edge stored once for directed, twice for undirected), so O(V+E).",
+    "difficulty": "intermediate",
+    "tags": ["graphs", "space-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_055_graph_directed",
+    "topicId": "topic_049_graph_representations",
+    "type": "MCQ",
+    "question": "In a directed graph, edge A→B means",
+    "options": [
+      { "id": "a", "text": "Can go from B to A only", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Can go from A to B only", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Can go both ways", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "B equals A", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A directed edge A→B (arc) allows traversal from A to B only. B→A requires a separate edge.",
+    "difficulty": "beginner",
+    "tags": ["graphs", "directed"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "q_005_space_complexity_definition",
+    "topicId": "topic_004_space_complexity",
+    "type": "MCQ",
+    "question": "Space complexity refers to",
+    "options": [
+      { "id": "a", "text": "Disk space", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "RAM used by algorithm", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Time used", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Cache only", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Space complexity measures the RAM (memory) consumed by an algorithm during execution.",
+    "difficulty": "beginner",
+    "tags": ["space-complexity", "memory"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_008_recursive_uses_stack",
+    "topicId": "topic_004_space_complexity",
+    "type": "MCQ",
+    "question": "Recursive function uses",
+    "options": [
+      { "id": "a", "text": "Heap", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Queue", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Stack", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Array", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Each recursive call is placed on the call stack until the base condition is reached.",
+    "difficulty": "beginner",
+    "tags": ["recursion", "stack", "space-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

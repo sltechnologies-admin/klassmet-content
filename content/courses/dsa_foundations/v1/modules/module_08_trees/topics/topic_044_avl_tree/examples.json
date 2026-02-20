@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_avl_balance_factor",
+    "title": "AVL Tree – Balance Factor Concept",
+    "description": "Java helper to compute balance factor of a binary tree node.",
+    "language": "java",
+    "code": "class AVLHelper {\n    static int height(TreeNode n) {\n        if (n == null) return 0;\n        return 1 + Math.max(height(n.left), height(n.right));\n    }\n    static int balanceFactor(TreeNode n) {\n        if (n == null) return 0;\n        return height(n.left) - height(n.right);\n    }\n}",
+    "explanation": "Balance factor must be in [-1, 1] for AVL property. If outside, rotations are applied.",
+    "order": 1
+  }
+]

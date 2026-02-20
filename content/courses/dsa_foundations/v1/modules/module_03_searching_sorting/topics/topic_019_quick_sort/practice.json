@@ -1,0 +1,13 @@
+﻿{
+  "topicId": "topic_019_quick_sort",
+  "problems": [
+    {
+      "id": "pp_quicksort_random",
+      "title": "Randomized Quick Sort",
+      "difficulty": "intermediate",
+      "description": "Implement quicksort with random pivot to avoid worst case on sorted arrays.",
+      "hints": ["Swap random element with last element before partitioning", "Expected O(n log n) on any input"],
+      "solution": {"approach": "Random pivot: swap random with last, then standard partition", "complexity": {"time": "O(n log n) expected", "space": "O(log n)"}}
+    }
+  ]
+}

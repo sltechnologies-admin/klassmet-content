@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_007_2d_arrays_tbd",
+    "topicId": "topic_007_2d_arrays",
+    "type": "MCQ",
+    "question": "TBD – A 2D array is also known as",
+    "options": [
+      { "id": "a", "text": "Linked list", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Matrix", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Stack", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Tree", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A 2D array organizes data in rows and columns, just like a matrix.",
+    "difficulty": "beginner",
+    "tags": ["2d-arrays", "matrix"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

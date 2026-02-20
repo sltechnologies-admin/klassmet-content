@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_two_pointer_tbd",
+    "topicId": "topic_011_two_pointer",
+    "title": "TBD – Find all triplets with zero sum",
+    "description": "TBD – Use two-pointer to find all triplets in a sorted array that sum to zero.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 25,
+    "tags": ["two-pointer", "arrays"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_k_largest",
+    "title": "Heap Application – K Largest Elements",
+    "description": "Use a min-heap of size k to find k largest elements in O(n log k).",
+    "language": "java",
+    "code": "import java.util.PriorityQueue;\nclass KLargest {\n    static int[] kLargest(int[] arr, int k) {\n        PriorityQueue<Integer> pq = new PriorityQueue<>();\n        for (int x : arr) {\n            pq.add(x);\n            if (pq.size() > k) pq.poll();\n        }\n        return pq.stream().mapToInt(Integer::intValue).toArray();\n    }\n}",
+    "explanation": "Min-heap keeps only k largest seen so far. When size exceeds k, remove smallest. Time: O(n log k).",
+    "order": 1
+  }
+]

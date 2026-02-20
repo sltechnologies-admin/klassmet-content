@@ -1,0 +1,18 @@
+{
+  "id": "topic_057_fractional_knapsack",
+  "moduleId": "module_11_greedy",
+  "title": "Fractional Knapsack",
+  "slug": "fractional-knapsack",
+  "order": 2,
+  "difficulty": "intermediate",
+  "tags": ["greedy", "knapsack", "fractional"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Solve fractional knapsack using value/weight ratio.",
+    "Distinguish fractional from 0/1 knapsack.",
+    "Implement fractional knapsack in Java."
+  ],
+  "prerequisites": ["topic_056_greedy_basics"],
+  "status": "active",
+  "version": 1
+}

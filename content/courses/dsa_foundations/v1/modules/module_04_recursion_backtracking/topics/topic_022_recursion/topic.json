@@ -1,0 +1,18 @@
+{
+  "id": "topic_022_recursion",
+  "moduleId": "module_04_recursion_backtracking",
+  "title": "Recursion",
+  "slug": "recursion",
+  "order": 1,
+  "difficulty": "beginner",
+  "tags": ["recursion", "functions", "base-case"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define recursion and identify the base case.",
+    "Trace a recursive call stack.",
+    "Write a recursive Java function for factorial."
+  ],
+  "prerequisites": ["topic_004_space_complexity"],
+  "status": "active",
+  "version": 1
+}

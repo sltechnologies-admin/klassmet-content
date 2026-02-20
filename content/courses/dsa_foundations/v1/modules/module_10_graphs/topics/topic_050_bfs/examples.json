@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_bfs",
+    "title": "BFS – Queue-based Graph Traversal",
+    "description": "Java BFS implementation using a Queue and visited boolean array.",
+    "language": "java",
+    "code": "import java.util.*;\nclass BFS {\n    static void bfs(List<List<Integer>> adj, int start, int V) {\n        boolean[] visited = new boolean[V];\n        Queue<Integer> q = new LinkedList<>();\n        visited[start] = true;\n        q.add(start);\n        while (!q.isEmpty()) {\n            int node = q.poll();\n            System.out.print(node + \" \");\n            for (int nb : adj.get(node)) {\n                if (!visited[nb]) { visited[nb] = true; q.add(nb); }\n            }\n        }\n    }\n}",
+    "explanation": "BFS visits vertices level by level. Queue ensures FIFO. Time O(V+E), Space O(V).",
+    "order": 1
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_job_sequencing",
+    "title": "Greedy – Job Sequencing with Deadlines",
+    "description": "Java job sequencing using greedy: schedule highest-profit jobs first within their deadlines.",
+    "language": "java",
+    "code": "import java.util.*;\nclass JobSequencing {\n    static int maxProfit(int[][] jobs) {\n        Arrays.sort(jobs,(a,b)->b[1]-a[1]);\n        int maxD=0; for (int[] j:jobs) maxD=Math.max(maxD,j[0]);\n        boolean[] slot=new boolean[maxD+1]; int profit=0;\n        for (int[] j:jobs) {\n            for (int t=j[0];t>=1;t--) {\n                if (!slot[t]) { slot[t]=true; profit+=j[1]; break; }\n            }\n        }\n        return profit;\n    }\n}",
+    "explanation": "Sort jobs by profit descending. Assign each to latest available slot before deadline. O(n^2) naive, O(n log n) with DSU.",
+    "order": 1
+  }
+]

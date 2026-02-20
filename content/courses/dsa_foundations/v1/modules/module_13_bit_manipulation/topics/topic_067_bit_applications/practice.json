@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_bit_apps_tbd",
+    "topicId": "topic_067_bit_applications",
+    "title": "TBD – Reverse bits of a 32-bit integer",
+    "description": "TBD – Reverse the binary representation of a 32-bit unsigned integer.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 15,
+    "tags": ["bits", "reverse"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

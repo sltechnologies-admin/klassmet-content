@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_lcs",
+    "title": "LCS – 2D DP Table",
+    "description": "Java LCS comparing two strings character by character with 2D DP.",
+    "language": "java",
+    "code": "class LCS {\n    static int lcs(String s1, String s2) {\n        int m=s1.length(), n=s2.length();\n        int[][] dp=new int[m+1][n+1];\n        for (int i=1;i<=m;i++) for (int j=1;j<=n;j++) {\n            if (s1.charAt(i-1)==s2.charAt(j-1)) dp[i][j]=dp[i-1][j-1]+1;\n            else dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);\n        }\n        return dp[m][n];\n    }\n    public static void main(String[] args) { System.out.println(lcs(\"ABCBDAB\",\"BDCAB\")); }\n}",
+    "explanation": "Characters match: extend diagonal. No match: take max of left or above. Result at dp[m][n]. O(m*n) time and space.",
+    "order": 1
+  }
+]

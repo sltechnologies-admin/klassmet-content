@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_topo_sort_tbd",
+    "topicId": "topic_055_topological_sort",
+    "title": "TBD – Course schedule using topological sort",
+    "description": "TBD – Given course prerequisites as directed edges, output a valid course order using topological sort.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 25,
+    "tags": ["topological-sort", "scheduling"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

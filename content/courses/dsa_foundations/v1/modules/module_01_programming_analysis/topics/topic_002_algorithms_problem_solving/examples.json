@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_algorithm_sum_two_numbers",
+    "title": "Algorithm – Sum of Two Numbers",
+    "description": "Simple algorithm and Java implementation to add two numbers.",
+    "language": "java",
+    "code": "class AlgorithmExample {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        int sum = a + b;\n        System.out.println(sum);\n    }\n}",
+    "explanation": "The algorithm is: take inputs, add them, print the result.",
+    "order": 1
+  }
+]

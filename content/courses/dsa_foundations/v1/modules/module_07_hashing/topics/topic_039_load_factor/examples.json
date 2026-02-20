@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_load_factor",
+    "title": "Load Factor – Concept",
+    "description": "Demonstrates default load factor in Java HashMap and when rehashing is triggered.",
+    "language": "java",
+    "code": "import java.util.HashMap;\nclass LoadFactorDemo {\n    public static void main(String[] args) {\n        // Default initial capacity 16, load factor 0.75\n        // Rehash triggered when entries > 16 * 0.75 = 12\n        HashMap<Integer, String> map = new HashMap<>();\n        for (int i = 0; i < 20; i++) map.put(i, \"v\" + i);\n        System.out.println(map.size()); // 20\n    }\n}",
+    "explanation": "Java HashMap rehashes when size exceeds capacity * loadFactor (default 0.75). After rehash capacity doubles.",
+    "order": 1
+  }
+]

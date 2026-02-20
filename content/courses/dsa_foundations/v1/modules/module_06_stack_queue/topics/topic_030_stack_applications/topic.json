@@ -1,0 +1,18 @@
+{
+  "id": "topic_030_stack_applications",
+  "moduleId": "module_06_stack_queue",
+  "title": "Stack Applications",
+  "slug": "stack-applications",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["stack", "applications", "infix", "postfix", "brackets"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Apply a stack to balance bracket expressions.",
+    "Convert an infix expression to postfix (RPN).",
+    "Explain why DFS uses a stack."
+  ],
+  "prerequisites": ["topic_028_stack_basics"],
+  "status": "active",
+  "version": 1
+}

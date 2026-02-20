@@ -1,0 +1,20 @@
+{
+  "id": "exam_dsa_module_11",
+  "courseId": "course_dsa_foundations",
+  "moduleId": "module_11_greedy",
+  "version": "v1",
+  "title": "Module 11 Exam – Greedy Algorithms",
+  "description": "Assessment covering greedy basics, fractional knapsack, and greedy applications.",
+  "type": "module_exam",
+  "durationMinutes": 20,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    { "questionId": "q_061_greedy_def", "topicId": "topic_056_greedy_basics", "order": 1, "points": 1 },
+    { "questionId": "q_061b_activity_sel", "topicId": "topic_056_greedy_basics", "order": 2, "points": 1 },
+    { "questionId": "q_057_frac_knapsack", "topicId": "topic_057_fractional_knapsack", "order": 3, "points": 1 }
+  ],
+  "totalPoints": 3,
+  "status": "active",
+  "version": 1
+}

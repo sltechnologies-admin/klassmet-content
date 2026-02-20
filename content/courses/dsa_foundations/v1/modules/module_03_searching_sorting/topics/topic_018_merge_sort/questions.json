@@ -1,0 +1,23 @@
+﻿{
+  "topicId": "topic_018_merge_sort",
+  "questions": [
+    {
+      "id": "q_024_merge_sort_technique",
+      "type": "mcq",
+      "difficulty": "intermediate",
+      "question": "Merge sort uses",
+      "options": ["Greedy", "Backtracking", "Divide and conquer", "DP"],
+      "correctAnswer": 2,
+      "explanation": "Merge sort recursively divides the array into halves and merges sorted halves - classic divide and conquer."
+    },
+    {
+      "id": "q_025_merge_sort_space",
+      "type": "mcq",
+      "difficulty": "intermediate",
+      "question": "Merge sort space complexity",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+      "correctAnswer": 2,
+      "explanation": "Merge sort requires O(n) auxiliary space for temporary arrays used in the merge step."
+    }
+  ]
+}

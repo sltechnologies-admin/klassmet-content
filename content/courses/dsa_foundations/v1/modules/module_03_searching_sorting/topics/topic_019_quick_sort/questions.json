@@ -1,0 +1,14 @@
+﻿{
+  "topicId": "topic_019_quick_sort",
+  "questions": [
+    {
+      "id": "q_026_quick_sort_worst",
+      "type": "mcq",
+      "difficulty": "intermediate",
+      "question": "Quick sort worst case",
+      "options": ["O(n log n)", "O(n^2)", "O(log n)", "O(n)"],
+      "correctAnswer": 1,
+      "explanation": "Worst case when pivot always min/max (sorted array with last element pivot) - creates n recursion levels each O(n)."
+    }
+  ]
+}

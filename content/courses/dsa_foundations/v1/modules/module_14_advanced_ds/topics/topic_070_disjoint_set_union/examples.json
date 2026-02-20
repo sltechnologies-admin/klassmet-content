@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_dsu",
+    "title": "DSU – Union-Find with Path Compression and Union by Rank",
+    "description": "Java DSU (Disjoint Set Union) with path compression and rank-based union for near-O(1) operations.",
+    "language": "java",
+    "code": "class DSU {\n    int[] parent, rank;\n    DSU(int n) { parent=new int[n]; rank=new int[n]; for (int i=0;i<n;i++) parent[i]=i; }\n    int find(int x) { if (parent[x]!=x) parent[x]=find(parent[x]); return parent[x]; }\n    void union(int a, int b) {\n        int ra=find(a), rb=find(b); if (ra==rb) return;\n        if (rank[ra]<rank[rb]) parent[ra]=rb;\n        else if (rank[ra]>rank[rb]) parent[rb]=ra;\n        else { parent[rb]=ra; rank[ra]++; }\n    }\n    boolean connected(int a, int b) { return find(a)==find(b); }\n    public static void main(String[] args) {\n        DSU dsu=new DSU(5); dsu.union(0,1); dsu.union(1,2);\n        System.out.println(dsu.connected(0,2)); System.out.println(dsu.connected(0,3));\n    }\n}",
+    "explanation": "Path compression flattens tree during find. Union by rank keeps tree small. Combined: nearly O(1) amortised per operation.",
+    "order": 1
+  }
+]

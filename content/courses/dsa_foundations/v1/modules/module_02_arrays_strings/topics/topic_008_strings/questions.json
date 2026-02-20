@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_015_strings_char_arrays",
+    "topicId": "topic_008_strings",
+    "type": "MCQ",
+    "question": "Strings are",
+    "options": [
+      { "id": "a", "text": "Integer arrays", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Character arrays", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Boolean arrays", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Float arrays", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A string is fundamentally a sequence of characters — a character array.",
+    "difficulty": "beginner",
+    "tags": ["strings", "characters"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_016_palindrome_definition",
+    "topicId": "topic_008_strings",
+    "type": "MCQ",
+    "question": "Palindrome means",
+    "options": [
+      { "id": "a", "text": "Sorted string", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Same forward and backward", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Random string", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Encrypted string", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A palindrome is a string that reads the same forward and backward, e.g. 'madam'.",
+    "difficulty": "beginner",
+    "tags": ["strings", "palindrome"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_017_anagram_definition",
+    "topicId": "topic_008_strings",
+    "type": "MCQ",
+    "question": "Anagram strings must have",
+    "options": [
+      { "id": "a", "text": "Same length & characters", "isCorrect": true, "order": 1 },
+      { "id": "b", "text": "Same order", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Same prefix", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Same suffix", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Anagram strings have the same characters and same length but possibly in different order.",
+    "difficulty": "beginner",
+    "tags": ["strings", "anagram"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_018_ascii_definition",
+    "topicId": "topic_008_strings",
+    "type": "MCQ",
+    "question": "ASCII represents",
+    "options": [
+      { "id": "a", "text": "Images", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Binary numbers", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Character encoding", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Colors", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "ASCII is a character encoding standard that maps characters to numeric values.",
+    "difficulty": "beginner",
+    "tags": ["strings", "ascii"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "module_11_greedy",
+  "courseId": "course_dsa_foundations",
+  "title": "Greedy Algorithms",
+  "description": "Greedy strategy, activity selection problem, and scheduling problems.",
+  "order": 11,
+  "topics": [
+    "topic_056_greedy_strategy",
+    "topic_057_activity_selection",
+    "topic_058_scheduling_problems"
+  ]
+}

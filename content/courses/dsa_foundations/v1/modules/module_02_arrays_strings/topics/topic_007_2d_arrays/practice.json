@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_2d_arrays_tbd",
+    "topicId": "topic_007_2d_arrays",
+    "title": "TBD – Print a 3×3 matrix in spiral order",
+    "description": "TBD – Ask learners to print elements of a 3×3 matrix in spiral order.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["2d-arrays", "matrix"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

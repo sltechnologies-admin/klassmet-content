@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_segment_tree_tbd",
+    "topicId": "topic_045_segment_tree",
+    "title": "TBD – Range minimum query using segment tree",
+    "description": "TBD – Modify the segment tree to support range minimum queries.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "advanced",
+    "estimatedMinutes": 30,
+    "tags": ["segment-tree", "range-queries"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

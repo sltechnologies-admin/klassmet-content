@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ex_trie",
+    "title": "Trie – Insert, Search, StartsWith",
+    "description": "Java Trie implementation with 26-child TrieNode for lowercase English letters.",
+    "language": "java",
+    "code": "class Trie {\n    TrieNode root = new TrieNode();\n    static class TrieNode { TrieNode[] children=new TrieNode[26]; boolean isEnd; }\n    void insert(String w) {\n        TrieNode n=root; for (char c:w.toCharArray()) { int i=c-'a'; if (n.children[i]==null) n.children[i]=new TrieNode(); n=n.children[i]; } n.isEnd=true;\n    }\n    boolean search(String w) {\n        TrieNode n=root; for (char c:w.toCharArray()) { int i=c-'a'; if (n.children[i]==null) return false; n=n.children[i]; } return n.isEnd;\n    }\n    boolean startsWith(String p) {\n        TrieNode n=root; for (char c:p.toCharArray()) { int i=c-'a'; if (n.children[i]==null) return false; n=n.children[i]; } return true;\n    }\n    public static void main(String[] args) {\n        Trie t=new Trie(); t.insert(\"apple\");\n        System.out.println(t.search(\"apple\")); System.out.println(t.startsWith(\"app\"));\n    }\n}",
+    "explanation": "Each char navigates or creates a child node. Insert O(L), Search O(L), StartsWith O(L). Total space O(total_chars * 26).",
+    "order": 1
+  }
+]

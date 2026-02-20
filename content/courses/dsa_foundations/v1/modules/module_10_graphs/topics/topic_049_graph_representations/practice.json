@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_graph_rep_tbd",
+    "topicId": "topic_049_graph_representations",
+    "title": "TBD – Build a graph from edge list",
+    "description": "TBD – Given a list of edges, build an adjacency list and print all neighbours of each vertex.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "beginner",
+    "estimatedMinutes": 15,
+    "tags": ["graphs", "adjacency-list"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

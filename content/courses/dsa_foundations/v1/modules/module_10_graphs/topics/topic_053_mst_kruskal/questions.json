@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q_053_mst_tbd",
+    "topicId": "topic_053_mst_kruskal",
+    "type": "MCQ",
+    "question": "TBD – Kruskal's algorithm sorts edges by",
+    "options": [
+      { "id": "a", "text": "Vertex degree", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Edge weight", "isCorrect": true, "order": 2 },
+      { "id": "c", "text": "Vertex index", "isCorrect": false, "order": 3 },
+      { "id": "d", "text": "Edge frequency", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Kruskal's greedily picks the smallest-weight edge that doesn't create a cycle, so it first sorts all edges by weight.",
+    "difficulty": "advanced",
+    "tags": ["kruskal", "mst"],
+    "estimatedSeconds": 30,
+    "status": "draft",
+    "version": 1
+  }
+]

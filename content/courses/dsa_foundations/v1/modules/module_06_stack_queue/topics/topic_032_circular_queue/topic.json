@@ -1,0 +1,18 @@
+{
+  "id": "topic_032_circular_queue",
+  "moduleId": "module_06_stack_queue",
+  "title": "Circular Queue",
+  "slug": "circular-queue",
+  "order": 5,
+  "difficulty": "intermediate",
+  "tags": ["queue", "circular-queue"],
+  "estimatedMinutes": 20,
+  "learningOutcomes": [
+    "Explain the problem with a simple array queue (wasted space).",
+    "Implement a circular queue that reuses freed slots.",
+    "Calculate full and empty conditions for a circular queue."
+  ],
+  "prerequisites": ["topic_031_queue_basics"],
+  "status": "active",
+  "version": 1
+}

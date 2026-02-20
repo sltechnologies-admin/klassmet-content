@@ -1,0 +1,18 @@
+{
+  "id": "topic_043_bst",
+  "moduleId": "module_08_trees",
+  "title": "Binary Search Tree (BST)",
+  "slug": "binary-search-tree",
+  "order": 3,
+  "difficulty": "intermediate",
+  "tags": ["BST", "tree", "search"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Define BST property and explain why inorder gives sorted output.",
+    "Implement insert and search operations in a BST.",
+    "Analyse time complexity for balanced vs skewed BSTs."
+  ],
+  "prerequisites": ["topic_042_tree_traversal"],
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "topic_062_lis",
+  "moduleId": "module_12_dynamic_programming",
+  "title": "Longest Increasing Subsequence (LIS)",
+  "slug": "lis",
+  "order": 4,
+  "difficulty": "intermediate",
+  "tags": ["dp", "lis", "patience-sorting"],
+  "estimatedMinutes": 25,
+  "learningOutcomes": [
+    "Solve LIS with O(n²) DP.",
+    "Solve LIS with O(n log n) using binary search.",
+    "Distinguish LIS from LCS."
+  ],
+  "prerequisites": ["topic_059_dp_basics"],
+  "status": "active",
+  "version": 1
+}

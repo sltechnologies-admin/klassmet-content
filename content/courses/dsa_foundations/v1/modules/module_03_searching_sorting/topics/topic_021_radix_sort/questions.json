@@ -1,0 +1,14 @@
+﻿{
+  "topicId": "topic_021_radix_sort",
+  "questions": [
+    {
+      "id": "q_028_sorting_stability",
+      "type": "mcq",
+      "difficulty": "intermediate",
+      "question": "Sorting stability means",
+      "options": ["Sorted output", "Same order of equal elements preserved", "Less space", "Faster execution"],
+      "correctAnswer": 1,
+      "explanation": "A stable sort preserves relative order of records with equal keys. Radix sort depends on stable subroutine."
+    }
+  ]
+}

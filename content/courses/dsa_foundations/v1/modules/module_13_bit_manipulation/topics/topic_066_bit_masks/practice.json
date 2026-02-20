@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pp_bitmask_tbd",
+    "topicId": "topic_066_bit_masks",
+    "title": "TBD – Check if subset sums to a target",
+    "description": "TBD – For a given array, determine if any subset has a sum equal to a target using bitmask enumeration.",
+    "problemStatement": "TBD",
+    "expectedSolution": "TBD",
+    "solutionExplanation": "TBD",
+    "steps": [],
+    "difficulty": "intermediate",
+    "estimatedMinutes": 20,
+    "tags": ["bits", "subset-sum"],
+    "type": "coding",
+    "attemptsAllowed": "unlimited",
+    "hintsEnabled": true,
+    "status": "draft"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_003_time_complexity_definition",
+    "topicId": "topic_003_time_complexity",
+    "type": "MCQ",
+    "question": "Time complexity measures",
+    "options": [
+      { "id": "a", "text": "Memory used", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Execution speed", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Growth of execution time with input size", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "CPU cycles only", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "It shows how runtime grows as input increases.",
+    "difficulty": "beginner",
+    "tags": ["time-complexity"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_004_best_case_definition",
+    "topicId": "topic_003_time_complexity",
+    "type": "MCQ",
+    "question": "Best case of an algorithm means",
+    "options": [
+      { "id": "a", "text": "Minimum input", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "Optimal input", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "Minimum time taken", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "Maximum efficiency", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Best case = minimum execution time.",
+    "difficulty": "beginner",
+    "tags": ["time-complexity", "best-case"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_006_single_loop_complexity",
+    "topicId": "topic_003_time_complexity",
+    "type": "MCQ",
+    "question": "Complexity of single loop from 1 to n",
+    "options": [
+      { "id": "a", "text": "O(1)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(n²)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A single loop from 1 to n runs n times, giving O(n) time complexity.",
+    "difficulty": "beginner",
+    "tags": ["time-complexity", "loops"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  },
+  {
+    "id": "q_007_nested_loop_complexity",
+    "topicId": "topic_003_time_complexity",
+    "type": "MCQ",
+    "question": "Complexity of nested loop (n × n)",
+    "options": [
+      { "id": "a", "text": "O(n)", "isCorrect": false, "order": 1 },
+      { "id": "b", "text": "O(n log n)", "isCorrect": false, "order": 2 },
+      { "id": "c", "text": "O(n²)", "isCorrect": true, "order": 3 },
+      { "id": "d", "text": "O(1)", "isCorrect": false, "order": 4 }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A nested loop of n×n runs n² times, giving O(n²) time complexity.",
+    "difficulty": "beginner",
+    "tags": ["time-complexity", "nested-loops"],
+    "estimatedSeconds": 30,
+    "status": "active",
+    "version": 1
+  }
+]
