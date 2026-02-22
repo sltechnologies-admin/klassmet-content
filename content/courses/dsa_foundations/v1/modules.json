@@ -30,7 +30,7 @@
 	},
 	{
       "id": "module_03_searching_sorting",
-      "courseId": "dsa_foundations",
+      "courseId": "course_dsa_foundations",
       "title": "Searching & Sorting",
       "slug": "searching-sorting",
       "order": 3,
@@ -118,76 +118,82 @@
   ]
 },
 {
-  "id": "module_09_graphs",
+  "id": "module_09_heap",
   "courseId": "course_dsa_foundations",
-  "title": "Graphs",
-  "description": "Graph representations, graph traversals (DFS and BFS), Dijkstra's algorithm, and topological sorting.",
+  "title": "Heap",
+  "description": "Heap data structure, heapify operation, heap sort, and priority queue usage.",
   "order": 9,
   "topics": [
-    "topic_046_graph_representations",
-    "topic_047_graph_traversals",
-    "topic_048_dijkstras_algorithm",
-    "topic_049_topological_sorting"
+    "topic_046_heap",
+    "topic_047_heapify",
+    "topic_048_heap_sort"
   ]
 },
 {
-  "id": "module_10_greedy_divide_conquer",
+  "id": "module_10_graphs",
   "courseId": "course_dsa_foundations",
-  "title": "Greedy & Divide & Conquer",
-  "description": "Greedy algorithms, divide and conquer strategy, and their applications.",
+  "title": "Graphs",
+  "description": "Graph representation, BFS, DFS, cycle detection, topological sort, shortest path, and MST.",
   "order": 10,
   "topics": [
-    "topic_050_greedy_algorithms",
-    "topic_051_divide_and_conquer"
+    "topic_049_graph_representation",
+    "topic_050_bfs",
+    "topic_051_dfs",
+    "topic_052_cycle_detection",
+    "topic_053_topological_sort",
+    "topic_054_shortest_path",
+    "topic_055_minimum_spanning_tree"
   ]
 },
 {
-  "id": "module_11_dynamic_programming",
+  "id": "module_11_greedy",
   "courseId": "course_dsa_foundations",
-  "title": "Dynamic Programming",
-  "description": "Dynamic programming concepts, memoization, tabulation, and common DP problems.",
+  "title": "Greedy Algorithms",
+  "description": "Greedy strategy, activity selection problem, and scheduling problems.",
   "order": 11,
   "topics": [
-    "topic_052_dynamic_programming_concepts",
-    "topic_053_memoization",
-    "topic_054_tabulation",
-    "topic_055_common_dp_problems"
+    "topic_056_greedy_strategy",
+    "topic_057_activity_selection",
+    "topic_058_scheduling_problems"
   ]
 },
 {
-  "id": "module_12_greedy_backtracking",
+  "id": "module_12_dynamic_programming",
   "courseId": "course_dsa_foundations",
-  "title": "Greedy & Backtracking",
-  "description": "Greedy algorithms and backtracking techniques for problem-solving.",
+  "title": "Dynamic Programming",
+  "description": "DP fundamentals, memoization, tabulation, 1D DP, and 2D DP with classic problems.",
   "order": 12,
   "topics": [
-    "topic_056_greedy_algorithms",
-    "topic_057_backtracking_techniques"
+    "topic_059_dp_basics",
+    "topic_060_memoization",
+    "topic_061_tabulation",
+    "topic_062_1d_dp",
+    "topic_063_2d_dp"
   ]
 },
 {
-  "id": "module_13_advanced_data_structures",
+  "id": "module_13_bit_manipulation",
   "courseId": "course_dsa_foundations",
-  "title": "Advanced Data Structures",
-  "description": "Heaps, tries, segment trees, and Fenwick trees.",
+  "title": "Bit Manipulation",
+  "description": "Binary numbers, bitwise AND/OR/XOR, bit masking, and bit shifting.",
   "order": 13,
   "topics": [
-    "topic_058_heaps",
-    "topic_059_tries",
-    "topic_060_segment_trees",
-    "topic_061_fenwick_trees"
+    "topic_064_binary_numbers",
+    "topic_065_bitwise_and",
+    "topic_066_bitwise_or",
+    "topic_067_bitwise_xor",
+    "topic_068_bit_masking"
   ]
 },
 {
-  "id": "module_14_advanced_algorithms",
+  "id": "module_14_advanced_ds",
   "courseId": "course_dsa_foundations",
-  "title": "Advanced Algorithms",
-  "description": "Network flow algorithms, string algorithms, and computational geometry.",
+  "title": "Advanced DS",
+  "description": "Trie (prefix tree) and Disjoint Set (Union-Find) data structures.",
   "order": 14,
   "topics": [
-    "topic_062_network_flow_algorithms",
-    "topic_063_string_algorithms",
-    "topic_064_computational_geometry"
+    "topic_069_trie",
+    "topic_070_disjoint_set"
   ]
 }
 ]

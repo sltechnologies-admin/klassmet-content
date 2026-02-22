@@ -1,21 +1,77 @@
-{
-  "courses": [
+[
+  {
+    "id": "course_dsa_foundations",
+    "slug": "dsa_foundations",
+    "title": "DSA Foundations",
+    "description": "Learn core data structures and algorithms from first principles.",
+    "thumbnail": "courses/dsa_foundations/v1/thumbnail.webp",
+    "category": "dsa",
+    "level": "Beginner",
+    "duration": "10h",
+    "totalTopics": 42,
+    "rating": 4.8,
+    "enrolledStudents": 1200,
+    "version": "v1",
+    "status": "active"
+  },
+  {
+    "id": "course_python_foundations",
+    "slug": "dsa_foundations",
+    "title": "Python Foundations",
+    "description": "Learn core data structures and algorithms from first principles.",
+    "thumbnail": "courses/dsa_foundations/v1/thumbnail.webp",
+    "category": "dsa",
+    "level": "Beginner",
+    "duration": "10h",
+    "totalTopics": 42,
+    "rating": 4.8,
+    "enrolledStudents": 1200,
+    "version": "v1",
+    "status": "active"
+  },
     {
-      "courseId": "dsa_foundations",
-      "title": "DSA Foundations",
-      "slug": "dsa-foundations",
-      "description": "Learn core data structures and algorithms from first principles.",
-      "level": "beginner",
-      "tags": ["dsa", "coding", "foundations"],
-      "versions": [
-        {
-          "version": "v1",
-          "status": "published",
-          "path": "courses/dsa_foundations/v1"
-        }
-      ],
-      "order": 1,
-      "isFeatured": true
-    }
-  ]
-}
+    "id": "course_webdevbasic_foundations",
+    "slug": "dsa_foundations",
+    "title": "Web Development Basics",
+    "description": "Learn core data structures and algorithms from first principles.",
+    "thumbnail": "courses/dsa_foundations/v1/thumbnail.webp",
+    "category": "dsa",
+    "level": "Beginner",
+    "duration": "10h",
+    "totalTopics": 42,
+    "rating": 4.8,
+    "enrolledStudents": 1200,
+    "version": "v1",
+    "status": "active"
+  },
+   {
+   "id": "course_sql_foundations",
+   "slug": "sql_foundations",
+   "title": "SQL Database",
+   "description": "Learn core data structures and algorithms from first principles.",
+   "thumbnail": "courses/dsa_foundations/v1/thumbnail.webp",
+   "category": "dsa",
+   "level": "Beginner",
+   "duration": "10h",
+   "totalTopics": 42,
+   "rating": 4.8,
+   "enrolledStudents": 1200,
+   "version": "v1",
+   "status": "active"
+ },
+ {
+   "id": "course_react_foundations",
+   "slug": "react_foundations",
+   "title": "ReactJs",
+   "description": "Learn core data structures and algorithms from first principles.",
+   "thumbnail": "courses/dsa_foundations/v1/thumbnail.webp",
+   "category": "dsa",
+   "level": "Beginner",
+   "duration": "10h",
+   "totalTopics": 42,
+   "rating": 4.8,
+   "enrolledStudents": 1200,
+   "version": "v1",
+   "status": "active"
+ }
+]
