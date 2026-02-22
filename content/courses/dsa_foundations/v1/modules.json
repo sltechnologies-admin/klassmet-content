@@ -1,0 +1,194 @@
+[
+	{
+	  "id": "module_01_programming_analysis",
+	  "courseId": "course_dsa_foundations",
+	  "title": "Programming & Analysis",
+	  "description": "Programming basics, algorithms, time and space complexity, and asymptotic notations.",
+	  "order": 1,
+	  "topics": [
+		"topic_001_programming_basics",
+		"topic_002_algorithms_problem_solving",
+		"topic_003_time_complexity",
+		"topic_004_space_complexity",
+		"topic_005_asymptotic_notations"
+	  ]
+	},
+	{
+		"id": "module_02_arrays_strings",
+		"courseId": "course_dsa_foundations",
+		"title": "Arrays & Strings",
+		"description": "Arrays, 2D arrays, strings, prefix sum, sliding window, and two-pointer technique.",
+		"order": 2,
+		"topics": [
+			"topic_006_arrays",
+			"topic_007_2d_arrays",
+			"topic_008_strings",
+			"topic_009_prefix_sum",
+			"topic_010_sliding_window",
+			"topic_011_two_pointer"
+		]
+	},
+	{
+      "id": "module_03_searching_sorting",
+      "courseId": "dsa_foundations",
+      "title": "Searching & Sorting",
+      "slug": "searching-sorting",
+      "order": 3,
+      "description": "Learn essential searching algorithms (linear, binary, search on answer) and sorting algorithms (bubble, selection, insertion, merge, quick, counting, radix) with complexity analysis.",
+      "topics": [
+        "topic_012_linear_search",
+        "topic_013_binary_search",
+        "topic_014_search_on_answer",
+        "topic_015_bubble_sort",
+        "topic_016_selection_sort",
+        "topic_017_insertion_sort",
+        "topic_018_merge_sort",
+        "topic_019_quick_sort",
+        "topic_020_counting_sort",
+        "topic_021_radix_sort"
+      ] 
+    },
+    {
+  "id": "module_04_recursion_backtracking",
+  "courseId": "course_dsa_foundations",
+  "title": "Recursion & Backtracking",
+  "description": "Recursion fundamentals, recursion tree visualisation, and backtracking strategies.",
+  "order": 4,
+  "topics": [
+    "topic_022_recursion",
+    "topic_023_recursion_tree",
+    "topic_024_backtracking"
+  ]
+},
+{
+  "id": "module_05_linked_structures",
+  "courseId": "course_dsa_foundations",
+  "title": "Linked Structures",
+  "description": "Singly linked list, doubly linked list, and circular linked list with operations.",
+  "order": 5,
+  "topics": [
+    "topic_025_singly_linked_list",
+    "topic_026_doubly_linked_list",
+    "topic_027_circular_linked_list"
+  ]
+},
+{
+  "id": "module_06_stack_queue",
+  "courseId": "course_dsa_foundations",
+  "title": "Stack & Queue",
+  "description": "Stack, queue, circular queue, deque, monotonic stack, monotonic queue, and priority queue.",
+  "order": 6,
+  "topics": [
+    "topic_028_stack",
+    "topic_029_stack_applications",
+    "topic_030_monotonic_stack",
+    "topic_031_queue",
+    "topic_032_circular_queue",
+    "topic_033_deque",
+    "topic_034_monotonic_queue",
+    "topic_035_priority_queue"
+  ]
+},
+{
+  "id": "module_07_hashing",
+  "courseId": "course_dsa_foundations",
+  "title": "Hashing",
+  "description": "Hashing concepts, hash tables, collision handling, HashMap, and HashSet.",
+  "order": 7,
+  "topics": [
+    "topic_036_hashing_concepts",
+    "topic_037_hash_tables",
+    "topic_038_collision_handling",
+    "topic_039_hashmap",
+    "topic_040_hashset"
+  ]
+},
+{
+  "id": "module_08_trees",
+  "courseId": "course_dsa_foundations",
+  "title": "Trees",
+  "description": "Tree terminology, binary tree, tree traversals (DFS and BFS), BST, and balanced trees.",
+  "order": 8,
+  "topics": [
+    "topic_041_tree_terminology",
+    "topic_042_binary_tree",
+    "topic_043_tree_traversals",
+    "topic_044_binary_search_tree",
+    "topic_045_balanced_trees"
+  ]
+},
+{
+  "id": "module_09_graphs",
+  "courseId": "course_dsa_foundations",
+  "title": "Graphs",
+  "description": "Graph representations, graph traversals (DFS and BFS), Dijkstra's algorithm, and topological sorting.",
+  "order": 9,
+  "topics": [
+    "topic_046_graph_representations",
+    "topic_047_graph_traversals",
+    "topic_048_dijkstras_algorithm",
+    "topic_049_topological_sorting"
+  ]
+},
+{
+  "id": "module_10_greedy_divide_conquer",
+  "courseId": "course_dsa_foundations",
+  "title": "Greedy & Divide & Conquer",
+  "description": "Greedy algorithms, divide and conquer strategy, and their applications.",
+  "order": 10,
+  "topics": [
+    "topic_050_greedy_algorithms",
+    "topic_051_divide_and_conquer"
+  ]
+},
+{
+  "id": "module_11_dynamic_programming",
+  "courseId": "course_dsa_foundations",
+  "title": "Dynamic Programming",
+  "description": "Dynamic programming concepts, memoization, tabulation, and common DP problems.",
+  "order": 11,
+  "topics": [
+    "topic_052_dynamic_programming_concepts",
+    "topic_053_memoization",
+    "topic_054_tabulation",
+    "topic_055_common_dp_problems"
+  ]
+},
+{
+  "id": "module_12_greedy_backtracking",
+  "courseId": "course_dsa_foundations",
+  "title": "Greedy & Backtracking",
+  "description": "Greedy algorithms and backtracking techniques for problem-solving.",
+  "order": 12,
+  "topics": [
+    "topic_056_greedy_algorithms",
+    "topic_057_backtracking_techniques"
+  ]
+},
+{
+  "id": "module_13_advanced_data_structures",
+  "courseId": "course_dsa_foundations",
+  "title": "Advanced Data Structures",
+  "description": "Heaps, tries, segment trees, and Fenwick trees.",
+  "order": 13,
+  "topics": [
+    "topic_058_heaps",
+    "topic_059_tries",
+    "topic_060_segment_trees",
+    "topic_061_fenwick_trees"
+  ]
+},
+{
+  "id": "module_14_advanced_algorithms",
+  "courseId": "course_dsa_foundations",
+  "title": "Advanced Algorithms",
+  "description": "Network flow algorithms, string algorithms, and computational geometry.",
+  "order": 14,
+  "topics": [
+    "topic_062_network_flow_algorithms",
+    "topic_063_string_algorithms",
+    "topic_064_computational_geometry"
+  ]
+}
+]
+

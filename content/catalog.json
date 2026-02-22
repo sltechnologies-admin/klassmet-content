@@ -1,0 +1,21 @@
+{
+  "courses": [
+    {
+      "courseId": "dsa_foundations",
+      "title": "DSA Foundations",
+      "slug": "dsa-foundations",
+      "description": "Learn core data structures and algorithms from first principles.",
+      "level": "beginner",
+      "tags": ["dsa", "coding", "foundations"],
+      "versions": [
+        {
+          "version": "v1",
+          "status": "published",
+          "path": "courses/dsa_foundations/v1"
+        }
+      ],
+      "order": 1,
+      "isFeatured": true
+    }
+  ]
+}

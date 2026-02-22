@@ -11,7 +11,7 @@
 content/
 └── courses/
     └── <course_id>/                          ← e.g. course_dsa_foundations
-        └── <version>/                        ← e.g. v1
+        └── <version>/                        ← e.g. v1, v2 etc.
             ├── course.json                   ← Course root metadata
             ├── manifest.json                 ← Runtime config & feature flags
             ├── modules/
